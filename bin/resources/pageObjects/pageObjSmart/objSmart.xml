@@ -1,0 +1,2039 @@
+<?xml version="1.0"?>
+<Main>
+
+
+	<Page Pgname="LogInLandingPage">
+
+		<Object objname="CertificateLnk" Propname1=".class" Propval1="Html.A"
+			Propname2=".name" Propval2="overridelink" />
+		<Object objname="UserName" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'username_ns')]" Propname2=".type"
+			Propval2="text" />
+		<Object objname="password" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'password_ns')]" Propname2=".type"
+			Propval2="text" />
+		<Object objname="LoginButton" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'loginButton_ns')]" Propname2=".type"
+			Propval2="text" />
+		<Object objname="OTP" Propname1=".id" Propval1="otp_ns.*"
+			Propname2=".type" Propval2="text" />
+		<Object objname="OTPProceedBtn" Propname1=".id" Propval1="action_ns.*"
+			Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="xpath" Propname1="//*[starts-with(@id, 'username_ns')]" />
+		<Object objname="Language" Propname1=".class" Propval1="Html.A"
+			Propname2=".id" Propval2="bajlanglink" />
+		<Object objname="Language" Propname1=".class" Propval1="Html.A"
+			Propname2=".id" Propval2="bajlanglink" />
+
+		<Object objname="LoadingSpinner" Propname1=".xpath"
+			Propval1="//*[@id='loading_spinner']" />
+		<Object objname="LoadingSpinner2" Propname1=".xpath"
+			Propval1="//*[contains(@class,'LoadingOverlay')]" />
+
+
+
+	</Page>
+
+	<Page Pgname="OTP">
+		<Object objname="OTPField" Propname1=".xpath" Propval1="//*[@name='otp']" />
+		<Object objname="ProceedBtn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'proceedOtp')]/.." />
+	</Page>
+
+
+	<!-- Raja Code starts here -->
+	<Page Pgname="SMART_ACCOUNTS_SUMMARY_INQUIRY">
+
+		<Object objname="Accounts" Propname1=".xpath"
+			Propval1="//*[@class='submenu_but accounts']" />
+		<Object objname="AccountsSummary" Propname1=".xpath"
+			Propval1="//*[contains(@class,'acc_summary')]" />
+		<Object objname="AccountsSummary_title" Propname1=".xpath"
+			Propval1="//*[@class='mblHeadingDivTitle']" />
+		<Object objname="Transactions" Propname1=".xpath"
+			Propval1="//*[@id='dojox_mobile_ListItem_6']" />
+		<Object objname="Accounts_Home" Propname1=".xpath"
+			Propval1="//*[@id='express-menu_home']" />
+		<Object objname="Remarks" Propname1=".xpath"
+			Propval1="//*[contains(@id,'remark_ns_Z7')]" />
+		<Object objname="TagDropDown_clk" Propname1=".xpath"
+			Propval1="//*[@class='dijitReset dijitInputField dijitArrowButtonInner']" />
+		<Object objname="TagDDEnterVal" Propname1=".xpath"
+			Propval1="//*[contains(@class,'dijitValidationTextBoxLabel')]" />
+		<Object objname="Save_btn" Propval1="//*[contains(text(),'Save')]"
+			Propval2="//button[contains(text(),'حفظ')]" />
+		<Object objname="Accept_btn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'dojox_mobile_Button_7')]" />
+		<Object objname="SendSMS_btn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'sendSMS_button_ns')]" />
+		<Object objname="SendSMS_SendBtn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'dojox_mobile_Button_2')]" />
+		<Object objname="SentSMS_AcceptBtn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'dojox_mobile_Button_0')]" />
+
+		<Object objname="OtherEmail_rdb" Propname1=".xpath"
+			Propval1="//input[contains(@id,'dojox_mobile_RadioButton_3')]" />
+
+		<Object objname="SendEmail_btn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'sendEmail_button_ns')]" />
+		<Object objname="OtherEmail_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'aljazira_mobile_ValidationTextBox_1')]" />
+
+		<Object objname="SendEmail_SendBtn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'dojox_mobile_Button_4')]" />
+		<Object objname="SentEmail_AcceptBtn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'dojox_mobile_Button_10')]" />
+		<Object objname="ErrorMsg_SentMail" Propval1="//*[contains(text(),'SMTP Error')]" />
+
+		<Object objname="SuccessMsg_TransactionDetails"
+			Propval1="//div[contains(text(),'Transaction details have been saved')]"
+			Propval2="//div[contains(text(),'تم حفظ تفاصيل العملية بنجاح')]" />
+
+
+	</Page>
+
+
+	<Page Pgname="SMART_ACCOUNTS_REPORT_LOST_STOLEN_CHEQUES">
+
+
+		<Object objname="ReportLostStolen_title" Propname1=".xpath"
+			Propval1="//*[@class='mblHeadingDivTitle']" />
+		<Object objname="ChequeNumber_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'aljazira_mobile_ValidationTextBox_0')]" />
+		<Object objname="FirstChequeNumber_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'aljazira_mobile_ValidationTextBox_1')]" />
+		<Object objname="LastChequeNumber_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'aljazira_mobile_ValidationTextBox_2')]" />
+		<Object objname="Reason_lnk" Propval1="//*[contains(text(),'Reason')]"
+			Propval2="//*[contains(text(),'السبب')]" />
+		<Object objname="AccepTerms_btn" Propname1=".xpath"
+			Propval1="//*[contains(@class,'mblSwitchKnob')]" />
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="cancel" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Confirm" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="StopChequeReq_FailureMsg"
+			Propval1="//*[contains(text(),'Your Stop Check request has failed')]"
+			Propval2="//*[contains(text(),'لقد فشل طلب إيقاف صرف الشيك')]" />
+
+
+	</Page>
+
+	<Page Pgname="SMART_ACCOUNTS_ORDER_CHECK_BOOK">
+
+		<Object objname="OrderCheckBook_title" Propname1=".xpath"
+			Propval1="//*[@class='mblHeadingDivTitle']" />
+		<Object objname="Branch_clk" Propname1=".xpath" Propval1="//*[text()='Branch']"
+			Propval2="//*[text()='الفرع']" />
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="cancel" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Confirm" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="OrderCheckBook_SuccessMsg"
+			Propval1="//*[contains(text(),'Your Order Checkbook request has been completed successfully')]"
+			Propval2="//*[contains(text(),'تم تنفيذ طلب دفتر الشيكات بنجاح')]" />
+
+
+	</Page>
+
+	<Page Pgname="SMART_ACCOUNTS_CONFIGURATION">
+
+
+		<Object objname="AccountsConfiguration_title" Propname1=".xpath"
+			Propval1="//*[@class='mblHeadingDivTitle']" />
+		<Object objname="CurrentAcct_lnk" Propval1="//*[text()='Current Account']"
+			Propval2="//*[text()='حساب جاري']" />
+		<Object objname="ShowInquiries_clk" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_mobile_AccountsConfiguration_ListItem_0')]" />
+		<Object objname="Save_btn" Propname1=".xpath"
+			Propval1="(//button[contains(text(),'Save')])[2]" Propval2="(//button[contains(text(),'حفظ')])[2]" />
+		<Object objname="Cancel_btn" Propname1=".xpath"
+			Propval1="(//button[contains(text(),'Cancel')])[4]" Propval2="(//button[contains(text(),'إلغاء')])[4]" />
+
+
+	</Page>
+
+	<Page Pgname="SMART_ACCOUNT_REQUEST_STEMENT_BYMAIL">
+
+
+		<Object objname="RequestStmtByMail_title" Propname1=".xpath"
+			Propval1="//*[@class='mblHeadingDivTitle']" />
+		<Object objname="StartDate_lnk" Propname1=".xpath"
+			Propval1="//*[contains(text(),'Start Date')]" />
+		<Object objname="DateDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[1]" />
+		<Object objname="DateIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[1]" />
+		<Object objname="MonthDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[2]" />
+		<Object objname="MonthIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[2]" />
+		<Object objname="YearDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[3]" />
+		<Object objname="YearIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[3]" />
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="cancel" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Homepage_OnCancel" Propval1="//*[contains(text(),'My Financial Position')]"
+			Propval2="//*[contains(text(),'الحالة المالية')]" />
+		<Object objname="NoTransactionsFound_ErrorMsg"
+			Propval1="//p[contains(text(),'No transactions founds')]" Propval2="//p[contains(text(),'لا توجد عمليات')]" />
+
+		<Object objname="WrongDate_Alert" Propname1=".id"
+			Propval1="//*[contains(@class,'i-process_alert')]" />
+
+		<Object objname="Confirm" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="ReqStmtByMail_SuccessMsg"
+			Propval1="//*[contains(text(),'Your Statement By Mail request has been completed successfully')]"
+			Propval2="//*[contains(text(),'تم تنفيذ طلب كشف الحساب بالبريد بنجاح')]" />
+
+		<Object objname="DateDecreasing_clk_AB" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[3]" />
+		<Object objname="DateIncreasing_clk_AB" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[3]" />
+		<Object objname="MonthDecreasing_clk_AB" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[2]" />
+		<Object objname="MonthIncreasing_clk_AB" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[2]" />
+		<Object objname="YearDecreasing_clk_AB" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[1]" />
+		<Object objname="YearIncreasing_clk_AB" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[1]" />
+	</Page>
+
+	<Page Pgname="SMART_FAWRI_ADD_NEW_BENEFICIARY">
+
+		<Object objname="AddNewFawriBeneficiary_title" Propname1=".xpath"
+			Propval1="//*[contains(text(),'Add New Fawri Beneficiary') and @role='heading']" />
+		<Object objname="TransferVia_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]//td[2]/input" />
+		<Object objname="TransferVia_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]" />
+		<Object objname="TransferViaBank_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenCorresBank_ns')])[1]" />
+
+		<Object objname="BeneficiaryCountry_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryCountrySelect_ns')])[1]//td[2]/input" />
+		<Object objname="BeneficiaryCountry_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryCountrySelect_ns')])[1]" />
+		<Object objname="DeliveryOption_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'correspondentDisbuseModeSelect_ns')])[1]//td[2]/input" />
+		<Object objname="DeliveryOption_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'correspondentDisbuseModeSelect_ns')])[1]" />
+		<Object objname="BenBankAgent_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenAgent_ns')])[1]//td[2]/input" />
+		<Object objname="BenBankAgent_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenAgent_ns')])[1]" />
+		<Object objname="Currency_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryCurrencySelect_ns')])[1]//td[2]/input" />
+		<Object objname="Currency_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryCurrencySelect_ns')])[1]" />
+		<Object objname="Currency_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'IMECurrency_ns')]" />
+
+		<Object objname="TransferVia_DirectBank_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenCorresBank_ns')])[1]//td[2]/input" />
+		<Object objname="TransferVia_DirectBank_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenCorresBank_ns')])[1]" />
+
+		<Object objname="BenBankDirectBank_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'allowedBenBank_ns')])[1]//td[2]/input" />
+		<Object objname="BenBankDirectBank_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'allowedBenBank_ns')])[1]" />
+
+		<Object objname="NickName_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'nickName_ns')]" />
+		<Object objname="FirstName_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'txtBenFName_ns')]" />
+		<Object objname="MiddleName_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'txtBenMName_ns')]" />
+		<Object objname="LastName_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'txtBenLName_ns')]" />
+		<Object objname="Address1_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'txtBenAdd1_ns')]" />
+		<Object objname="Address2_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'txtBenAdd2_ns')]" />
+		<Object objname="City_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'txtBenCity_ns')]" />
+		<Object objname="State_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'txtBenState_ns')]" />
+		<Object objname="Mobile_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'txtBenMobile_ns')]" />
+		<Object objname="Phone_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'txtBenPhone_ns')]" />
+
+		<Object objname="NationalityCode_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenNat_ns')])[1]//td[2]/input" />
+		<Object objname="NationalityCode_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenNat_ns')])[1]" />
+		<Object objname="BeneficiaryIDNO_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'txtBenIDNo_ns')]" />
+
+		<Object objname="BeneficiaryRelationship_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenRelation_ns')])[1]//td[2]/input" />
+		<Object objname="BeneficiaryRelationship_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenRelation_ns')])[1]" />
+		<Object objname="AccountType_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenAccType_ns')])[1]" />
+		<Object objname="BranchCode_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenBranchCode_ns')])[1]" />
+
+
+		<Object objname="AgentCity_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtAgentCity_ns')])[1]//td[2]/input" />
+		<Object objname="AgentCity_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtAgentCity_ns')])[1]" />
+
+		<Object objname="AgentLocation_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtAgentLocation_ns')])[1]//td[2]/input" />
+		<Object objname="AgentLocation_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtAgentLocation_ns')])[1]" />
+
+		<Object objname="BranchName_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'txtAgentBranch_ns')]" />
+		<Object objname="BranchCode_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'txtAgentBranchCode_ns')]" />
+
+		<Object objname="AgentLocID_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'txtAgentLocationID_ns')]" />
+		<Object objname="BenRemarks_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'txtRem2BenInfo_ns')]" />
+		<Object objname="BenAcctNo_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'txtBenAccNo_ns')]" />
+		<Object objname="ZipCode_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'txtBenZip_ns')]" />
+
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="CancelBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="Cancel_No_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonCancelTransaction_ns')]" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+
+		<Object objname="OTPProceedBtn" Propval1="//*[starts-with(@id, 'proceedOtp_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+
+		<Object objname="Data_Alert" Propname1=".id"
+			Propval1="//*[contains(@class,'i-process_alert')]" />
+		<Object objname="Beneficiary_SuccessMessage" Propname1=".id"
+			Propval1="//*[contains(text(),'Your Fawri beneficiary has been added successfully')]" />
+		<Object objname="Results_Page" Propname1=".id"
+			Propval1="//*[contains(text(),'Results')]" />
+
+
+	</Page>
+	<Page Pgname="SMART_FAWRI_MONEY_TRANSFER">
+
+
+		<Object objname="MoneyTransfer_title" Propname1=".xpath"
+			Propval1="//*[contains(text(),'Money Transfer') and @role='heading']" />
+		<Object objname="FromAcct_lnk" Propname1=".xpath"
+			Propval1="//span[contains(text(),'From')]" />
+		<Object objname="TransferVia_lnk" Propname1=".xpath"
+			Propval1="//span[contains(text(),'Transfer Via')]" />
+		<Object objname="ToAcct_lnk" Propname1=".xpath" Propval1="//span[text()='To']" />
+		<Object objname="Details_lnk" Propname1=".xpath"
+			Propval1="//span[contains(text(),'Details')]" />
+		<Object objname="Amount_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'amountListener_amount_ns')]" />
+
+		<Object objname="CurrencySAR_rdb" Propname1=".xpath"
+			Propval1="//*[contains(@id,'dojox_mobile_RadioButton_0')]" />
+		<Object objname="CurrencyINR_rdb" Propname1=".xpath"
+			Propval1="//*[contains(@id,'dojox_mobile_RadioButton_1')]" />
+		<Object objname="Category_DD_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'purposeCategory_ns')])[1]//td[2]/input" />
+
+		<Object objname="Category_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'purposeCategory_ns')])[1]" />
+		<Object objname="Purpose_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'purposeSelectId_ns')])[1]" />
+		<Object objname="PaymentDetails_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'paymentDetail_ns')]" />
+		<Object objname="AccepTerms_btn" Propname1=".xpath"
+			Propval1="//*[contains(@class,'mblSwitchKnob')]" />
+
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="CancelBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="Cancel_No_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonCancelTransaction_ns')]" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="Error_AfterProceed" Propname1=".xpath"
+			Propval1="//*[contains(@class,'i-result')]" />
+
+		<Object objname="OTPProceedBtn" Propval1="//*[starts-with(@id, 'proceedOtp_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+
+		<Object objname="TransferVia_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]//td[2]/input" />
+		<Object objname="TransferVia_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]" />
+		<Object objname="TransferViaBank_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenCorresBank_ns')])[1]" />
+		<Object objname="Data_Alert" Propname1=".id"
+			Propval1="//*[contains(@class,'i-process_alert')]" />
+		<Object objname="Homepage_OnCancel" Propname1=".id"
+			Propval1="//*[contains(text(),'My Financial Position')]" />
+		<Object objname="MoneyTransfer_SuccessMsg" Propname1=".id"
+			Propval1="//*[contains(text(),'FAWRI Money Transfer Service has been completed successfully')]" />
+		<Object objname="Results_Page" Propname1=".id"
+			Propval1="//*[contains(text(),'Results')]" />
+		<Object objname="Accept_Alert_btn" Propname1=".id"
+			Propval1="(//*[contains(text(),'Accept') and contains(@id,'dojox_mobile_Button')])[3]" />
+		<Object objname="Alert_AfterProceed" Propname1=".id"
+			Propval1="//*[@id='dojoAlertMessage']" />
+
+
+
+	</Page>
+
+	<Page Pgname="SMART_FAWRI_TRANSFER_HISTORY">
+
+		<Object objname="fawriTransferHistory_title" Propname1=".xpath"
+			Propval1="//*[contains(text(),'Fawri Transfer History') and @role='heading']" />
+		<Object objname="Beneficiary_lnk" Propname1=".xpath"
+			Propval1="//span[text()='Beneficiary']" />
+		<Object objname="TransactionStatus_DD" Propname1=".xpath"
+			Propval1="//*[contains(@id,'transactionStatus_ns')]" />
+		<Object objname="AmountFrom_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'amountListener_amountFrom_ns')]" />
+		<Object objname="AmountTo_lnk" Propname1=".xpath"
+			Propval1="//*[contains(text(),'Amount To')]" />
+		<Object objname="AmountTo_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'amountListener_amountTo_ns')]" />
+		<Object objname="StartDate_lnk" Propname1=".xpath"
+			Propval1="//*[contains(text(),'Start Date')]" />
+
+		<Object objname="DateDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[1]" />
+		<Object objname="DateIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[1]" />
+		<Object objname="MonthDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[2]" />
+		<Object objname="MonthIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[2]" />
+		<Object objname="YearDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[3]" />
+		<Object objname="YearIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[3]" />
+		<Object objname="Search_btn" Propname1=".xpath"
+			Propval1="//*[@id='dojox_mobile_Button_5']" />
+		<Object objname="Transfers_Row_Click" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'aljazira_mobile_SelectableList_CustomListItem')])[4]" />
+		<Object objname="TransferDetails_Title" Propname1=".xpath"
+			Propval1="//div[text()='Transfer details']" />
+		<Object objname="Status_Validation" Propname1=".xpath"
+			Propval1="(//*[contains(@class,'mblListItemLayoutRight')])[2]" />
+		<Object objname="ProductType_Validation" Propname1=".xpath"
+			Propval1="(//*[contains(@class,'mblListItemLayoutRight')])[4]" />
+		<Object objname="Error_AfterSearch" Propname1=".xpath"
+			Propval1="//*[contains(text(),'No results found')]" />
+
+
+
+	</Page>
+	<Page Pgname="SMART_FAWRI_BENEFICIARY_MANAGEMENT">
+
+		<Object objname="fawriBeneficiaryMgmt_title" Propname1=".xpath"
+			Propval1="//*[contains(text(),'Fawri Beneficiary Management') and @role='heading']" />
+		<Object objname="Beneficiary_lnk" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_mobile_SelectableList_CustomListItem_4']" />
+		<Object objname="Edit_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@id,'buttonEdit_ns')]" />
+		<Object objname="Delete_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@id,'buttonDelete_ns')]" />
+		<Object objname="NickName_txt" Propname1=".xpath"
+			Propval1="//input[@id='dijit_form_ValidationTextBox_1']" />
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="CancelBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="EditBeneficiary_SuccessMsg" Propname1=".id"
+			Propval1="//*[contains(text(),'Your Edit Beneficiary request has been completed successfully')]" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="OTPProceedBtn" Propval1="//*[starts-with(@id, 'proceedOtp_ns')]" />
+		<Object objname="DeleteBeneficiary_SuccessMsg" Propname1=".id"
+			Propval1="//*[contains(text(),'Your Delete Beneficiary request has been completed successfully')]" />
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="Cancel_No_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonCancelTransaction_ns')]" />
+	</Page>
+
+	<Page Pgname="SMART_FAWRI_COMPLAINT_MANAGEMENT">
+
+		<Object objname="fawriComplaintMgmt_title" Propname1=".xpath"
+			Propval1="//*[contains(text(),'Complaint Management') and @role='heading']" />
+		<Object objname="Beneficiary_lnk" Propname1=".xpath"
+			Propval1="//span[text()='Beneficiary']" />
+		<Object objname="TransactionStatus_DD" Propname1=".xpath"
+			Propval1="//*[contains(@id,'transactionStatus_ns')]" />
+		<Object objname="AmountFrom_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'amountListener_fromAmount_ns')]" />
+		<Object objname="AmountTo_lnk" Propname1=".xpath"
+			Propval1="//*[contains(text(),'Amount To')]" />
+		<Object objname="AmountTo_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'amountListener_toAmount_ns')]" />
+		<Object objname="StartDate_lnk" Propname1=".xpath"
+			Propval1="//*[contains(text(),'Start Date')]" />
+
+		<Object objname="DateDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[1]" />
+		<Object objname="DateIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[1]" />
+		<Object objname="MonthDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[2]" />
+		<Object objname="MonthIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[2]" />
+		<Object objname="YearDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[3]" />
+		<Object objname="YearIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[3]" />
+		<Object objname="Search_btn" Propname1=".xpath"
+			Propval1="//*[@id='dojox_mobile_Button_5']" />
+		<Object objname="Transaction_Row_Click" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'aljazira_mobile_SelectableList_CustomListItem')])[3]" />
+		<Object objname="TransactionDetails_tab" Propname1=".xpath"
+			Propval1="//*[contains(text(),'Transaction Details')]" />
+		<Object objname="ComplaintDetails_tab" Propname1=".xpath"
+			Propval1="//*[contains(text(),'Complaint Details')]" />
+		<Object objname="ComplaintType_DD" Propname1=".xpath"
+			Propval1="//*[contains(@id,'complaintType_ns')]" />
+		<Object objname="MobileNumber_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'mobileNumber_ns')]" />
+		<Object objname="ComplaintDesc_txt" Propname1=".xpath"
+			Propval1="//*[contains(@id,'complianDescription_ns')]" />
+
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="CancelBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="Homepage_OnCancel" Propname1=".id"
+			Propval1="//*[contains(text(),'My Financial Position')]" />
+		<Object objname="ComplaintMgmt_SuccessMsg" Propname1=".id"
+			Propval1="//*[contains(text(),'Your complaint has been logged sucessfully')]" />
+
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="Cancel_No_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonCancelTransaction_ns')]" />
+		<Object objname="ProductType_Validation" Propname1=".xpath"
+			Propval1="(//*[contains(@class,'mblListItemLayoutRight')])[4]" />
+		<Object objname="Error_AfterSearch" Propname1=".xpath"
+			Propval1="//*[contains(text(),'No results found')]" />
+
+
+	</Page>
+
+	<Page Pgname="SMART_ALJAZIRACAPITAL_IPO_SUBSCRIPTION">
+
+		<Object objname="NewIPO_title"
+			Propval1="//*[contains(text(),'New IPO') and @role='heading']"
+			Propval2="//*[contains(text(),'اكتتاب جديد') and @role='heading']" />
+		<Object objname="NumberOfShares_lnk" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_mobile_Accordion_Title_2']" />
+		<Object objname="NumberOfShares_txt" Propname1=".xpath"
+			Propval1="//input[contains(@id,'numOfSharesInput_ns')]" />
+		<Object objname="Subscribers_lnk" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_mobile_Accordion_Title_3']" />
+
+
+		<Object objname="AccepTerms_btn" Propname1=".xpath"
+			Propval1="//*[contains(@class,'mblSwitchKnob')]" />
+
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="CancelBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="Cancel_No_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonCancelTransaction_ns')]" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="Error_AfterProceed" Propname1=".xpath"
+			Propval1="//*[contains(@class,'i-result')]" />
+
+		<Object objname="OTPProceedBtn" Propval1="//*[starts-with(@id, 'proceedOtp_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="Homepage_OnCancel" Propval1="//*[contains(text(),'My Financial Position')]"
+			Propval2="//*[contains(text(),'الحالة المالية')]" />
+
+		<Object objname="IPORequest_SuccessMsg" Propname1=".id"
+			Propval1="//*[contains(@class,'result-box ok')]" />
+		<Object objname="Results_Page" Propval1="//*[contains(text(),'Results')]"
+			Propval2="//*[contains(text(),'النتيجة')]" />
+
+
+	</Page>
+
+	<Page Pgname="SMART_GOVTPAYMENTS_PAYMENT">
+
+		<Object objname="CurrentOwner_ID" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'OfficialId0_ns')]" />
+		<Object objname="Vehicle_SeqNumber" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'VehicleSequenceNumber1_ns')]" />
+		<Object objname="Inquiry_btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'inquiryButton_ns')]" />
+		<Object objname="Error_msg" Propname1=".id"
+			Propval1="//*[contains(text(),'UNKNOWN_ERROR')]" />
+		<Object objname="AcceptAlert_btn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'dojox_mobile_Button_12')]" />
+
+	</Page>
+
+
+	<Page Pgname="SMART_GOVTPAYMENTS_PAYMENT_REFUND">
+
+		<Object objname="Provider_lnk" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'aljazira_mobile_Accordion_Title_0')]" />
+
+		<Object objname="CurrentOwner_ID" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'OfficialId0_ns')]" />
+		<Object objname="Vehicle_SeqNumber" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'VehicleSequenceNumber1_ns')]" />
+		<Object objname="Search_btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dojox_mobile_Button_5')]" />
+		<Object objname="Error_msg" Propname1=".id"
+			Propval1="//*[contains(text(),'UNKNOWN_ERROR')]" />
+		<Object objname="AcceptAlert_btn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'dojox_mobile_Button_12')]" />
+
+	</Page>
+
+	<Page Pgname="SMART_GOVTPAYMENTS_ACTIVEABSHER">
+
+		<Object objname="MobileNumber_txt" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'aljazira_mobile_ValidationTextBox_0')]" />
+		<Object objname="Language_lnk" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'aljazira_mobile_Accordion_Title_1')]" />
+
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="CancelBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="Cancel_No_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonCancelTransaction_ns')]" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="Error_AfterProceed" Propname1=".xpath"
+			Propval1="//*[contains(@class,'i-result')]" />
+
+		<Object objname="OTPProceedBtn" Propval1="//*[starts-with(@id, 'proceedOtp_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+
+
+	</Page>
+	<Page Pgname="SMART_GOVTPAYMENTS_PAYMENT_REFUND_HISTORY">
+
+		<Object objname="NickName_txt" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'aliasInput_ns')]" />
+		<Object objname="Search_btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dojox_mobile_Button_5')]" />
+
+	</Page>
+
+
+	<Page Pgname="Menus_Smart">
+
+		<Object objname="Accounts_lnk" Propval1="//*[text()='Accounts']"
+			Propval2="//*[text()='الحسابات']" />
+		<Object objname="AccountsSummary_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@class,'acc_summary')]" />
+		<Object objname="ReqStmtByMail_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@class,'acc_request_statement')]" />
+		<Object objname="ReportLostStolen_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@class,'acc_stop_check')]" />
+		<Object objname="OrderChkBook_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@class,'acc_order_checkbook')]" />
+		<Object objname="AcctsConfig_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@class,'acc_configuration')]" />
+
+		<Object objname="SADAD_lnk" Propname1=".xpath" Propval1="//*[text()='SADAD']" />
+		<Object objname="PayRegisterBills_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@class,'bill_pay_bill')][1]" />
+		<Object objname="OneTimeBillPayment_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@class,'bill_one_time_payment')]" />
+		<Object objname="ScheduledBillPayment_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@class,'bill_scheduled_payment')]" />
+		<Object objname="PaymentHistory_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@class,'bill_history')]" />
+		<Object objname="MobileRecharge_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@class,'bill_mobile_recharge')]" />
+		<Object objname="RefundInquiry_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@class,'bill_pay_bill')][2]" />
+
+		<Object objname="Transfers_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Transfers']" />
+		<Object objname="BetweenMyAccounts_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Between My Accounts']" />
+		<Object objname="WithinBankAlJazira_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Within Bank AlJazira']" />
+		<Object objname="LocalTransfer_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Local Transfer']" />
+		<Object objname="InternationalTransfer_lnk" Propname1=".xpath"
+			Propval1="//*[text()='International Transfer']" />
+		<Object objname="CharityDonations_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Charity Donations']" />
+		<Object objname="TransfersManagement_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Transfers Management']" />
+		<Object objname="Household_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Household Worker Salaries']" />
+		<Object objname="TransfersHistory_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Transfers History']" />
+		<Object objname="AddNewBeneficiary_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Add New Beneficiary']" />
+		<Object objname="BeneficiaryManagement_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Beneficiary Management']" />
+
+
+		<Object objname="Cards_lnk" Propname1=".xpath" Propval1="//*[text()='Cards']" />
+		<Object objname="CreditCardsSummary_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Credit Cards Summary']" />
+		<Object objname="CardPayments_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Card Payments']" />
+		<Object objname="CashTransfer_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Cash Transfer']" />
+		<Object objname="EStatement_lnk" Propname1=".xpath"
+			Propval1="//*[text()='E-Statement']" />
+		<Object objname="CardPaymentHistory_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Card Payment History']" />
+		<Object objname="StopReplaceCreditCard_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Stop or Replace Credit Card']" />
+		<Object objname="TemporaryLimitIncrease_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Temporary Limit Increase']" />
+		<Object objname="BeneficiaryManagement_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Beneficiary Management']" />
+		<Object objname="MokafaatyPointsRedemption_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Mokafaaty Points Redemption']" />
+		<Object objname="ApplyforCreditCard_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Apply for a Credit Card']" />
+		<Object objname="UpdateOnlineTranStatus_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Update Online Transactions Status']" />
+		<Object objname="ChangeSuppleCardLimit_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Change Supplementary Card Limit']" />
+		<Object objname="ResetCardPIN_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Reset Card PIN']" />
+		<Object objname="PermLimitIncreaseRequest_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Permanent Limit Increase Request']" />
+		<Object objname="RequestSupplementaryCard_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Request a Supplementary Card']" />
+		<Object objname="DebitCardsSummary_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Debit Cards Summary']" />
+		<Object objname="LinkToOtherAccounts_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Link to other Account(s) ']" />
+		<Object objname="StopDebitCard_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Stop Debit Card']" />
+		<Object objname="ViewPOSLimits_lnk" Propname1=".xpath"
+			Propval1="//*[text()='View POS Limits']" />
+		<Object objname="UpdatePOSLimits_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Update POS Limits']" />
+		<Object objname="ReplaceDebitCard_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Replace Debit Card']" />
+
+
+		<Object objname="SelfService_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@class,'i-self_service_nav')]" />
+		<Object objname="OrderStatus_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Orders Status']" />
+		<Object objname="FavTransactions_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Favorite Transactions']" />
+		<Object objname="FingerPrint_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Finger Print Management']" />
+		<Object objname="UpdateNationalAdd_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Update National Address']" />
+		<Object objname="UpdateIDExpiry_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Update ID Expiry']" />
+
+		<Object objname="Fawri_lnk" Propname1=".xpath" Propval1="//*[text()='Fawri']" />
+		<Object objname="MoneyTransfer_lnk" Propname1=".xpath"
+			Propval1="//span[contains(text(),'Money Transfer')]" />
+		<Object objname="TransfersHis_lnk" Propname1=".xpath"
+			Propval1="//span[contains(text(),'Transfer History')]" />
+		<Object objname="ProfileReg_lnk" Propname1=".xpath"
+			Propval1="//*[text()='Profile Registration']" />
+		<Object objname="AddNewFawriBen_lnk" Propname1=".xpath"
+			Propval1="//span[contains(text(),'Add New Fawri Beneficiary')]" />
+		<Object objname="FawriBenMgmt_lnk" Propname1=".xpath"
+			Propval1="//span[contains(text(),'Fawri Beneficiary Management')]" />
+		<Object objname="ComplaintMgmt_lnk" Propname1=".xpath"
+			Propval1="//span[contains(text(),'Complaint Management')]" />
+
+		<Object objname="AlJaziraCapital_lnk" Propval1="//*[text()='AlJazira Capital']"
+			Propval2="//*[text()='الجزيرة كابيتال']" />
+		<Object objname="IPOSubscription_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@class,'brok_ipo_subscription')]" />
+		<Object objname="Inq_IPOSubscription_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@class,'brok_ipo_inquiry')]" />
+
+		<Object objname="GovtPayments_lnk" Propval1="//*[text()='Government Payments']"
+			Propval2="//*[text()='خدمات حكومية']" />
+		<Object objname="Govt_Payment_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@class,'menu gov_payment')]" />
+		<Object objname="Govt_PaymentToRefund_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@class,'gov_refund')]" />
+		<Object objname="Govt_ActiveAbsher_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@class,'gov_e-services_subscription')]" />
+		<Object objname="Govt_BeneficiaryMgmt_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@class,'gov_beneficiary_management')]" />
+		<Object objname="Govt_PaymentRefundHistory_lnk" Propname1=".xpath"
+			Propval1="//*[contains(@class,'gov_payment_history')]" />
+
+
+
+	</Page>
+	<!-- Raja Code ends here -->
+
+	<!-- Neeraj Code starts -->
+
+	<Page Pgname="SMART_CreditCard_Summary">
+
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="Cardssummary"
+			Propval1="//*[@class='mblListItem w_icon menu card_cc_summary']" />
+		<Object objname="CardsNumber" Propval1="(//*[@class='txt-grey'])[1]" />
+		<Object objname="Amount" Propval1="(//*[@class='txt-grey'])[2]" />
+		<Object objname="CardsLogo"
+			Propval1="(//*[contains(@id,'dojox_mobile_ListItem_2')])" />
+
+	</Page>
+
+
+	<Page Pgname="SMART_CreditCard_PayorRecharge">
+
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="PayorRecharge"
+			Propval1="//*[@class='mblListItem w_icon menu card_payments']" />
+		<Object objname="Selectthecardtype"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_Accordion_Title_0')]" />
+		<Object objname="mycards"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_SelectableList_CustomListItem_0')]" />
+		<Object objname="Selectthecarddetails"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_Accordion_Title_1')]" />
+		<Object objname="SelectCard"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_SelectableList_CustomListItem_3')]" />
+		<Object objname="Selecttheaccountdetails"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_Accordion_Title_3')]" />
+		<Object objname="AccountDetails"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_SelectableList_CustomListItem_2')]" />
+		<Object objname="Specifytheamounttopay"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_Accordion_Title_4')]" />
+		<Object objname="Minimum"
+			Propval1="//*[starts-with(@id,'dojox_mobile_RadioButton_0')]" />
+		<Object objname="Amount"
+			Propval1="//input[starts-with(@id,'amountListener_amountToPay_ns')]" />
+		<Object objname="outstandingBalance"
+			Propval1="//*[starts-with(@id,'dojox_mobile_RadioButton_1')]" />
+		<Object objname="OtherAmount"
+			Propval1="//*[starts-with(@id,'dojox_mobile_RadioButton_2')]" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id,'addAndProceedButton_ns_Z7')]" />
+		<Object objname="cancel" Propval1="//*[starts-with(@id,'cancelButton_ns_Z7')]" />
+		<Object objname="Message" Propval1="//*[contains(@class,'i-result')]/../span" />
+		<Object objname="MoneyTransfer_SuccessMsg" Propname1=".id"
+			Propval1="//*[@class='result-box ok fav-tx']" />
+		<Object objname="PrintMessage" Propname1=".id"
+			Propval1="//*[@class='i-result']/../span" />
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="CancelBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="Cancel_No_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonCancelTransaction_ns')]" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="Error_AfterProceed" Propname1=".xpath"
+			Propval1="//*[contains(@class,'i-result')]" />
+		<Object objname="OTPProceedBtn" Propval1="//*[starts-with(@id, 'proceedOtp_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="TransferVia_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]//td[2]/input" />
+		<Object objname="TransferVia_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]" />
+		<Object objname="TransferViaBank_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenCorresBank_ns')])[1]" />
+		<Object objname="Data_Alert" Propname1=".id"
+			Propval1="//*[contains(@class,'i-process_alert')]" />
+		<Object objname="Homepage_OnCancel" Propname1=".id"
+			Propval1="//*[contains(text(),'My Financial Position')]" />
+		<Object objname="Results_Page" Propname1=".id"
+			Propval1="//*[contains(text(),'Results')]" />
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id,'dojox_mobile_Button_1')]" />
+		<Object objname="HomeSuccess" Propname1=".id"
+			Propval1="//*[@class='mblListItemLayoutLeft']" />
+		<Object objname="NewTransaction" Propname1=".id"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="CardsLogo"
+			Propval1="//*[contains(@class,'mblListItem w_icon i-card')]" />
+
+	</Page>
+
+
+	<Page Pgname="SMART_CreditCard_PaymentHistory">
+
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="PaymentHistory"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_33']" />
+		<Object objname="CardsNumber" Propval1="//*[@class='tit txt txt-grey bold']" />
+		<Object objname="subtit" Propval1="//*[@class='subtit txt txt-grey bold']" />
+		<Object objname="CardPaymentHistory" Propval1="//*[@id='dojox_mobile_RoundRectCategory_0']" />
+
+	</Page>
+
+	<Page Pgname="SMART_CreditCard_CashTransfer">
+
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="CashTransfer"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_31']" />
+		<Object objname="CardsNumber" Propval1="//*[@class='tit txt txt-grey bold']" />
+		<Object objname="subtit" Propval1="//*[@class='subtit txt txt-grey bold']" />
+		<Object objname="CardPaymentHistory"
+			Propval1="(//*[contains(text(),'Card Payment History')])[5]" />
+		<Object objname="Selectthecardtype"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_Accordion_Title_0')]" />
+		<Object objname="mycards"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_SelectableList_CustomListItem_0')]" />
+		<Object objname="Selectthecarddetails"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_Accordion_Title_1')]" />
+		<Object objname="SelectCard"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_SelectableList_CustomListItem_1')]" />
+		<Object objname="Selecttheaccountdetails"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_Accordion_Title_3')]" />
+		<Object objname="AccountDetails"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_SelectableList_CustomListItem_2')]" />
+		<Object objname="Specifytheamounttopay"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_Accordion_Title_4')]" />
+		<Object objname="Minimum"
+			Propval1="//*[starts-with(@id,'dojox_mobile_RadioButton_0')]" />
+		<Object objname="Amount"
+			Propval1="//input[starts-with(@id,'amountListener_undefined_amountInput')]" />
+		<Object objname="outstandingBalance"
+			Propval1="//*[starts-with(@id,'dojox_mobile_RadioButton_1')]" />
+		<Object objname="OtherAmount"
+			Propval1="//*[starts-with(@id,'dojox_mobile_RadioButton_2')]" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id,'addAndProceedButton_ns_Z7')]" />
+		<Object objname="cancel" Propval1="//*[starts-with(@id,'cancelButton_ns_Z7')]" />
+		<Object objname="Message" Propval1="//*[contains(@class,'i-result')]/../span" />
+		<Object objname="MoneyTransfer_SuccessMsg" Propname1=".id"
+			Propval1="//*[contains(text(),'successfully')]" />
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="CancelBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="Cancel_No_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonCancelTransaction_ns')]" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="Error_AfterProceed" Propname1=".xpath"
+			Propval1="//*[contains(@class,'i-result')]" />
+		<Object objname="OTPProceedBtn" Propval1="//*[starts-with(@id, 'proceedOtp_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="TransferVia_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]//td[2]/input" />
+		<Object objname="TransferVia_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]" />
+		<Object objname="TransferViaBank_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenCorresBank_ns')])[1]" />
+		<Object objname="Data_Alert" Propname1=".id"
+			Propval1="//*[contains(@class,'i-process_alert')]" />
+		<Object objname="Homepage_OnCancel" Propname1=".id"
+			Propval1="//*[contains(text(),'My Financial Position')]" />
+		<Object objname="Results_Page" Propname1=".id"
+			Propval1="//*[contains(text(),'Results')]" />
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id,'dojox_mobile_Button_1')]" />
+		<Object objname="HomeSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id,'chartdiv_ns_Z7')]" />
+		<Object objname="NewTransaction" Propname1=".id"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="CardsLogo"
+			Propval1="//*[contains(@class,'mblListItem w_icon i-card')]" />
+		<Object objname="ExpiryDate" Propval1="//*[(text()='Expiry Date')]" />
+		<Object objname="Arabic" Propval1="//*[starts-with(@id, 'bajLangIcon')]" />
+
+	</Page>
+
+	<Page Pgname="SMART_CreditCard_RequestaTemporaryLimitIncrease">
+		<Object objname="AccepTerms_btn" Propname1=".xpath"
+			Propval1="//*[contains(@class,'mblSwitchKnob')]" />
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="RequestaTemporaryLimitIncrease"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_35']" />
+		<Object objname="TandC" Propval1="//*[@class='mblSwitchKnob']" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id,'addAndProceedButton_ns_Z7')]" />
+		<Object objname="cancel" Propval1="//*[starts-with(@id,'cancelButton_ns_Z7')]" />
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="CancelBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="Cancel_No_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonCancelTransaction_ns')]" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="Error_AfterProceed" Propname1=".xpath"
+			Propval1="//*[contains(@class,'i-result')]" />
+		<Object objname="OTPProceedBtn" Propval1="//*[starts-with(@id, 'proceedOtp_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="TransferVia_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]//td[2]/input" />
+		<Object objname="TransferVia_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]" />
+		<Object objname="TransferViaBank_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenCorresBank_ns')])[1]" />
+		<Object objname="Data_Alert" Propname1=".id"
+			Propval1="//*[contains(@class,'i-process_alert')]" />
+		<Object objname="Homepage_OnCancel" Propname1=".id"
+			Propval1="//*[contains(text(),'My Financial Position')]" />
+		<Object objname="Results_Page" Propname1=".id"
+			Propval1="//*[contains(text(),'Results')]" />
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id,'dojox_mobile_Button_1')]" />
+		<Object objname="HomeSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id,'chartdiv_ns_Z7')]" />
+		<Object objname="NewTransaction" Propname1=".id"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="CardsLogo"
+			Propval1="//*[contains(@class,'mblListItem w_icon i-card')]" />
+		<Object objname="Amount"
+			Propval1="//input[starts-with(@id,'amountListener_undefined_amountInput')]" />
+		<Object objname="SelectCard"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_SelectableList_CustomListItem_1')]" />
+		<Object objname="ExpiryDate" Propval1="//*[@id='aljazira_mobile_Accordion_Title_3']" />
+		<Object objname="DateDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[1]" />
+		<Object objname="DateIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[1]" />
+		<Object objname="MonthDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[2]" />
+		<Object objname="MonthIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[2]" />
+		<Object objname="YearDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[3]" />
+		<Object objname="YearIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[3]" />
+		<Object objname="DateDecreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[3]" />
+		<Object objname="DateIncreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[3]" />
+		<Object objname="MonthDecreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[2]" />
+		<Object objname="MonthIncreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[2]" />
+		<Object objname="YearDecreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[1]" />
+		<Object objname="YearIncreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[1]" />
+		<Object objname="Percent" Propname1=".xpath"
+			Propval1="//*[@id='dojox_mobile_RadioButton_1']" />
+		<Object objname="AmountIncrease_Percent_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'increaseByPercentage_ns')])[1]" />
+		<Object objname="MoneyTransfer_SuccessMsg" Propname1=".id"
+			Propval1="//*[@class='result-box ok fav-tx']" />
+		<Object objname="PrintMessage" Propname1=".id"
+			Propval1="//*[@class='i-result']/../span" />
+
+	</Page>
+
+	<Page Pgname="SMART_CreditCard_UpdateOnlineTransactionsStatus">
+
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="UpdateOnlineTransactionsStatus"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_39']" />
+		<Object objname="CreditCard"
+			Propval1="//*[@id='aljazira_mobile_SelectableList_CustomListItem_0']" />
+		<Object objname="Enable"
+			Propval1="//*[@id='aljazira_mobile_SelectableList_CustomListItem_1']" />
+		<Object objname="Disable"
+			Propval1="//*[@id='aljazira_mobile_SelectableList_CustomListItem_2']" />
+		<Object objname="Condition"
+			Propval1="//*[contains(@class,'mblSwitchText mblSwitchTextRight')]" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id,'addAndProceedButton_ns_Z7')]" />
+		<Object objname="cancel" Propval1="//*[starts-with(@id,'cancelButton_ns_Z7')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="HomeSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id,'chartdiv_ns_Z7')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="OTPText" Propname1=".id"
+			Propval1="(//*[contains(@id,'otp_ns_Z7')])[2]" />
+		<Object objname="OTPProceed" Propname1=".id"
+			Propval1="//*[starts-with(@id,'proceedOtp_ns_Z7')]" />
+		<Object objname="MoneyTransfer_SuccessMsg" Propname1=".id"
+			Propval1="//*[@class='result-box ok fav-tx']" />
+		<Object objname="PrintMessage" Propname1=".id"
+			Propval1="//*[@class='i-result']/../span" />
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[contains(@class,'green')]" />
+		<Object objname="HomeSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id,'chartdiv_ns_Z7')]" />
+		<Object objname="NewTransaction" Propname1=".id"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="Arabic" Propval1="//*[starts-with(@id, 'bajLangIcon')]" />
+	</Page>
+
+
+	<!-- Neeraj Code ends -->
+
+	<Page Pgname="Logout">
+		<Object objname="LogoutBtn" Propname1=".class" Propval1="Html.A"
+			Propname2=".id" Propval2="login" />
+		<Object objname="BrowserClose" Propname1=".class" Propval1="Html.HtmlBrowser"
+			Propname2="" Propval2="" />
+	</Page>
+
+	<!-- Neeraj Code starts -->
+
+	<Page Pgname="SMART_CreditCard_Summary">
+
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="Cardssummary"
+			Propval1="//*[@class='mblListItem w_icon menu card_cc_summary']" />
+		<Object objname="CardsNumber" Propval1="(//*[@class='txt-grey'])[1]" />
+		<Object objname="Amount" Propval1="(//*[@class='txt-grey'])[2]" />
+		<Object objname="CardsLogo"
+			Propval1="(//*[contains(@id,'dojox_mobile_ListItem_2')])" />
+
+	</Page>
+
+
+	<Page Pgname="SMART_CreditCard_PayorRecharge">
+
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="PayorRecharge"
+			Propval1="//*[@class='mblListItem w_icon menu card_payments']" />
+		<Object objname="Selectthecardtype"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_Accordion_Title_0')]" />
+		<Object objname="mycards"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_SelectableList_CustomListItem_0')]" />
+		<Object objname="Selectthecarddetails"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_Accordion_Title_1')]" />
+		<Object objname="SelectCard"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_SelectableList_CustomListItem_3')]" />
+		<Object objname="Selecttheaccountdetails"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_Accordion_Title_3')]" />
+		<Object objname="AccountDetails"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_SelectableList_CustomListItem_2')]" />
+		<Object objname="Specifytheamounttopay"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_Accordion_Title_4')]" />
+		<Object objname="Minimum"
+			Propval1="//*[starts-with(@id,'dojox_mobile_RadioButton_0')]" />
+		<Object objname="Amount"
+			Propval1="//input[starts-with(@id,'amountListener_amountToPay_ns')]" />
+		<Object objname="outstandingBalance"
+			Propval1="//*[starts-with(@id,'dojox_mobile_RadioButton_1')]" />
+		<Object objname="OtherAmount"
+			Propval1="//*[starts-with(@id,'dojox_mobile_RadioButton_2')]" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id,'addAndProceedButton_ns_Z7')]" />
+		<Object objname="cancel" Propval1="//*[starts-with(@id,'cancelButton_ns_Z7')]" />
+		<Object objname="Message" Propval1="//*[contains(@class,'i-result')]/../span" />
+		<Object objname="MoneyTransfer_SuccessMsg" Propname1=".id"
+			Propval1="//*[@class='result-box ok fav-tx']" />
+		<Object objname="PrintMessage" Propname1=".id"
+			Propval1="//*[@class='i-result']/../span" />
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="CancelBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="Cancel_No_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonCancelTransaction_ns')]" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="Error_AfterProceed" Propname1=".xpath"
+			Propval1="//*[contains(@class,'i-result')]" />
+		<Object objname="OTPProceedBtn" Propval1="//*[starts-with(@id, 'proceedOtp_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="TransferVia_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]//td[2]/input" />
+		<Object objname="TransferVia_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]" />
+		<Object objname="TransferViaBank_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenCorresBank_ns')])[1]" />
+		<Object objname="Data_Alert" Propname1=".id"
+			Propval1="//*[contains(@class,'i-process_alert')]" />
+		<Object objname="Homepage_OnCancel" Propname1=".id"
+			Propval1="//*[contains(text(),'My Financial Position')]" />
+		<Object objname="Results_Page" Propname1=".id"
+			Propval1="//*[contains(text(),'Results')]" />
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id,'dojox_mobile_Button_1')]" />
+		<Object objname="HomeSuccess" Propname1=".id"
+			Propval1="//*[@class='mblListItemLayoutLeft']" />
+		<Object objname="NewTransaction" Propname1=".id"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="CardsLogo"
+			Propval1="//*[contains(@class,'mblListItem w_icon i-card')]" />
+
+	</Page>
+
+
+	<Page Pgname="SMART_CreditCard_PaymentHistory">
+
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="PaymentHistory"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_33']" />
+		<Object objname="CardsNumber" Propval1="//*[@class='tit txt txt-grey bold']" />
+		<Object objname="subtit" Propval1="//*[@class='subtit txt txt-grey bold']" />
+		<Object objname="CardPaymentHistory" Propval1="//*[@id='dojox_mobile_RoundRectCategory_0']" />
+
+	</Page>
+
+	<Page Pgname="SMART_CreditCard_CashTransfer">
+
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="CashTransfer"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_31']" />
+		<Object objname="CardsNumber" Propval1="//*[@class='tit txt txt-grey bold']" />
+		<Object objname="subtit" Propval1="//*[@class='subtit txt txt-grey bold']" />
+		<Object objname="CardPaymentHistory"
+			Propval1="(//*[contains(text(),'Card Payment History')])[5]" />
+		<Object objname="Selectthecardtype"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_Accordion_Title_0')]" />
+		<Object objname="mycards"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_SelectableList_CustomListItem_0')]" />
+		<Object objname="Selectthecarddetails"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_Accordion_Title_1')]" />
+		<Object objname="SelectCard"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_SelectableList_CustomListItem_1')]" />
+		<Object objname="Selecttheaccountdetails"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_Accordion_Title_3')]" />
+		<Object objname="AccountDetails"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_SelectableList_CustomListItem_2')]" />
+		<Object objname="Specifytheamounttopay"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_Accordion_Title_4')]" />
+		<Object objname="Minimum"
+			Propval1="//*[starts-with(@id,'dojox_mobile_RadioButton_0')]" />
+		<Object objname="Amount"
+			Propval1="//input[starts-with(@id,'amountListener_undefined_amountInput')]" />
+		<Object objname="outstandingBalance"
+			Propval1="//*[starts-with(@id,'dojox_mobile_RadioButton_1')]" />
+		<Object objname="OtherAmount"
+			Propval1="//*[starts-with(@id,'dojox_mobile_RadioButton_2')]" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id,'addAndProceedButton_ns_Z7')]" />
+		<Object objname="cancel" Propval1="//*[starts-with(@id,'cancelButton_ns_Z7')]" />
+		<Object objname="Message" Propval1="//*[contains(@class,'i-result')]/../span" />
+		<Object objname="MoneyTransfer_SuccessMsg" Propname1=".id"
+			Propval1="//*[contains(text(),'successfully')]" />
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="CancelBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="Cancel_No_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonCancelTransaction_ns')]" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="Error_AfterProceed" Propname1=".xpath"
+			Propval1="//*[contains(@class,'i-result')]" />
+		<Object objname="OTPProceedBtn" Propval1="//*[starts-with(@id, 'proceedOtp_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="TransferVia_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]//td[2]/input" />
+		<Object objname="TransferVia_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]" />
+		<Object objname="TransferViaBank_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenCorresBank_ns')])[1]" />
+		<Object objname="Data_Alert" Propname1=".id"
+			Propval1="//*[contains(@class,'i-process_alert')]" />
+		<Object objname="Homepage_OnCancel" Propname1=".id"
+			Propval1="//*[contains(text(),'My Financial Position')]" />
+		<Object objname="Results_Page" Propname1=".id"
+			Propval1="//*[contains(text(),'Results')]" />
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id,'dojox_mobile_Button_1')]" />
+		<Object objname="HomeSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id,'chartdiv_ns_Z7')]" />
+		<Object objname="NewTransaction" Propname1=".id"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="CardsLogo"
+			Propval1="//*[contains(@class,'mblListItem w_icon i-card')]" />
+		<Object objname="ExpiryDate" Propval1="//*[(text()='Expiry Date')]" />
+		<Object objname="Arabic" Propval1="//*[starts-with(@id, 'bajLangIcon')]" />
+
+	</Page>
+
+	<Page Pgname="SMART_CreditCard_RequestaTemporaryLimitIncrease">
+		<Object objname="AccepTerms_btn" Propname1=".xpath"
+			Propval1="//*[contains(@class,'mblSwitchKnob')]" />
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="RequestaTemporaryLimitIncrease"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_35']" />
+		<Object objname="TandC" Propval1="//*[@class='mblSwitchKnob']" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id,'addAndProceedButton_ns_Z7')]" />
+		<Object objname="cancel" Propval1="//*[starts-with(@id,'cancelButton_ns_Z7')]" />
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="CancelBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="Cancel_No_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonCancelTransaction_ns')]" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="Error_AfterProceed" Propname1=".xpath"
+			Propval1="//*[contains(@class,'i-result')]" />
+		<Object objname="OTPProceedBtn" Propval1="//*[starts-with(@id, 'proceedOtp_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="TransferVia_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]//td[2]/input" />
+		<Object objname="TransferVia_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]" />
+		<Object objname="TransferViaBank_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenCorresBank_ns')])[1]" />
+		<Object objname="Data_Alert" Propname1=".id"
+			Propval1="//*[contains(@class,'i-process_alert')]" />
+		<Object objname="Homepage_OnCancel" Propname1=".id"
+			Propval1="//*[contains(text(),'My Financial Position')]" />
+		<Object objname="Results_Page" Propname1=".id"
+			Propval1="//*[contains(text(),'Results')]" />
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id,'dojox_mobile_Button_1')]" />
+		<Object objname="HomeSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id,'chartdiv_ns_Z7')]" />
+		<Object objname="NewTransaction" Propname1=".id"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="CardsLogo"
+			Propval1="//*[contains(@class,'mblListItem w_icon i-card')]" />
+		<Object objname="Amount"
+			Propval1="//input[starts-with(@id,'amountListener_undefined_amountInput')]" />
+		<Object objname="SelectCard"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_SelectableList_CustomListItem_1')]" />
+		<Object objname="ExpiryDate" Propval1="//*[@id='aljazira_mobile_Accordion_Title_3']" />
+		<Object objname="DateDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[1]" />
+		<Object objname="DateIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[1]" />
+		<Object objname="MonthDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[2]" />
+		<Object objname="MonthIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[2]" />
+		<Object objname="YearDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[3]" />
+		<Object objname="YearIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[3]" />
+		<Object objname="DateDecreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[3]" />
+		<Object objname="DateIncreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[3]" />
+		<Object objname="MonthDecreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[2]" />
+		<Object objname="MonthIncreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[2]" />
+		<Object objname="YearDecreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[1]" />
+		<Object objname="YearIncreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[1]" />
+		<Object objname="Percent" Propname1=".xpath"
+			Propval1="//*[@id='dojox_mobile_RadioButton_1']" />
+		<Object objname="AmountIncrease_Percent_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'increaseByPercentage_ns')])[1]" />
+		<Object objname="MoneyTransfer_SuccessMsg" Propname1=".id"
+			Propval1="//*[@class='result-box ok fav-tx']" />
+		<Object objname="PrintMessage" Propname1=".id"
+			Propval1="//*[@class='i-result']/../span" />
+
+	</Page>
+
+	<Page Pgname="SMART_CreditCard_UpdateOnlineTransactionsStatus">
+
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="UpdateOnlineTransactionsStatus"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_39']" />
+		<Object objname="CreditCard"
+			Propval1="//*[@id='aljazira_mobile_SelectableList_CustomListItem_0']" />
+		<Object objname="Enable"
+			Propval1="//*[@id='aljazira_mobile_SelectableList_CustomListItem_1']" />
+		<Object objname="Disable"
+			Propval1="//*[@id='aljazira_mobile_SelectableList_CustomListItem_2']" />
+		<Object objname="Condition"
+			Propval1="//*[contains(@class,'mblSwitchText mblSwitchTextRight')]" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id,'addAndProceedButton_ns_Z7')]" />
+		<Object objname="cancel" Propval1="//*[starts-with(@id,'cancelButton_ns_Z7')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="HomeSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id,'chartdiv_ns_Z7')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="OTPText" Propname1=".id"
+			Propval1="(//*[contains(@id,'otp_ns_Z7')])[2]" />
+		<Object objname="OTPProceed" Propname1=".id"
+			Propval1="//*[starts-with(@id,'proceedOtp_ns_Z7')]" />
+		<Object objname="MoneyTransfer_SuccessMsg" Propname1=".id"
+			Propval1="//*[@class='result-box ok fav-tx']" />
+		<Object objname="PrintMessage" Propname1=".id"
+			Propval1="//*[@class='i-result']/../span" />
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[contains(@class,'green')]" />
+		<Object objname="HomeSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id,'chartdiv_ns_Z7')]" />
+		<Object objname="NewTransaction" Propname1=".id"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="Arabic" Propval1="//*[starts-with(@id, 'bajLangIcon')]" />
+	</Page>
+
+
+	<Page Pgname="SMART_CreditCard_ResetPIN">
+
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="ResetPIN"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_41']" />
+		<Object objname="CreditCard"
+			Propval1="//*[@id='aljazira_mobile_SelectableList_CustomListItem_0']" />
+		<Object objname="PIN"
+			Propval1="//*[starts-with(@id,'newCreditCardPinInput_ns')]" />
+		<Object objname="ConfirmPIN"
+			Propval1="//*[starts-with(@id,'confirmNewCreditCardPinInput_ns_Z7')]" />
+		<Object objname="Disable"
+			Propval1="//*[@id='aljazira_mobile_SelectableList_CustomListItem_2']" />
+		<Object objname="Condition"
+			Propval1="//*[contains(@class,'mblSwitchText mblSwitchTextRight')]" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id,'addAndProceedButton_ns_Z7')]" />
+		<Object objname="cancel" Propval1="//*[starts-with(@id,'cancelButton_ns_Z7')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="HomeSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id,'chartdiv_ns_Z7')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="OTPText" Propname1=".id"
+			Propval1="(//*[contains(@id,'otp_ns_Z7')])[2]" />
+		<Object objname="OTPProceed" Propname1=".id"
+			Propval1="//*[starts-with(@id,'proceedOtp_ns_Z7')]" />
+		<Object objname="MoneyTransfer_SuccessMsg" Propname1=".id"
+			Propval1="//*[@class='result-box ok fav-tx']" />
+		<Object objname="PrintMessage" Propname1=".id"
+			Propval1="//*[@class='i-result']/../span" />
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[contains(@class,'green')]" />
+		<Object objname="HomeSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id,'chartdiv_ns_Z7')]" />
+		<Object objname="NewTransaction" Propname1=".id"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="Arabic" Propval1="//*[starts-with(@id, 'bajLangIcon')]" />
+	</Page>
+
+	<Page Pgname="SMART_CreditCard_RequestaPermanentLimitIncrease">
+		<Object objname="AccepTerms_btn" Propname1=".xpath"
+			Propval1="//*[contains(@class,'mblSwitchKnob')]" />
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="PermanentLimitIncrease"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_42']" />
+		<Object objname="TandC" Propval1="//*[@class='mblSwitchKnob']" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id,'addAndProceedButton_ns_Z7')]" />
+		<Object objname="cancel" Propval1="//*[starts-with(@id,'cancelButton_ns_Z7')]" />
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="CancelBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="Cancel_No_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonCancelTransaction_ns')]" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="Error_AfterProceed" Propname1=".xpath"
+			Propval1="//*[contains(@class,'i-result')]" />
+		<Object objname="OTPProceedBtn" Propval1="//*[starts-with(@id, 'proceedOtp_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="TransferVia_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]//td[2]/input" />
+		<Object objname="TransferVia_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]" />
+		<Object objname="TransferViaBank_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenCorresBank_ns')])[1]" />
+		<Object objname="Data_Alert" Propname1=".id"
+			Propval1="//*[contains(@class,'i-process_alert')]" />
+		<Object objname="Homepage_OnCancel" Propname1=".id"
+			Propval1="//*[contains(text(),'My Financial Position')]" />
+		<Object objname="Results_Page" Propname1=".id"
+			Propval1="//*[contains(text(),'Results')]" />
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id,'dojox_mobile_Button_1')]" />
+		<Object objname="HomeSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id,'chartdiv_ns_Z7')]" />
+		<Object objname="NewTransaction" Propname1=".id"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="CardsLogo"
+			Propval1="//*[contains(@class,'mblListItem w_icon i-card')]" />
+		<Object objname="Amount"
+			Propval1="//input[starts-with(@id,'amountListener_undefined_amountInput')]" />
+		<Object objname="SelectCard"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_SelectableList_CustomListItem_0')]" />
+		<Object objname="ExpiryDate" Propval1="//*[@id='aljazira_mobile_Accordion_Title_3']" />
+		<Object objname="DateDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[1]" />
+		<Object objname="DateIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[1]" />
+		<Object objname="MonthDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[2]" />
+		<Object objname="MonthIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[2]" />
+		<Object objname="YearDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[3]" />
+		<Object objname="YearIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[3]" />
+		<Object objname="DateDecreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[3]" />
+		<Object objname="DateIncreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[3]" />
+		<Object objname="MonthDecreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[2]" />
+		<Object objname="MonthIncreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[2]" />
+		<Object objname="YearDecreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[1]" />
+		<Object objname="YearIncreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[1]" />
+		<Object objname="Percent" Propname1=".xpath"
+			Propval1="//*[@id='dojox_mobile_RadioButton_1']" />
+		<Object objname="AmountIncrease_Percent_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'increaseByPercentage_ns')])[1]" />
+		<Object objname="MoneyTransfer_SuccessMsg" Propname1=".id"
+			Propval1="//*[@class='result-box ok fav-tx']" />
+		<Object objname="PrintMessage" Propname1=".id"
+			Propval1="//*[@class='i-result']/../span" />
+
+	</Page>
+
+
+	<Page Pgname="SMART_CreditCard_IssueNewSupplementaryCard">
+		<Object objname="AccepTerms_btn" Propname1=".xpath"
+			Propval1="//*[contains(@class,'mblSwitchKnob')]" />
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="RequestaTemporaryLimitIncrease"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_35']" />
+		<Object objname="TandC" Propval1="//*[@class='mblSwitchKnob']" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id,'addAndProceedButton_ns_Z7')]" />
+		<Object objname="cancel" Propval1="//*[starts-with(@id,'cancelButton_ns_Z7')]" />
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="CancelBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="Cancel_No_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonCancelTransaction_ns')]" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="Error_AfterProceed" Propname1=".xpath"
+			Propval1="//*[contains(@class,'i-result')]" />
+		<Object objname="OTPProceedBtn" Propval1="//*[starts-with(@id, 'proceedOtp_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="TransferVia_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]//td[2]/input" />
+		<Object objname="TransferVia_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]" />
+		<Object objname="TransferViaBank_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenCorresBank_ns')])[1]" />
+		<Object objname="Data_Alert" Propname1=".id"
+			Propval1="//*[contains(@class,'i-process_alert')]" />
+		<Object objname="Homepage_OnCancel" Propname1=".id"
+			Propval1="//*[contains(text(),'My Financial Position')]" />
+		<Object objname="Results_Page" Propname1=".id"
+			Propval1="//*[contains(text(),'Results')]" />
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id,'dojox_mobile_Button_1')]" />
+		<Object objname="HomeSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id,'chartdiv_ns_Z7')]" />
+		<Object objname="NewTransaction" Propname1=".id"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="CardsLogo"
+			Propval1="//*[contains(@class,'mblListItem w_icon i-card')]" />
+		<Object objname="Amount"
+			Propval1="//input[starts-with(@id,'amountListener_undefined_amountInput')]" />
+		<Object objname="SelectCard"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_SelectableList_CustomListItem_1')]" />
+		<Object objname="ExpiryDate" Propval1="//*[@id='aljazira_mobile_Accordion_Title_3']" />
+		<Object objname="DateDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[1]" />
+		<Object objname="DateIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[1]" />
+		<Object objname="MonthDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[2]" />
+		<Object objname="MonthIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[2]" />
+		<Object objname="YearDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[3]" />
+		<Object objname="YearIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[3]" />
+		<Object objname="DateDecreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[3]" />
+		<Object objname="DateIncreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[3]" />
+		<Object objname="MonthDecreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[2]" />
+		<Object objname="MonthIncreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[2]" />
+		<Object objname="YearDecreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[1]" />
+		<Object objname="YearIncreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[1]" />
+		<Object objname="Percent" Propname1=".xpath"
+			Propval1="//*[@id='dojox_mobile_RadioButton_1']" />
+		<Object objname="AmountIncrease_Percent_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'increaseByPercentage_ns')])[1]" />
+		<Object objname="MoneyTransfer_SuccessMsg" Propname1=".id"
+			Propval1="//*[@class='result-box ok fav-tx']" />
+		<Object objname="PrintMessage" Propname1=".id"
+			Propval1="//*[@class='i-result']/../span" />
+
+	</Page>
+
+
+
+	<Page Pgname="SMART_CreditCard_ApplyforaCreditCard">
+		<Object objname="AccepTerms_btn" Propname1=".xpath"
+			Propval1="//*[contains(@class,'mblSwitchKnob')]" />
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="ApplyforaCreditCard"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_38']" />
+		<Object objname="TandC" Propval1="//*[@class='mblSwitchKnob']" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id,'addAndProceedButton_ns_Z7')]" />
+		<Object objname="cancel" Propval1="//*[starts-with(@id,'cancelButton_ns_Z7')]" />
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="CancelBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="Cancel_No_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonCancelTransaction_ns')]" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="Error_AfterProceed" Propname1=".xpath"
+			Propval1="//*[contains(@class,'i-result')]" />
+		<Object objname="OTPProceedBtn" Propval1="//*[starts-with(@id, 'proceedOtp_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="TransferVia_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]//td[2]/input" />
+		<Object objname="TransferVia_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]" />
+		<Object objname="TransferViaBank_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenCorresBank_ns')])[1]" />
+		<Object objname="Data_Alert" Propname1=".id"
+			Propval1="//*[contains(@class,'i-process_alert')]" />
+		<Object objname="Homepage_OnCancel" Propname1=".id"
+			Propval1="//*[contains(text(),'My Financial Position')]" />
+		<Object objname="Results_Page" Propname1=".id"
+			Propval1="//*[contains(text(),'Results')]" />
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id,'dojox_mobile_Button_1')]" />
+		<Object objname="HomeSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id,'chartdiv_ns_Z7')]" />
+		<Object objname="NewTransaction" Propname1=".id"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="CardsLogo"
+			Propval1="//*[contains(@class,'mblListItem w_icon i-card')]" />
+		<Object objname="Amount"
+			Propval1="//input[starts-with(@id,'amountListener_undefined_amountInput')]" />
+		<Object objname="SelectCard"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_SelectableList_CustomListItem_1')]" />
+		<Object objname="ExpiryDate" Propval1="//*[@id='aljazira_mobile_Accordion_Title_3']" />
+		<Object objname="DateDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[1]" />
+		<Object objname="DateIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[1]" />
+		<Object objname="MonthDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[2]" />
+		<Object objname="MonthIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[2]" />
+		<Object objname="YearDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[3]" />
+		<Object objname="YearIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[3]" />
+		<Object objname="DateDecreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[3]" />
+		<Object objname="DateIncreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[3]" />
+		<Object objname="MonthDecreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[2]" />
+		<Object objname="MonthIncreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[2]" />
+		<Object objname="YearDecreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[1]" />
+		<Object objname="YearIncreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[1]" />
+		<Object objname="Percent" Propname1=".xpath"
+			Propval1="//*[@id='dojox_mobile_RadioButton_1']" />
+		<Object objname="AmountIncrease_Percent_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'increaseByPercentage_ns')])[1]" />
+		<Object objname="MoneyTransfer_SuccessMsg" Propname1=".id"
+			Propval1="//*[@class='result-box ok fav-tx']" />
+		<Object objname="PrintMessage" Propname1=".id"
+			Propval1="//*[@class='i-result']/../span" />
+
+	</Page>
+
+	<Page Pgname="SMART_DebitCard_Summary">
+
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="Cardssummary"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_46']" />
+		<Object objname="CardsNumber" Propval1="(//*[@class='txt-grey'])[1]" />
+		<Object objname="Amount" Propval1="(//*[@class='txt-grey'])[2]" />
+		<Object objname="CardsLogo"
+			Propval1="(//*[contains(@id,'dojox_mobile_ListItem_2')])" />
+		<Object objname="Name" Propval1="(//*[@class='mblListItemLayoutLeft'])" />
+		<Object objname="Values" Propval1="(//*[@class='txt-grey'])" />
+		<Object objname="DebitCardClick" Propval1="//*[@id='dojox_mobile_ListItem_2']" />
+
+
+	</Page>
+
+
+	<Page Pgname="SMART_DebitCard_ViewPOSLimits">
+
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="ViewPOSLimits"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_49']" />
+		<Object objname="CardReplaceMent"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_51']" />
+		<Object objname="CardsNumber" Propval1="(//*[contains(@class,'txt-grey')])" />
+		<Object objname="ClickonCard" Propval1="//*[@class='mblListItemLabel']" />
+		<Object objname="CardsLogo" Propval1="//*[@id='dojox_mobile_RoundRectCategory_0']" />
+		<Object objname="Name" Propval1="(//*[@class='mblListItemLayoutLeft'])" />
+		<Object objname="Values" Propval1="(//*[@class='txt-grey'])" />
+		<Object objname="DebitCardClick" Propval1="//*[@id='dojox_mobile_ListItem_2']" />
+		<Object objname="cancelButton" Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+
+
+	</Page>
+
+	<Page Pgname="SMART_DebitCard_LinkToDifferentAccount">
+
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="LinkToDifferentAccount"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_47']" />
+		<Object objname="CardReplaceMent"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_51']" />
+		<Object objname="Selectthecardtype"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_Accordion_Title_0')]" />
+		<Object objname="mycards"
+			Propval1="//*[@id='aljazira_mobile_SelectableList_CustomListItem_1']" />
+		<Object objname="PrimaryCard"
+			Propval1="//*[@id='aljazira_mobile_SelectableList_CustomListItem_11']" />
+		<Object objname="AdditionAccount"
+			Propval1="//*[@id='aljazira_mobile_SelectableList_CustomListItem_13']" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id,'addAndProceedButton_ns_Z7')]" />
+		<Object objname="cancel" Propval1="//*[starts-with(@id,'cancelButton_ns_Z7')]" />
+		<Object objname="Message" Propval1="//*[contains(@class,'i-result')]/../span" />
+		<Object objname="MoneyTransfer_SuccessMsg" Propname1=".id"
+			Propval1="//*[@class='result-box ok fav-tx']" />
+		<Object objname="PrintMessage" Propname1=".id"
+			Propval1="//*[@class='i-result']/../span" />
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="CancelBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="Cancel_No_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonCancelTransaction_ns')]" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="Error_AfterProceed" Propname1=".xpath"
+			Propval1="//*[contains(@class,'i-result')]" />
+		<Object objname="OTPProceedBtn" Propval1="//*[starts-with(@id, 'proceedOtp_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="TransferVia_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]//td[2]/input" />
+		<Object objname="TransferVia_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]" />
+		<Object objname="TransferViaBank_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenCorresBank_ns')])[1]" />
+		<Object objname="Data_Alert" Propname1=".id"
+			Propval1="//*[contains(@class,'i-process_alert')]" />
+		<Object objname="Homepage_OnCancel" Propname1=".id"
+			Propval1="//*[contains(text(),'My Financial Position')]" />
+		<Object objname="Results_Page" Propname1=".id"
+			Propval1="//*[contains(text(),'Results')]" />
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id,'dojox_mobile_Button_1')]" />
+		<Object objname="HomeSuccess" Propname1=".id"
+			Propval1="//*[@class='mblListItemLayoutLeft']" />
+		<Object objname="NewTransaction" Propname1=".id"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="CardsLogo"
+			Propval1="//*[contains(@class,'mblListItem w_icon i-card')]" />
+
+	</Page>
+
+	<Page Pgname="SMART_DebitCard_UpdatePOSLimits">
+
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="UpdatePOSLimits"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_50']" />
+		<Object objname="CardReplaceMent"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_51']" />
+		<Object objname="Selectthecardtype"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_Accordion_Title_0')]" />
+		<Object objname="mycards"
+			Propval1="//*[@id='aljazira_mobile_SelectableList_CustomListItem_1']" />
+		<Object objname="POSLimit"
+			Propval1="//*[@id='aljazira_mobile_SelectableList_CustomListItem_3']" />
+		<Object objname="AdditionAccount"
+			Propval1="//*[@id='aljazira_mobile_SelectableList_CustomListItem_13']" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id,'addAndProceedButton_ns_Z7')]" />
+		<Object objname="cancel" Propval1="//*[starts-with(@id,'cancelButton_ns_Z7')]" />
+		<Object objname="Message" Propval1="//*[contains(@class,'i-result')]/../span" />
+		<Object objname="MoneyTransfer_SuccessMsg" Propname1=".id"
+			Propval1="//*[@class='result-box ok fav-tx']" />
+		<Object objname="PrintMessage" Propname1=".id"
+			Propval1="//*[@class='i-result']/../span" />
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="CancelBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="Cancel_No_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonCancelTransaction_ns')]" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="Error_AfterProceed" Propname1=".xpath"
+			Propval1="//*[contains(@class,'i-result')]" />
+		<Object objname="OTPProceedBtn" Propval1="//*[starts-with(@id, 'proceedOtp_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="TransferVia_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]//td[2]/input" />
+		<Object objname="TransferVia_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]" />
+		<Object objname="TransferViaBank_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenCorresBank_ns')])[1]" />
+		<Object objname="Data_Alert" Propname1=".id"
+			Propval1="//*[contains(@class,'i-process_alert')]" />
+		<Object objname="Homepage_OnCancel" Propname1=".id"
+			Propval1="//*[contains(text(),'My Financial Position')]" />
+		<Object objname="Results_Page" Propname1=".id"
+			Propval1="//*[contains(text(),'Results')]" />
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id,'dojox_mobile_Button_1')]" />
+		<Object objname="HomeSuccess" Propname1=".id"
+			Propval1="//*[@class='mblListItemLayoutLeft']" />
+		<Object objname="NewTransaction" Propname1=".id"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="CardsLogo"
+			Propval1="//*[contains(@class,'mblListItem w_icon i-card')]" />
+		<Object objname="CondtionCheck" Propval1="//*[starts-with(@id,'switch_terms_ns_Z7')]" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="CancelBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="OTPProceedBtn" Propval1="//*[starts-with(@id, 'proceedOtp_ns')]" />
+	</Page>
+
+
+	<Page Pgname="SMART_DebitCard_ActivateCreditCard">
+
+		<Object objname="Cards" Propval1="//*[@class='i-cards_nav']/../span" />
+		<Object objname="UpdatePOSLimits"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_50']" />
+		<Object objname="CardReplaceMent"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_51']" />
+		<Object objname="Selectthecardtype"
+			Propval1="//*[starts-with(@id,'aljazira_mobile_Accordion_Title_0')]" />
+		<Object objname="mycards"
+			Propval1="//*[@id='aljazira_mobile_SelectableList_CustomListItem_1']" />
+		<Object objname="POSLimit"
+			Propval1="//*[@id='aljazira_mobile_SelectableList_CustomListItem_3']" />
+		<Object objname="AdditionAccount"
+			Propval1="//*[@id='aljazira_mobile_SelectableList_CustomListItem_13']" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id,'addAndProceedButton_ns_Z7')]" />
+		<Object objname="cancel" Propval1="//*[starts-with(@id,'cancelButton_ns_Z7')]" />
+		<Object objname="Message" Propval1="//*[contains(@class,'i-result')]/../span" />
+		<Object objname="MoneyTransfer_SuccessMsg" Propname1=".id"
+			Propval1="//*[@class='result-box ok fav-tx']" />
+		<Object objname="PrintMessage" Propname1=".id"
+			Propval1="//*[@class='i-result']/../span" />
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceedButton_ns')]" />
+		<Object objname="CancelBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Cancel_Yes_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonAcceptTransaction_ns')]" />
+		<Object objname="Cancel_No_Btn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'buttonCancelTransaction_ns')]" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="Error_AfterProceed" Propname1=".xpath"
+			Propval1="//*[contains(@class,'i-result')]" />
+		<Object objname="OTPProceedBtn" Propval1="//*[starts-with(@id, 'proceedOtp_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="TransferVia_DD_Clk" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]//td[2]/input" />
+		<Object objname="TransferVia_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'beneficiaryType_ns')])[1]" />
+		<Object objname="TransferViaBank_DD" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'txtBenCorresBank_ns')])[1]" />
+		<Object objname="Data_Alert" Propname1=".id"
+			Propval1="//*[contains(@class,'i-process_alert')]" />
+		<Object objname="Homepage_OnCancel" Propname1=".id"
+			Propval1="//*[contains(text(),'My Financial Position')]" />
+		<Object objname="Results_Page" Propname1=".id"
+			Propval1="//*[contains(text(),'Results')]" />
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id,'dojox_mobile_Button_1')]" />
+		<Object objname="HomeSuccess" Propname1=".id"
+			Propval1="//*[@class='mblListItemLayoutLeft']" />
+		<Object objname="NewTransaction" Propname1=".id"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="CardsLogo"
+			Propval1="//*[contains(@class,'mblListItem w_icon i-card')]" />
+		<Object objname="CondtionCheck" Propval1="//*[starts-with(@id,'switch_terms_ns_Z7')]" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="CancelBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="OTPProceedBtn" Propval1="//*[starts-with(@id, 'proceedOtp_ns')]" />
+	</Page>
+
+
+	<Page Pgname="SMART_SelfService_OrdersStatus">
+
+		<Object objname="SelfService" Propval1="//*[@class='i-self_service_nav']/../span" />
+		<Object objname="OrdersStatus"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_72']" />
+		<Object objname="FromDate" Propval1="//*[@id='aljazira_mobile_Accordion_Title_0']" />
+		<Object objname="ToDate" Propval1="//*[@id='aljazira_mobile_Accordion_Title_1']" />
+		<Object objname="Search" Propval1="//*[@id='dojox_mobile_Button_5']" />
+		<Object objname="Name" Propval1="(//*[@class='mblListItemLayoutLeft'])" />
+		<Object objname="Values" Propval1="(//*[@class='txt-grey'])" />
+		<Object objname="DebitCardClick" Propval1="//*[@id='dojox_mobile_ListItem_2']" />
+		<Object objname="DateDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[1]" />
+		<Object objname="DateIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[1]" />
+		<Object objname="MonthDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[2]" />
+		<Object objname="MonthIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[2]" />
+		<Object objname="YearDecreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[3]" />
+		<Object objname="YearIncreasing_clk" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[3]" />
+		<Object objname="DateDecreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[3]" />
+		<Object objname="DateIncreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[3]" />
+		<Object objname="MonthDecreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[2]" />
+		<Object objname="MonthIncreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[2]" />
+		<Object objname="YearDecreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'-')])[1]" />
+		<Object objname="YearIncreasing_clk_Arb" Propname1=".xpath"
+			Propval1="(//*[contains(@title,'+')])[1]" />
+		<Object objname="Account" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_mobile_SelectableList_CustomListItem_1']" />
+		<Object objname="Result" Propname1=".xpath" Propval1="//*[@class='txt-red']" />
+
+
+	</Page>
+
+	<Page Pgname="SMART_SelfService_ContactUs">
+
+		<Object objname="SelfService" Propval1="//*[@class='i-self_service_nav']/../span" />
+		<Object objname="ContactUs"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_73']" />
+		<Object objname="callus" Propval1="//*[@class='txt-grey mblListItemLayoutLeft']" />
+		<Object objname="emailUS"
+			Propval1="(//*[@class='txt-grey mblListItemLayoutLeft'])[2]" />
+		<Object objname="Search" Propval1="//*[@id='dojox_mobile_Button_5']" />
+		<Object objname="Name" Propval1="(//*[@class='mblListItemLayoutLeft'])" />
+		<Object objname="Values" Propval1="(//*[@class='txt-grey'])" />
+		<Object objname="DebitCardClick" Propval1="//*[@id='dojox_mobile_ListItem_2']" />
+
+
+	</Page>
+
+	<Page Pgname="SMART_SelfService_CommonFunction">
+
+		<Object objname="SelfService" Propval1="//*[@class='i-self_service_nav']/../span" />
+		<Object objname="UpdateNationalAddress"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_76']" />
+		<Object objname="FavoriteTransactions"
+			Propval1="//*[@id='aljazira_mobile_SlideMenu_ListItem_74']" />
+		<Object objname="Text" Propval1="//*[@id='dojox_mobile_RoundRectCategory_0']" />
+		<Object objname="FavoriteTransactionsText" Propval1="//*[@class='mblRoundRectCategory']" />
+
+
+	</Page>
+
+
+
+	<!-- Neeraj Code ends -->
+
+
+</Main>
+

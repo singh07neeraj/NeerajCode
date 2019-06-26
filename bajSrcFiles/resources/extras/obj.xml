@@ -1,0 +1,571 @@
+<?xml version="1.0"?>
+<Main>
+
+
+	<Page Pgname="LogInLandingPage">
+
+		<Object objname="CertificateLnk" Propname1=".class" Propval1="Html.A"
+			Propname2=".name" Propval2="overridelink" />
+
+		<Object objname="UserName" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'username_ns')]" Propname2=".type"
+			Propval2="text" />
+
+		<Object objname="password" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'password_ns')]" Propname2=".type"
+			Propval2="text" />
+
+
+		<Object objname="LoginButton" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'login_ns')]" Propname2=".type"
+			Propval2="text" />
+
+
+		<Object objname="OTP" Propname1=".id" Propval1="otp_ns.*"
+			Propname2=".type" Propval2="text" />
+		<Object objname="OTPProceedBtn" Propname1=".id" Propval1="action_ns.*"
+			Propname2=".class" Propval2="Html.SPAN" />
+
+		<Object objname="xpath" Propname1="//*[starts-with(@id, 'username_ns')]" />
+
+
+		<Object objname="Language" Propname1=".class" Propval1="Html.A"
+			Propname2=".id" Propval2="bajlanglink" />
+		<Object objname="Language" Propname1=".class" Propval1="Html.A"
+			Propname2=".id" Propval2="bajlanglink" />
+
+	</Page>
+
+	<Page Pgname="OTP">
+
+		<Object objname="OTPField" Propname1=".xpath" Propval1="//*[@name='otp']" />
+
+		<Object objname="ProceedBtn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'action_ns_')]/.." />
+
+
+	</Page>
+
+	<Page Pgname="Menues">
+
+
+		<Object objname="Transfers" Propname1=".xpath"
+			Propval1="//*[@class='i i-nav_transfers']/.." />
+
+		<Object objname="TransfersLocal" Propname1=".xpath"
+			Propval1="//*[@id='title-level-4-1-3']" />
+
+		<Object objname="Accounts" Propname1=".xpath"
+			Propval1="//*[@id='title-level-firstLink-2']" />
+
+		<Object objname="AccountsSummary" Propname1=".xpath"
+			Propval1="//*[@id='title-level-2-1-1']" />
+
+		<Object objname="AccountsDetails" Propname1=".xpath"
+			Propval1="//*[@id='title-level-2-1-2']" />
+
+		<Object objname="AccountsTransactions" Propname1=".xpath"
+			Propval1="//*[@id='title-level-2-1-3']" />
+
+		<Object objname="RequestStatementByEMail" Propname1=".xpath"
+			Propval1="//*[@id='title-level-2-1-4']" />
+
+		<Object objname="OpenAdditionalAccount" Propname1=".xpath"
+			Propval1="//*[@id='title-level-2-1-5']" />
+
+		<Object objname="AccountsConfiguration" Propname1=".xpath"
+			Propval1="//*[@id='title-level-2-1-6']" />
+
+		<Object objname="OpenHouseholdAccount" Propname1=".xpath"
+			Propval1="//*[@id='title-level-2-1-7']" />
+
+		<Object objname="OrderCheckBook" Propname1=".xpath"
+			Propval1="//*[@id='title-level-2-2-1']" />
+
+		<Object objname="LostOrStolenCheque" Propname1=".xpath"
+			Propval1="//*[@id='title-level-2-2-2']" />
+
+
+	</Page>
+
+	<Page Pgname="Logout">
+
+		<Object objname="LogoutBtn" Propname1=".class" Propval1="Html.A"
+			Propname2=".id" Propval2="login" />
+		<Object objname="BrowserClose" Propname1=".class" Propval1="Html.HtmlBrowser"
+			Propname2="" Propval2="" />
+
+	</Page>
+
+	<Page Pgname="Transfers_BetweenMyAccts">
+
+
+	</Page>
+
+	<Page Pgname="LocalTransfers">
+
+		<Object objname="SelectBenificiary" Propname1=".xpath"
+			Propval1="(//*[@class='dijitReset dijitInputField dijitArrowButtonInner'])[2]/.." />
+
+		<Object objname="AmountValue" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_AmountTextBox_0']" />
+
+		<Object objname="termConditions" Propname1=".xpath"
+			Propval1="//*[@name='termConditions']" />
+
+		<Object objname="proceedBtn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'addAndProceed_button_ns')]" />
+
+		<Object objname="modifyBtn" Propname1=".xpath"
+			Propval1="//*[@id='dijit_form_Button_4_label']" />
+
+		<Object objname="standingOrderCheckBox" Propname1=".xpath"
+			Propval1="//*[@id='dijit_form_RadioButton_4']" />
+
+		<Object objname="nickNameInput" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'nickNameStanding_ns_Z7_')])[2]" />
+
+		<Object objname="startDateDropDown" Propname1=".xpath"
+			Propval1="(//*[@class='dijitReset dijitInputField dijitArrowButtonInner'])[6]" />
+
+		<Object objname="startDateVal" Propname1=".xpath"
+			Propval1="//*[@data-dojo-attach-point='dateRowsNode']//tr[3]//td[2]" />
+
+		<Object objname="endDateDropDown" Propname1=".xpath"
+			Propval1="(//*[@class='dijitReset dijitInputField dijitArrowButtonInner'])[7]/.." />
+
+		<Object objname="endDateVal" Propname1=".xpath"
+			Propval1="(//*[@data-dojo-attach-point='dateRowsNode']//tr[5]//td[4])[2]" />
+
+		<Object objname="freqInput" Propname1=".xpath"
+			Propval1="//*[@id='widget_dijit_form_FilteringSelect_1']" />
+
+		<Object objname="freqInputDropDown" Propname1=".xpath"
+			Propval1="(//*[@class='dijitReset dijitInputField dijitArrowButtonInner'])[8]/.." />
+
+
+		<Object objname="confirmBtn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'confirmation_button_ns')]" />
+
+		<Object objname="txfrSuccessMsg" Propname1=".xpath"
+			Propval1="//*[@class='tit tit-green']" />
+
+
+		<Object objname="saveTxnBtn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'dijit_form_Button_')]" />
+
+
+		<Object objname="homeBtn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'finishButton_ns')]" />
+
+		<Object objname="acceptBtn" Propname1=".xpath"
+			Propval1="//*[@id='dijit_form_Button_76_label']" />
+
+
+
+
+
+
+
+	</Page>
+	<Page Pgname="Transfers">
+
+
+	</Page>
+
+	<Page Pgname="WithinBaj_Transfers">
+
+		<Object objname="TransfersLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-firstLink-4')]" />
+		<Object objname="WithInBajLnk_Menu_N" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-4-1-2')]" />
+		<Object objname="FromAcctCombo" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_FilteringSelect_0')]" />
+		<Object objname="selectBeneficiary" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'toBeneficiaryId_ns')]" />
+		<Object objname="AmountTxt" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'aljazira_AmountTextBox_0')]" />
+		<Object objname="CheckBoxTC" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'termConditions_ns')]" />
+		<Object objname="ProceedBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'addAndProceed_button_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'confirmation_button_ns')]" />
+		<Object objname="WithinBaj_Menu_Y" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-1-2-ns')]" />
+		<Object objname="ExecNow" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_RadioButton_2')]" />
+		<Object objname="Scheduled" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_RadioButton_3')]" />
+		<Object objname="StandingOrder" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_RadioButton_4')]" />
+		<Object objname="CancelTransBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="ModifyBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_Button_4')]" />
+		<Object objname="CancelTransBtn_Yes" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_Button_10_label')]" />
+		<Object objname="CancelTransBtn_No" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_Button_9_label')]" />
+		<Object objname="NickName_Schedule" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_ValidationTextBox_1')]" />
+		<Object objname="NickName_StandingOrder" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'nickNameStanding_ns')]" />
+		<Object objname="ScheduleDate" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'aljazira_widgets_calendar_form_EnhancedDateTextBox_0')]" />
+		<Object objname="Browser" Propname1=".class"
+			Propval1="//*[starts-with(@id,'Html.HtmlBrowser')]" />
+		<Object objname="StartDate" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'aljazira_widgets_calendar_form_EnhancedDateTextBox_1')]" />
+		<Object objname="EndDate" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'aljazira_widgets_calendar_form_EnhancedDateTextBox_2')]" />
+		<Object objname="Frequency" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_FilteringSelect_1')]" />
+		<Object objname="SaveBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_Button_4')]" />
+		<Object objname="NewTransactionBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_Button_5')]" />
+		<Object objname="AcceptBtn_onSave" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_Button_22_label')]" />
+
+
+
+	</Page>
+
+	<Page Pgname="Add_New_Beneficiary">
+
+		<Object objname="TransfersLnk" Propname1=".class" Propval1="Html.A"
+			Propname2=".id" Propval2="title-level-firstLink-4" />
+		<Object objname="Add_New_Beneficiary_Menu_N" Propname1=".class"
+			Propval1="Html.A" Propname2=".id" Propval2="title-level-4-2-1" />
+		<Object objname="BeneficiaryType" Propname1=".id"
+			Propval1="widget_beneficiaryType_ns_Z7_MAK21102IO4010I7B1HE0S30K0_"
+			Propname2=".dojoclass" Propval2="combobox" />
+		<Object objname="Nickname_AddNewBen" Propname1=".id"
+			Propval1=".*nickName_ns.*" Propname2=".type" Propval2="text" />
+		<Object objname="AccountNo_AddNewBen" Propname1=".id"
+			Propval1=".*accountNumber_ns_Z7.*" Propname2=".type" Propval2="text" />
+		<Object objname="BeneficiaryActivationMode" Propname1=".id"
+			Propval1="widget_beneficiaryActivationMethod_ns_Z7_MAK21102IO4010I7B1HE0S30K0_"
+			Propname2=".dojoclass" Propval2="combobox" />
+		<Object objname="SmartChckBx" Propname1=".id"
+			Propval1="smartEnabled_ns_Z7_MAK21102IO4010I7B1HE0S30K0_" Propname2=".class"
+			Propval2="Html.INPUT.checkbox" />
+		<Object objname="ATMChckBx" Propname1=".id"
+			Propval1="atmEnabled_ns_Z7_MAK21102IO4010I7B1HE0S30K0_" Propname2=".class"
+			Propval2="Html.INPUT.checkbox" />
+		<Object objname="IVRChckBx" Propname1=".id"
+			Propval1="ivrEnabled_ns_Z7_MAK21102IO4010I7B1HE0S30K0_" Propname2=".class"
+			Propval2="Html.INPUT.checkbox" />
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="addAndProceed_button_ns.*" Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="CancelTransBtn" Propname1=".id" Propval1="cancelButton_ns.*"
+			Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="AddAnotherTran" Propname1=".id" Propval1="add_button_ns.*"
+			Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="confirmation_button_ns.*" Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="ModifyBtn" Propname1=".id" Propval1="dijit_form_Button_4"
+			Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="CancelTransBtn_Conf" Propname1=".id"
+			Propval1="cancelButton_ns.*" Propname2=".dojoclass" Propval2="button" />
+		<Object objname="OTP" Propname1=".id" Propval1="otp_ns.*"
+			Propname2=".type" Propval2="text" />
+		<Object objname="OTPProceedBtn" Propname1=".id" Propval1="action_ns.*"
+			Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="OTPBackBtn" Propname1=".id" Propval1="dijit_form_Button_4"
+			Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="CancelTransBtn_Confirm" Propname1=".id"
+			Propval1="dijit_form_Button_10" Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="CancelTransBtn_Cancel" Propname1=".id"
+			Propval1="dijit_form_Button_9" Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="CancelTransBtn_Yes" Propname1=".id"
+			Propval1="dijit_form_Button_10" Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="CancelTransBtn_No" Propname1=".id"
+			Propval1="dijit_form_Button_9" Propname2=".class" Propval2="Html.SPAN" />
+		\
+		<Object objname="Fullname_AddNewBen" Propname1=".id"
+			Propval1=".*fullName_ns.*" Propname2=".type" Propval2="text" />
+		<Object objname="IBAN_AddNewBen" Propname1=".id" Propval1=".*ibanLocal_ns.*"
+			Propname2=".type" Propval2="text" />
+		<Object objname="SwiftCode_AddNewBen" Propname1=".id"
+			Propval1=".*codeSWIFT_ns.*" Propname2=".type" Propval2="text" />
+		<Object objname="Currency_International" Propname1=".id"
+			Propval1="widget_currency_ns_Z7_MAK21102IO4010I7B1HE0S30K0_"
+			Propname2=".dojoclass" Propval2="combobox" />
+		<Object objname="BankAddress" Propname1=".id" Propval1=".*bankAddress_ns.*"
+			Propname2=".type" Propval2="text" />
+		<Object objname="BankCityBranch" Propname1=".id"
+			Propval1=".*bankCityBranch_ns.*" Propname2=".type" Propval2="text" />
+		<Object objname="IBAN_International" Propname1=".id" Propval1="iban_ns.*"
+			Propname2=".class" Propval2="Html.INPUT.text" />
+		<Object objname="BeneficiariesLnk" Propname1=".id"
+			Propval1="title-level-2-ns.*" Propname2=".class" Propval2="Html.A" />
+		<Object objname="AddNewBeneficiaryLnk" Propname1=".id"
+			Propval1="title-level-2-1-ns.*" Propname2=".class" Propval2="Html.A" />
+		<Object objname="BeneficiarymanagementLnk" Propname1=".id"
+			Propval1="title-level-2-2-ns.*" Propname2=".class" Propval2="Html.A" />
+		<Object objname="DeleteBen" Propname1=".class" Propval1="Html.IMG"
+			Propname2=".title" Propval2="Delete " />
+		<Object objname="HomeBtn" Propname1=".id" Propval1="finishButton_ns.*"
+			Propname2=".class" Propval2="Html.SPAN" />
+
+
+	</Page>
+
+
+	<Page Pgname="Add_New_Beneficiary_eCorp">
+		<Object objname="TransfersLnk" Propname1=".class" Propval1="Html.A"
+			Propname2=".id" Propval2="title-level-firstLink-4" />
+		<Object objname="Add_New_Beneficiary_Menu_N" Propname1=".class"
+			Propval1="Html.A" Propname2=".id" Propval2="title-level-4-2-1" />
+		<Object objname="BeneficiaryType" Propname1=".id"
+			Propval1="widget_beneficiaryType_ns_Z7_MAK21102IO4010I7B1HE0S30K0_"
+			Propname2=".dojoclass" Propval2="combobox" />
+		<Object objname="Nickname_AddNewBen" Propname1=".id"
+			Propval1=".*nickName_ns.*" Propname2=".type" Propval2="text" />
+		<Object objname="AccountNo_AddNewBen" Propname1=".id"
+			Propval1=".*accountNumber_ns_Z7.*" Propname2=".type" Propval2="text" />
+		<Object objname="BeneficiaryActivationMode" Propname1=".id"
+			Propval1="widget_beneficiaryActivationMethod_ns_Z7_MAK21102IO4010I7B1HE0S30K0_"
+			Propname2=".dojoclass" Propval2="combobox" />
+		<Object objname="SmartChckBx" Propname1=".id"
+			Propval1="smartEnabled_ns_Z7_MAK21102IO4010I7B1HE0S30K0_" Propname2=".class"
+			Propval2="Html.INPUT.checkbox" />
+		<Object objname="ATMChckBx" Propname1=".id"
+			Propval1="atmEnabled_ns_Z7_MAK21102IO4010I7B1HE0S30K0_" Propname2=".class"
+			Propval2="Html.INPUT.checkbox" />
+		<Object objname="IVRChckBx" Propname1=".id"
+			Propval1="ivrEnabled_ns_Z7_MAK21102IO4010I7B1HE0S30K0_" Propname2=".class"
+			Propval2="Html.INPUT.checkbox" />
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="addAndProceed_button_ns.*" Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="CancelTransBtn" Propname1=".id" Propval1="cancelButton_ns.*"
+			Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="AddAnotherTran" Propname1=".id" Propval1="add_button_ns.*"
+			Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="ConfirmBtn" Propname1=".id"
+			Propval1="confirmation_button_ns.*" Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="ModifyBtn" Propname1=".id" Propval1="dijit_form_Button_4"
+			Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="CancelTransBtn_Conf" Propname1=".id"
+			Propval1="cancelButton_ns.*" Propname2=".dojoclass" Propval2="button" />
+		<Object objname="OTP" Propname1=".id" Propval1="otp_ns.*"
+			Propname2=".type" Propval2="text" />
+		<Object objname="OTPProceedBtn" Propname1=".id" Propval1="action_ns.*"
+			Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="OTPBackBtn" Propname1=".id" Propval1="dijit_form_Button_4"
+			Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="CancelTransBtn_Confirm" Propname1=".id"
+			Propval1="dijit_form_Button_10" Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="CancelTransBtn_Cancel" Propname1=".id"
+			Propval1="dijit_form_Button_9" Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="CancelTransBtn_Yes" Propname1=".id"
+			Propval1="dijit_form_Button_10" Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="CancelTransBtn_No" Propname1=".id"
+			Propval1="dijit_form_Button_9" Propname2=".class" Propval2="Html.SPAN" />
+		\
+		<Object objname="Fullname_AddNewBen" Propname1=".id"
+			Propval1=".*fullName_ns.*" Propname2=".type" Propval2="text" />
+		<Object objname="IBAN_AddNewBen" Propname1=".id" Propval1=".*ibanLocal_ns.*"
+			Propname2=".type" Propval2="text" />
+		<Object objname="SwiftCode_AddNewBen" Propname1=".id"
+			Propval1=".*codeSWIFT_ns.*" Propname2=".type" Propval2="text" />
+		<Object objname="Currency_International" Propname1=".id"
+			Propval1="widget_currency_ns_Z7_MAK21102IO4010I7B1HE0S30K0_"
+			Propname2=".dojoclass" Propval2="combobox" />
+		<Object objname="BankAddress" Propname1=".id" Propval1=".*bankAddress_ns.*"
+			Propname2=".type" Propval2="text" />
+		<Object objname="BankCityBranch" Propname1=".id"
+			Propval1=".*bankCityBranch_ns.*" Propname2=".type" Propval2="text" />
+		<Object objname="IBAN_International" Propname1=".id" Propval1="iban_ns.*"
+			Propname2=".class" Propval2="Html.INPUT.text" />
+		<Object objname="BeneficiariesLnk" Propname1=".id"
+			Propval1="title-level-2-ns.*" Propname2=".class" Propval2="Html.A" />
+		<Object objname="AddNewBeneficiaryLnk" Propname1=".id"
+			Propval1="title-level-2-1-ns.*" Propname2=".class" Propval2="Html.A" />
+		<Object objname="BeneficiarymanagementLnk" Propname1=".id"
+			Propval1="title-level-2-2-ns.*" Propname2=".class" Propval2="Html.A" />
+		<Object objname="DeleteBen" Propname1=".class" Propval1="Html.IMG"
+			Propname2=".title" Propval2="Delete " />
+		<Object objname="HomeBtn" Propname1=".id" Propval1="finishButton_ns.*"
+			Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="ConfirmExpryBtn" Propname1=".id"
+			Propval1="dijit_form_Button_1" Propname2=".class" Propval2="Html.SPAN" />
+	</Page>
+
+	<!-- Neeraj code -->
+
+
+	<Page Pgname="JOL_charity">
+		<Object objname="TransfersLnk" Propname1="xpath"
+			Propval1=" //*[starts-with(@id, 'title-level-firstLink-4')]" />
+		<Object objname="charity" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-1-5-ns_Z7')]" />
+		<Object objname="charityTop" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-4-1-5')]" />
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')][1]" />
+	</Page>
+
+	<Page Pgname="JOL_TRANSFERS_HISTORY">
+		<Object objname="TransfersLnk" Propname1="xpath"
+			Propval1=" //*[starts-with(@id, 'title-level-firstLink-4')]" />
+		<Object objname="History" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-1-6-ns_Z7')]" />
+		<Object objname="HistoryTop" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-4-1-6')]" />
+		<Object objname="Account" Propname1="xpath"
+			Propval1="//*[@class='dijitReset dijitInputField dijitArrowButtonInner'][1]" />
+		<Object objname="TransferType" Propname1="xpath"
+			Propval1="//*[@class='dijitReset dijitInputField dijitArrowButtonInner'][2]" />
+		<Object objname="beneficiary" Propname1="xpath"
+			Propval1="//*[@class='dijitReset dijitInputField dijitArrowButtonInner'][3]" />
+		<Object objname="StartDate" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_0')]" />
+		<Object objname="endDate" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_1')]" />
+		<Object objname="Search" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_30_label')]" />
+		<Object objname="SearchResult" Propname1="xpath"
+			Propval1="//*[@class='dojoxGridDescription']" />
+
+
+	</Page>
+
+	<Page Pgname="STANDING_ORDERS_MANAGEMENT">
+
+
+		<Object objname="TransfersLnk"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-4')]" />
+		<Object objname="ordermanagement" Propval1="//*[starts-with(@id, 'title-level-4-1-7')]" />
+		<Object objname="standardorder" Propval1="//*[starts-with(@id, 'title-level-1-7-ns')]" />
+		<Object objname="Topstandardorder" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-4-1-7')]" />
+		<Object objname="Account" Propname1="zpath"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_0')]" />
+		<Object objname="Frequency" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_1')]" />
+		<Object objname="Search" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_14')]" />
+		<Object objname="FromAcctCombo" Propname1="xpath"
+			Propval1="//*[starts-with(@class ,'dijitReset dijitInputField dijitArrowButtonInner')][1]" />
+		<Object objname="Frq" Propname1="xpath"
+			Propval1="//*[starts-with(@class ,'dijitReset dijitInputField dijitArrowButtonInner')][1]" />
+	</Page>
+
+	<Page Pgname="BENEFICIARY_MANAGEMENT">
+
+
+		<Object objname="TransfersLnk"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-4')]" />
+		<Object objname="BeneficiaryManagementTop" Propval1="//*[starts-with(@id, 'title-level-4-2-2')]" />
+		<Object objname="BeneficiaryManagement" Propval1="//*[starts-with(@id, 'title-level-2-2-ns')]" />
+		<Object objname="Beneficiary" Propval1="//*[starts-with(@id, 'title-level-2-ns')]" />
+		<Object objname="beneficiarytype" Propname1="xpath"
+			Propval1="//*[starts-with(@class ,'dijitReset dijitInputField dijitArrowButtonInner')]" />
+		<Object objname="Search" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_14_label')]" />
+		<Object objname="SearchResult" Propname1="xpath"
+			Propval1="//*[@class='dojoxGridDescription']" />
+		<Object objname="NewBENEFICIARY" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_15_label')]" />
+	</Page>
+
+
+	<Page Pgname="JOL_Transfers_BetweenMyAccts">
+
+		<Object objname="TransfersLnk"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-4')]" />
+		<Object objname="btwaccountTop" Propval1="//*[starts-with(@id, 'title-level-4-1-1')]" />
+		<Object objname="btwaccount" Propval1="//*[starts-with(@id, 'title-level-1-1-ns')]" />
+		<Object objname="NewAccount" Propval1="//*[starts-with(@id, 'add_button_ns')]" />
+		<Object objname="Frequency"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_2')]" />
+
+	</Page>
+
+
+	<Page Pgname="JOL_ACCOUNTS_SUMMARY_INQUIRY">
+
+		<Object objname="Accounts"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-2')]" />
+		<Object objname="summaryTop" Propval1="//*[starts-with(@id, 'title-level-2-1-1')]" />
+		<Object objname="summary" Propval1="//*[starts-with(@id, 'title-level-1-1-ns')]" />
+		<Object objname="AccountConfig"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_25_label')]" />
+
+
+	</Page>
+
+	<!-- Ranjan Code -->
+
+	<Page Pgname="Add_New_Beneficiary">
+
+		<Object objname="TransfersLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-4')]" />
+		<Object objname="Add_New_Beneficiary_Menu_N" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'title-level-4-2-1')]" />
+		<Object objname="BeneficiaryType" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'beneficiaryType_ns')]" />
+		<Object objname="Nickname_AddNewBen" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'nickName_ns')]" />
+		<Object objname="AccountNo_AddNewBen" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'accountNumber_ns')]" />
+		<Object objname="BeneficiaryActivationMode" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'beneficiaryActivationMethod_ns')]" />
+		<Object objname="SmartChckBx" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'smartEnabled_ns')]" />
+		<Object objname="ATMChckBx" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'atmEnabled_ns')]" />
+		<Object objname="IVRChckBx" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'ivrEnabled_ns')]" />
+		<Object objname="ProceedBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="CancelTransBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="AddAnotherTran" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'add_button_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'confirmation_button_ns')]" />
+		<Object objname="ModifyBtn" Propname1=".xpath"
+			Propval1="//span[@id='dijit_form_Button_4_label']" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="OTPProceedBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'action_ns')]" />
+		<Object objname="CancelTransBtn_Confirm" Propname1=".xpath"
+			Propval1="(//*[@id='updateIdExpiryButtonDiv'])[2]/parent::div/div[2]" />
+		<Object objname="CancelTransBtn_Cancel" Propname1=".xpath"
+			Propval1="(//*[@id='updateIdExpiryButtonDiv'])[2]/parent::div/div[1]" />
+		<Object objname="Fullname_AddNewBen" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'fullName_ns')]" />
+		<Object objname="IBAN_AddNewBen" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'ibanLocal_ns')]" />
+		<Object objname="SwiftCode_AddNewBen" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'codeSWIFT_ns')]" />
+		<Object objname="Currency_International" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'currency_ns')]" />
+		<Object objname="BankAddress" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'bankAddress_ns')]" />
+		<Object objname="BankCityBranch" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'bankCityBranch_ns')]" />
+		<Object objname="IBAN_International" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'iban_ns')]" />
+		<Object objname="BeneficiariesLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-2-ns')]" />
+		<Object objname="AddNewBeneficiaryLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-2-1-ns')]" />
+		<Object objname="BeneficiarymanagementLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-2-2-ns')]" />
+		<Object objname="DeleteBen" Propname1=".class"
+			Propval1="(//*[@class='a-opt a-delete'])[1]" />
+		<Object objname="HomeBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'finishButton_ns')]" />
+
+
+	</Page>
+
+
+</Main>
+

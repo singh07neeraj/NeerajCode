@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test cases- BAJ">
+	<!-- <test thread-count="5" name="Test" preserve-order="true" verbose="2"> 
+		<classes> <class name="javaTestCases.JOL.transfer.JOL_TRANSFERS_STANDING_ORDERS_MANAGEMENT_TEST" 
+		/> <class name="javaTestCases.JOL.transfer.JOL_TRANSFERS_HISTORY_TEST" /> 
+		<class name="javaTestCases.JOL.transfer.JOL_TRANSFERS_INTERNATIONAL_TEST" 
+		/> <class name="javaTestCases.JOL.transfer.JOL_TRANSFERS_CHARITY_DONATIONS_TEST" 
+		/> </classes> </test> -->
+
+	<test name="full-test" preserve-order="true" verbose="5">
+
+		<packages>
+
+			<!-- <package name="javaTestCases.JOL.transfer.*" /> -->
+			<package name="javaTestCases.JOL.fawri.*" />
+
+			<!-- <package name="javaTestCases.JOL.accounts.*" /> <package name="javaTestCases.JOL.creditCard.*" 
+				/> <package name="javaTestCases.JOL.debitCard.*" /> <package name="javaTestCases.JOL.selfservice.*" 
+				/> <package name="javaTestCases.JOL.aljaziraCapital.*" /> <package name="javaTestCases.JOL.SADAD.*" 
+				/> <package name="javaTestCases.JOL.governmentServices.*" /> -->
+
+		</packages>
+	</test>
+</suite> 

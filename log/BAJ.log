@@ -1,0 +1,38 @@
+2019-05-29 17:17:01,461 - Utilities.TestBase -INFO - Message: Account set details entered by user are :- <br>Data Set = 1<br>User Name = user80202590<br>Password = a1234567<br>From Account(SAR) = ?0104-80158059-001<br>From Account(Foreign) = ?0104-80158059-001<br>To Account(SAR) = ?0104-80158059-002<br>To Account(Foreign) = ?0104-80158059-002
+2019-05-29 17:17:09,790 - Utilities.TestBase -INFO - Message: Opened URL :https://10.250.40.15/wps/portal/rbgm
+2019-05-29 17:17:10,086 - Utilities.TestBase -INFO - Message: Successfully Entered data [ user80202590 ] into field : User Id
+2019-05-29 17:17:10,295 - Utilities.TestBase -INFO - Message: Successfully Entered data [ a1234567 ] into field : Password
+2019-05-29 17:17:29,891 - Utilities.TestBase -INFO - Message: Successfully clicked element- login button
+2019-05-29 17:17:30,003 - Utilities.TestBase -INFO - Message: Otp not provided by code. Entering default OTP from path : C:\Users\baj80000892\eclipse-workspace\BAJ_JOL_Code_Alok\bajSrcFiles\resources\extras\appConfig.xml
+2019-05-29 17:17:30,184 - Utilities.TestBase -INFO - Message: Successfully Entered data [ 0123 ] into field : Otp Input
+2019-05-29 17:17:33,891 - Utilities.TestBase -INFO - Message: Successfully clicked element- Proceed
+2019-05-29 17:17:33,892 - Utilities.TestBase -INFO - Message: Entered otp 0123 as required
+2019-05-29 17:17:33,927 - Utilities.TestBase -INFO - Message: Successfully logged into Smart application
+2019-05-29 17:17:34,006 - Utilities.TestBase -INFO - Message: Successfully logged into the application
+2019-05-29 17:17:34,006 - Utilities.TestBase -INFO - Message: Key 'isMasterClassRun'='true', hence started executing selected master test cases along with all child scenarios
+2019-05-29 17:17:34,014 - Utilities.TestBase -INFO - ***** Test case execution of Class javaTestCases.JOL.accounts.JOL_ACCOUNTS_DEAILS_INQUIRY_TESTstarted******
+2019-05-29 17:17:34,037 - Utilities.TestBase -INFO - Otp is not required by the screen.
+2019-05-29 17:17:34,038 - Utilities.TestBase -INFO - Message: Staretd execution of test case -> JOL Account - Details
+2019-05-29 17:17:37,442 - Utilities.TestBase -INFO - Otp is not required by the screen.
+2019-05-29 17:17:37,443 - Utilities.TestBase -INFO - Message: ***************All test cases of Class javaTestCases.JOL.accounts.JOL_ACCOUNTS_DEAILS_INQUIRY_TEST executed******
+2019-05-29 17:17:37,445 - Utilities.TestBase -INFO - ***** Test case execution of Class javaTestCases.JOL.accounts.JOL_ACCOUNT_OPEN_ADDITIONAL_ACCOUNT_TESTstarted******
+2019-05-29 17:17:37,459 - Utilities.TestBase -INFO - Otp is not required by the screen.
+2019-05-29 17:17:37,459 - Utilities.TestBase -INFO - Message: Staretd execution of test case -> JOL Account - Open Additional Account
+2019-05-29 17:17:40,850 - Utilities.TestBase -INFO - Otp is not required by the screen.
+2019-05-29 17:17:40,851 - Utilities.TestBase -INFO - Message: ***************All test cases of Class javaTestCases.JOL.accounts.JOL_ACCOUNT_OPEN_ADDITIONAL_ACCOUNT_TEST executed******
+2019-05-29 17:17:40,852 - Utilities.TestBase -INFO - ***** Test case execution of Class javaTestCases.JOL.accounts.OpenHouseholdAccount_Teststarted******
+2019-05-29 17:17:40,867 - Utilities.TestBase -INFO - Otp is not required by the screen.
+2019-05-29 17:17:40,868 - Utilities.TestBase -INFO - Message: Staretd execution of test case -> JOL Account - Open Household Account
+2019-05-29 17:17:44,245 - Utilities.TestBase -INFO - Otp is not required by the screen.
+2019-05-29 17:17:44,246 - Utilities.TestBase -INFO - Message: ***************All test cases of Class javaTestCases.JOL.accounts.OpenHouseholdAccount_Test executed******
+2019-05-29 17:17:44,246 - Utilities.TestBase -INFO - ***** Test case execution of Class javaTestCases.JOL.accounts.JOL_ACCOUNTS_ORDERCHECKBOOK_Teststarted******
+2019-05-29 17:17:44,261 - Utilities.TestBase -INFO - Otp is not required by the screen.
+2019-05-29 17:17:44,262 - Utilities.TestBase -INFO - Message: Staretd execution of test case -> JOL Account - OrderChechBook
+2019-05-29 17:17:47,655 - Utilities.TestBase -INFO - Otp is not required by the screen.
+2019-05-29 17:17:47,656 - Utilities.TestBase -INFO - Message: ***************All test cases of Class javaTestCases.JOL.accounts.JOL_ACCOUNTS_ORDERCHECKBOOK_Test executed******
+2019-05-29 17:17:47,657 - Utilities.TestBase -INFO - ***** Test case execution of Class javaTestCases.JOL.accounts.JOL_ACCOUNT_REPORT_LOST_STOLEN_CHEQUES_TESTstarted******
+2019-05-29 17:17:47,670 - Utilities.TestBase -INFO - Otp is not required by the screen.
+2019-05-29 17:17:47,670 - Utilities.TestBase -INFO - Message: Staretd execution of test case -> JOL Account - Report Lost Stolen Cheques
+2019-05-29 17:17:51,057 - Utilities.TestBase -INFO - Otp is not required by the screen.
+2019-05-29 17:17:51,058 - Utilities.TestBase -INFO - Message: ***************All test cases of Class javaTestCases.JOL.accounts.JOL_ACCOUNT_REPORT_LOST_STOLEN_CHEQUES_TEST executed******
+2019-05-29 17:17:52,350 - Utilities.TestBase -INFO - *********** All test classes run. Extent report generated and put in : C:\Users\baj80000892\eclipse-workspace\BAJ_JOL_Code_Alok\extentReports .Quitting browser**********

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PublicVariable_Config>
+	<!-- Enter Smart , JOL , eCorp or ALL -->
+	<PublicVariable name="Channel">
+		<name>JOL</name>
+	</PublicVariable>
+	<PublicVariable name="AlmasiUsername">
+		<name>user230073</name>
+		<!-- <name>user80158598< b1234567/name> -->
+	</PublicVariable>
+	<PublicVariable name="eCorpUser">
+		<name>corp189988</name>
+	</PublicVariable>
+
+	<PublicVariable name="AlmasiPassword">
+		<name>b1234567</name>
+	</PublicVariable>
+	<PublicVariable name="CreditAlmasiAccNo">
+		<name>0302-80080394-001</name>
+	</PublicVariable>
+	<PublicVariable name="DebitAlmasiAccNo">
+		<name>‭0104-80080394-002</name>
+	</PublicVariable>
+	<PublicVariable name="SADADTestingData">
+		<name>C:\\Users\\baj80000445\\BAJ_Automation\\</name>
+	</PublicVariable>
+	<PublicVariable name="UATJOLLoginPageURL">
+		<name>https://10.250.40.15/wps/portal/rbg
+		</name>
+	</PublicVariable>
+	<PublicVariable name="UATSmartLoginPageURL">
+		<name>https://10.250.40.15/wps/portal/rbgm
+		</name>
+	</PublicVariable>
+	<PublicVariable name="UATeCorpLoginPageURL">
+		<name>https://10.250.40.15/wps/portal/cbg/
+		</name>
+	</PublicVariable>
+	<PublicVariable name="UATMWTrackPort">
+		<name>7963</name>
+	</PublicVariable>
+	<PublicVariable name="UATMWTrackIP">
+		<name>10.250.39.31</name>
+	</PublicVariable>
+	<PublicVariable name="language">
+		<name>en</name>
+	</PublicVariable>
+	<PublicVariable name="AUT_DBIPPort">
+		<name>10.242.25.108:1433</name>
+	</PublicVariable>
+	<PublicVariable name="AUT_DBName">
+		<name>UAT1</name>
+	</PublicVariable>
+	<PublicVariable name="DB_HostName">
+		<name>10.242.25.126</name>
+	</PublicVariable>
+	<PublicVariable name="DB_Port">
+		<name>1521</name>
+	</PublicVariable>
+	<PublicVariable name="DB_ServiceName">
+		<name>MWUATT1</name>
+	</PublicVariable>
+	<PublicVariable name="DB_UserName">
+		<name>mw_eai</name>
+	</PublicVariable>
+	<PublicVariable name="DB_Password">
+		<name>mw_eai@uat</name>
+	</PublicVariable>
+	<PublicVariable name="OTP">
+		<name>0123</name>
+	</PublicVariable>
+	<PublicVariable name="IqamaID">
+		<name>2172323137</name>
+	</PublicVariable>
+	<PublicVariable name="HTMLReportLocation">
+		<name>C:\\Users\\baj80000445\\BAJ_Automation\\Automation_</name>
+	</PublicVariable>
+	<PublicVariable name="ScreenshotsLocation">
+		<name>C:\\Users\\baj80000445\\BAJ_Automation\\BAJ_JOL_UAT\\Screenshots
+		</name>
+	</PublicVariable>
+	<PublicVariable name="Email_to">
+		<name>MAAlzait@BAJ.Com.SA,MAAlzait@BAJ.Com.SA</name>
+	</PublicVariable>
+	<PublicVariable name="Email_fromSubject">
+		<name>Automation Report</name>
+	</PublicVariable>
+	<PublicVariable name="Email_from">
+		<name>UAT@BAJ.Com.SA</name>
+		<PublicVariable name="BrowserName">
+			<name>chrome</name>
+			<!-- <PublicVariable name="BrowserName"> <name>Internet Explorer</name> 
+				<PublicVariable name="BrowserName"> <name>Internet Explorer</name> -->
+		</PublicVariable>
+	</PublicVariable>
+</PublicVariable_Config>

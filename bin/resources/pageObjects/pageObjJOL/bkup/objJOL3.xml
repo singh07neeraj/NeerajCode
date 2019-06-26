@@ -1,0 +1,3328 @@
+<?xml version="1.0"?>
+<Main>
+
+
+	<Page Pgname="LogInLandingPage">
+
+		<Object objname="CertificateLnk" Propname1=".class" Propval1="Html.A"
+			Propname2=".name" Propval2="overridelink" />
+		<Object objname="UserName" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'username_ns')]" Propname2=".type"
+			Propval2="text" />
+		<Object objname="password" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'password_ns')]" Propname2=".type"
+			Propval2="text" />
+		<Object objname="LoginButton" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'login_ns')]" Propname2=".type"
+			Propval2="text" />
+		<Object objname="OTP" Propname1=".id" Propval1="otp_ns.*"
+			Propname2=".type" Propval2="text" />
+		<Object objname="OTPProceedBtn" Propname1=".id" Propval1="action_ns.*"
+			Propname2=".class" Propval2="Html.SPAN" />
+		<Object objname="xpath" Propname1="//*[starts-with(@id, 'username_ns')]" />
+		<Object objname="Language" Propname1=".class" Propval1="Html.A"
+			Propname2=".id" Propval2="bajlanglink" />
+		<Object objname="Language" Propname1=".class" Propval1="Html.A"
+			Propname2=".id" Propval2="bajlanglink" />
+
+	</Page>
+
+	<Page Pgname="OTP">
+		<Object objname="OTPField" Propname1=".xpath" Propval1="//*[@name='otp']" />
+		<Object objname="ProceedBtn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'action_ns_')]/.." />
+	</Page>
+
+	<Page Pgname="Menues">
+		<Object objname="Transfers" Propname1=".xpath"
+			Propval1="//*[@class='i i-nav_transfers']/.." />
+		<Object objname="TransfersLocal" Propname1=".xpath"
+			Propval1="//*[@id='title-level-4-1-3']" />
+		<Object objname="Accounts" Propname1=".xpath"
+			Propval1="//*[@id='title-level-firstLink-2']" />
+		<Object objname="AccountsSummary" Propname1=".xpath"
+			Propval1="//*[@id='title-level-2-1-1']" />
+		<Object objname="AccountsDetails" Propname1=".xpath"
+			Propval1="//*[@id='title-level-2-1-2']" />
+		<Object objname="AccountsTransactions" Propname1=".xpath"
+			Propval1="//*[@id='title-level-2-1-3']" />
+		<Object objname="RequestStatementByEMail" Propname1=".xpath"
+			Propval1="//*[@id='title-level-2-1-4']" />
+		<Object objname="OpenAdditionalAccount" Propname1=".xpath"
+			Propval1="//*[@id='title-level-2-1-5']" />
+		<Object objname="AccountsConfiguration" Propname1=".xpath"
+			Propval1="//*[@id='title-level-2-1-6']" />
+		<Object objname="OpenHouseholdAccount" Propname1=".xpath"
+			Propval1="//*[@id='title-level-2-1-7']" />
+		<Object objname="OrderCheckBook" Propname1=".xpath"
+			Propval1="//*[@id='title-level-2-2-1']" />
+		<Object objname="LostOrStolenCheque" Propname1=".xpath"
+			Propval1="//*[@id='title-level-2-2-2']" />
+		<Object objname="Cards" Propname1=".xpath"
+			Propval1="//*[@id='title-level-firstLink-3']" />
+		<Object objname="CDetails" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-1']" />
+		<Object objname="CTransaction" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-2']" />
+		<Object objname="CPendingTransactions" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-3']" />
+		<Object objname="CCardPayments" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-4']" />
+		<Object objname="CCashTransfer" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-5']" />
+		<Object objname="Cestatment" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-6']" />
+		<Object objname="CStopnReplaceCard" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-7']" />
+		<Object objname="CCardPaymentHistory" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-8']" />
+		<Object objname="CDisputePayment" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-9']" />
+		<Object objname="CApplyCreditCard" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-10']" />
+		<Object objname="CTempLimit" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-11']" />
+		<Object objname="CBeneficiaryManagement" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-12']" />
+		<Object objname="CActivateCreditCard" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-13']" />
+		<Object objname="CAddNewBeneficiary" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-14']" />
+		<Object objname="CUpdateOnlineTransactionsStatus" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-15']" />
+		<Object objname="CMokafaatyPointsRedemption" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-16']" />
+		<Object objname="CChangeSupplementaryCardLimit" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-17']" />
+		<Object objname="CResetCardPIN" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-18']" />
+		<Object objname="CreditCardPermanentLimitIncrease" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-19']" />
+		<Object objname="CRequestaSupplementaryCard" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-20']" />
+		<Object objname="RequestaSupplementaryCard" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-21']" />
+		<Object objname="DebitDetails" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-2-1']" />
+		<Object objname="DebitTransaction" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-2-2']" />
+		<Object objname="DebitCardStop" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-2-3']" />
+		<Object objname="DebitLinkTOOtherAccount" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-2-4']" />
+		<Object objname="DebitPOSLimit" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-2-5']" />
+		<Object objname="DebitReplace" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-2-6']" />
+		<Object objname="Cards" Propname1=".xpath"
+			Propval1="//*[@id='title-level-firstLink-3']" />
+		<Object objname="CDetails" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-1']" />
+		<Object objname="CTransaction" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-2']" />
+		<Object objname="CPendingTransactions" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-3']" />
+		<Object objname="CCardPayments" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-4']" />
+		<Object objname="CCashTransfer" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-5']" />
+		<Object objname="Cestatment" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-6']" />
+		<Object objname="CStopnReplaceCard" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-7']" />
+		<Object objname="CCardPaymentHistory" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-8']" />
+		<Object objname="CDisputePayment" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-9']" />
+		<Object objname="CApplyCreditCard" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-10']" />
+		<Object objname="CTempLimit" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-11']" />
+		<Object objname="CBeneficiaryManagement" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-12']" />
+		<Object objname="CActivateCreditCard" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-13']" />
+		<Object objname="CAddNewBeneficiary" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-14']" />
+		<Object objname="CUpdateOnlineTransactionsStatus" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-15']" />
+		<Object objname="CMokafaatyPointsRedemption" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-16']" />
+		<Object objname="CChangeSupplementaryCardLimit" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-17']" />
+		<Object objname="CResetCardPIN" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-18']" />
+		<Object objname="CreditCardPermanentLimitIncrease" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-19']" />
+		<Object objname="CRequestaSupplementaryCard" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-20']" />
+		<Object objname="RequestaSupplementaryCard" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-1-21']" />
+		<Object objname="DebitDetails" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-2-1']" />
+		<Object objname="DebitTransaction" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-2-2']" />
+		<Object objname="DebitCardStop" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-2-3']" />
+		<Object objname="DebitLinkTOOtherAccount" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-2-4']" />
+		<Object objname="DebitPOSLimit" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-2-5']" />
+		<Object objname="DebitReplace" Propname1=".xpath"
+			Propval1="//*[@id='title-level-3-2-6']" />
+
+		<!-- neeraj xml -->
+
+		<!-- Neeraj code -->
+		<Object objname="SelfServices" Propname1=".xpath"
+			Propval1="//*[@id='title-level-firstLink-9']" />
+		<Object objname="SimahRegistration" Propname1=".xpath"
+			Propval1="//*[@id='title-level-9-1-1']" />
+		<Object objname="ExpenseCategorization" Propname1=".xpath"
+			Propval1="//*[@id='title-level-9-1-2']" />
+		<Object objname="ExpenseView" Propname1=".xpath"
+			Propval1="//*[@id='title-level-9-1-3']" />
+		<Object objname="OrderStatus" Propname1=".xpath"
+			Propval1="//*[@id='title-level-9-1-4']" />
+		<Object objname="ViewLimits" Propname1=".xpath"
+			Propval1="//*[@id='title-level-9-1-5']" />
+		<Object objname="CustomerProfile" Propname1=".xpath"
+			Propval1="//*[@id='title-level-9-1-6']" />
+		<Object objname="ChangeUserName" Propname1=".xpath"
+			Propval1="//*[@id='title-level-9-1-7']" />
+		<Object objname="ChangePassword" Propname1=".xpath"
+			Propval1="//*[@id='title-level-9-1-8']" />
+		<Object objname="Changeemail" Propname1=".xpath"
+			Propval1="//*[@id='title-level-9-1-9']" />
+		<Object objname="Contactus" Propname1=".xpath"
+			Propval1="//*[@id='title-level-9-1-10']" />
+		<Object objname="MessageBox" Propname1=".xpath"
+			Propval1="//*[@id='title-level-9-1-11']" />
+		<Object objname="AuditLogs" Propname1=".xpath"
+			Propval1="//*[@id='title-level-9-1-12']" />
+		<Object objname="UpdateNationalAddress" Propname1=".xpath"
+			Propval1="//*[@id='title-level-9-1-13']" />
+		<Object objname="UpdateIDExpiryDate" Propname1=".xpath"
+			Propval1="//*[@id='title-level-9-1-14']" />
+		<Object objname="FXRates" Propname1=".xpath"
+			Propval1="//*[@id='title-level-9-2-1']" />
+		<Object objname="CurrencyConverter " Propname1=".xpath"
+			Propval1="//*[@id='title-level-9-2-2']" />
+		<Object objname="FXRate " Propname1=".xpath"
+			Propval1="//*[contains(@id,'rateConversion_ns')]" />
+
+
+		<!-- Alok code -->
+
+
+		<Object objname="aljaziraCapTab" Propname1=".xpath"
+			Propval1="//*[@id='title-level-firstLink-7']" />
+		<Object objname="subscriptionHistory" Propname1=".xpath"
+			Propval1="//*[@id='title-level-7-1-2']" />
+		<Object objname="redemptionHistory" Propname1=".xpath"
+			Propval1="//*[@id='title-level-7-1-3']" />
+		<Object objname="portfolioValuation" Propname1=".xpath"
+			Propval1="//*[@id='title-level-7-1-6']" />
+		<Object objname="ordersInquiry" Propname1=".xpath"
+			Propval1="//*[@id='title-level-7-1-7']" />
+		<Object objname="ordersInquiryLandingPage" Propname1=".xpath"
+			Propval1="//*[@class='toolbar']" />
+
+		<Object objname="marketInformation" Propname1=".xpath"
+			Propval1="//*[@id='title-level-7-1-8']" />
+		<Object objname="marketInfoLandingPage" Propname1=".xpath"
+			Propval1="//*[@class='toolbar']" />
+
+		<Object objname="mutualFundsRate" Propname1=".xpath"
+			Propval1="//*[@id='title-level-7-1-4']" />
+		<Object objname="mutualFundsRateLandingPage" Propname1=".xpath"
+			Propval1="//*[@class='toolbar']" />
+
+	</Page>
+
+	<Page Pgname="Logout">
+		<Object objname="LogoutBtn" Propname1=".class" Propval1="Html.A"
+			Propname2=".id" Propval2="login" />
+		<Object objname="BrowserClose" Propname1=".class" Propval1="Html.HtmlBrowser"
+			Propname2="" Propval2="" />
+	</Page>
+
+
+	<Page Pgname="LocalTransfers">
+
+		<Object objname="TransfersLnk" Propname1="xpath"
+			Propval1=" //*[starts-with(@id, 'title-level-firstLink-4')]" />
+		<Object objname="LocalTop" Propname1=".xpath"
+			Propval1="//*[@id='title-level-4-1-3']" />
+		<Object objname="LocalLeft" Propname1="xpath"
+			Propval1=" //*[starts-with(@id, 'title-level-1-3')]" />
+		<Object objname="AccountNumber"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_0')]" />
+		<Object objname="AccountNumberDropdownDropdown"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_1')]/div" />
+		<Object objname="Beneficiary" Propval1="//*[starts-with(@id, 'toBeneficiaryId')]" />
+		<Object objname="BeneficiaryDropdownDropdown"
+			Propval1="//*[starts-with(@id, 'widget_toBeneficiaryId_ns')]/div" />
+		<Object objname="AmountTxt" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'aljazira_AmountTextBox_0')]" />
+		<Object objname="ChkErrorMsg" Propname1=".id"
+			Propval1="aljazira_AmountTextBox_0" />
+		<Object objname="CheckBox" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'termConditions_ns')]" />
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="Confirm" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="modify" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="cancel" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Schedule" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_RadioButton_3')]" />
+		<Object objname="stdorder" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_RadioButton_4')]" />
+		<Object objname="nickName_ns" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_ValidationTextBox_1')]" />
+		<Object objname="StartDate" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_1')]" />
+		<Object objname="endDate" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_2')]" />
+		<Object objname="Frequency" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_1')]" />
+		<Object objname="STDNickName" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'nickNameStanding_ns')]" />
+		<Object objname="cancelButton" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="modify" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="yes" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_10_label')]" />
+		<Object objname="SelectBenificiary" Propname1=".xpath"
+			Propval1="(//*[@class='dijitReset dijitInputField dijitArrowButtonInner'])[2]/.." />
+		<Object objname="AmountValue" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_AmountTextBox_0']" />
+		<Object objname="termConditions" Propname1=".xpath"
+			Propval1="//*[@name='termConditions']" />
+		<Object objname="proceedBtn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'addAndProceed_button_ns')]" />
+		<Object objname="modifyBtn" Propname1=".xpath"
+			Propval1="//*[@id='dijit_form_Button_4_label']" />
+		<Object objname="standingOrderCheckBox" Propname1=".xpath"
+			Propval1="//*[@id='dijit_form_RadioButton_4']" />
+		<Object objname="nickNameInput" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'nickNameStanding_ns_Z7_')])[2]" />
+		<Object objname="startDateDropDown" Propname1=".xpath"
+			Propval1="(//*[@class='dijitReset dijitInputField dijitArrowButtonInner'])[6]" />
+		<Object objname="startDateVal" Propname1=".xpath"
+			Propval1="//*[@data-dojo-attach-point='dateRowsNode']//tr[3]//td[2]" />
+		<Object objname="endDateDropDown" Propname1=".xpath"
+			Propval1="(//*[@class='dijitReset dijitInputField dijitArrowButtonInner'])[7]/.." />
+		<Object objname="endDateVal" Propname1=".xpath"
+			Propval1="(//*[@data-dojo-attach-point='dateRowsNode']//tr[5]//td[4])[2]" />
+		<Object objname="freqInput" Propname1=".xpath"
+			Propval1="//*[@id='widget_dijit_form_FilteringSelect_1']" />
+		<Object objname="freqInputDropDown" Propname1=".xpath"
+			Propval1="(//*[@class='dijitReset dijitInputField dijitArrowButtonInner'])[8]/.." />
+		<Object objname="confirmBtn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'confirmation_button_ns')]" />
+		<Object objname="txfrSuccessMsg" Propname1=".xpath"
+			Propval1="//*[@class='tit tit-green']" />
+		<Object objname="saveTxnBtn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'dijit_form_Button_')]" />
+		<Object objname="homeBtn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'finishButton_ns')]" />
+		<Object objname="acceptBtn" Propname1=".xpath"
+			Propval1="//*[@id='dijit_form_Button_76_label']" />
+		<Object objname="Addanothertransaction" Propname1=".xpath"
+			Propval1="(//*[starts-with(@id,'add_button_ns_Z7')])[2]" />
+
+
+	</Page>
+
+	<!-- Neeraj code -->
+
+	<Page Pgname="JOL_SELFSERVICE_changeemail">
+
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="SelfServices"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-9')]" />
+		<Object objname="changeemail" Propval1="//*[starts-with(@id, 'title-level-1-9-ns')]" />
+		<Object objname="email"
+			Propval1="//*[starts-with(@id, 'dijit_form_ValidationTextBox_1')]" />
+		<Object objname="proceed"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="nochange" Propval1="//*[starts-with(@id, 'no_change_button_ns')]" />
+		<Object objname="cancel" Propval1="//*[starts-with(@id, 'cancelButton_ns_')]" />
+		<Object objname="confirm"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="modify"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="OTPProceedBtn" Propval1="//*[starts-with(@id, 'action_ns_Z7_')]" />
+		<Object objname="error"
+			Propval1="//*[contains(@class,'dijitValidationTextBoxError')]" />
+
+
+		<Object objname="OTPBack"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="OTPCancelConfirm"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_10_label')]" />
+		<Object objname="OTPCancelCancel"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_9_label')]" />
+		<Object objname="modify"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'finishButton_ns_Z7')]" />
+		<Object objname="NewTransactionBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="HomepageSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'graphic_link_ns')]" />
+		<Object objname="failMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-red')]" />
+		<Object objname="SuccessMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-green')]" />
+		<Object objname="HomepageSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'graphic_link_ns')]" />
+
+
+
+
+	</Page>
+
+
+	<Page Pgname="TempLimitIncrease">
+
+		<Object objname="Limit" Propval1="//*[starts-with(@id, 'title-level-1-11')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="CreditCard"
+			Propval1="//*[starts-with(@id, 'aljazira_FilteringSelect_0')]" />
+		<Object objname="Amount"
+			Propval1="//*[starts-with(@id, 'aljazira_AmountTextBox_0')]" />
+		<Object objname="Date"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_0')]" />
+		<Object objname="Conditioncheck" Propval1="//*[starts-with(@id, 'termConditions_ns_Z7')]" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="Cancel" Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Confirm"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="modify" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="CancelYes" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_10_label')]" />
+		<Object objname="failMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-red')]" />
+		<Object objname="SuccessMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-green')]" />
+		<Object objname="CreditCardDropdown"
+			Propval1="//*[starts-with(@id, 'widget_aljazira_FilteringSelect_')]/div" />
+		<Object objname="CreditCard"
+			Propval1="//*[starts-with(@id, 'aljazira_FilteringSelect_0')]" />
+		<Object objname="percent"
+			Propval1="//*[starts-with(@id, 'dijit_form_RadioButton_1')]" />
+		<Object objname="percentValue"
+			Propval1="//*[starts-with(@id, 'increaseByPercentage_ns')]" />
+		<Object objname="percentValueDropDown"
+			Propval1="//*[starts-with(@id, 'widget_increaseByPercentage_ns_Z7')]/div" />
+
+		<Object objname="CheckBoxTC" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'termConditions_ns')]" />
+		<Object objname="TnCpoup" Propname1=".xpath"
+			Propval1="//*[starts-with(@onclick, 'showTermsAndConditionsDialog_ns')]" />
+		<Object objname="TnCAgree" Propname1=".xpath"
+			Propval1="//*[starts-with(@for, 'radioAccept_ns_Z7')]" />
+
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'finishButton_ns_Z7')]" />
+		<Object objname="NewTransactionBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="HomepageSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'graphic_link_ns')]" />
+
+
+
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_1')])[2]" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_2')])[2]" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_3')])[2]" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'aljazira_ValidationTextArea_0')])" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_')]" />
+		<Object objname="sendBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[17]" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[16]" />
+
+		<Object objname="pdfDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="excelDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_excelTool_0']//a" />
+		<Object objname="printBtnIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_printTool_0']//a" />
+		<Object objname="WaitingElements" Propname1=".xpath"
+			Propval1="//*[@id='overlayInfo']" />
+
+
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'finishButton_ns_Z7')]" />
+		<Object objname="NewTransactionBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="HomepageSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'graphic_link_ns')]" />
+
+
+	</Page>
+
+
+
+
+	<Page Pgname="JOL_SELFSERVICE_ExpenseCategorization">
+		<Object objname="SelfServices"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-9')]" />
+		<Object objname="ExpenseCategorization" Propval1="//*[starts-with(@id, 'title-level-1-2-ns')]" />
+		<Object objname="NewCategory"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_14_label')]" />
+		<Object objname="Categorytextbox"
+			Propval1="//*[starts-with(@id, 'dijit_form_ValidationTextBox_1')]" />
+		<Object objname="Categorysave" Propval1="//*[starts-with(@id, 'buttonSave_ns')]" />
+		<Object objname="Categorycancel" Propval1="//*[starts-with(@id, 'buttonCancel_ns')]" />
+		<Object objname="disablestatus"
+			Propval1="//*[starts-with(@id, 'dijit_form_RadioButton_1')]" />
+		<Object objname="Delete" Propval1="//*[contains(@onclick,'deleteCateg')]" />
+		<Object objname="save" Propval1="//*[contains(@id,'buttonSave_ns_Z7_')]" />
+		<Object objname="Cancel" Propval1="//*[contains(@id,'buttonCancel_ns')]" />
+		<Object objname="deleteConfirm" Propval1="//*[text()='Confirm']" />
+
+
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_2')])[2]" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_3')])[2]" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_4')])[2]" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_5')])[2]" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_')]" />
+		<Object objname="sendBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[17]" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[16]" />
+
+		<Object objname="pdfDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="excelDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_excelTool_0']//a" />
+		<Object objname="printBtnIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_printTool_0']//a" />
+
+	</Page>
+
+	<Page Pgname="JOL_SELFSERVICE_ORDERSTATUS">
+
+		<Object objname="Accounts"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-2')]" />
+		<Object objname="OrderStatus" Propval1="//*[starts-with(@id, 'title-level-1-4')]" />
+		<Object objname="landedPage" Propval1="//*[@class='toolbar']" />
+		<Object objname="AccountConfig"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_25_label')]" />
+
+		<Object objname="ItemDisplay" Propval1="//*[@class='dojoxGridDescription']" />
+		<Object objname="SelfServices"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-9')]" />
+		<Object objname="Search"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_30_label')]" />
+
+		<Object objname="error" Propval1="//*[contains(@class,'dijitComboBoxError')]" />
+
+		<Object objname="FromDate"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_0')]" />
+		<Object objname="TODate"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_1')]" />
+
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_1')])[2]" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_2')])[2]" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_3')])[2]" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_4')])[2]" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_')]" />
+		<Object objname="sendBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[17]" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[16]" />
+
+		<Object objname="pdfDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="excelDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_excelTool_0']//a" />
+		<Object objname="printBtnIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_printTool_0']//a" />
+	</Page>
+
+
+
+	<Page Pgname="JOL_SELFSERVICE_EXPENCEVIEW">
+
+		<Object objname="SelfServices"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-9')]" />
+		<Object objname="ExpenseView" Propval1="//*[starts-with(@id, 'title-level-1-3-ns')]" />
+		<Object objname="MyFinancialPosition" Propval1="//*[starts-with(@id, 'totals_ns_')]" />
+		<Object objname="FromDate"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_0')]" />
+		<Object objname="TODate"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_1')]" />
+		<Object objname="Search"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_26_label')]" />
+		<Object objname="ExpensesPaymentsbycategory" Propval1="//*[starts-with(@id, 'byCategory_link_ns')]" />
+		<Object objname="error" Propval1="//*[contains(@class,'dijitComboBoxError')]" />
+		<Object objname="Balance" Propval1="//*[starts-with(@id, 'totals_categoryns')]" />
+
+
+
+
+
+	</Page>
+
+
+
+	<Page Pgname="JOL_SELFSERVICE_VIEWLIMIT">
+
+		<Object objname="SelfServices"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-9')]" />
+		<Object objname="viewLimit" Propval1="//*[starts-with(@id, 'title-level-1-5-ns')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="TotalItems"
+			Propval1="//*[starts-with(@class, 'dojoxGridDescription')]" />
+
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_1')])[2]" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_2')])[2]" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_3')])[2]" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_4')])[2]" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_')]" />
+		<Object objname="sendBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[17]" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[16]" />
+
+		<Object objname="pdfDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="excelDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_excelTool_0']//a" />
+		<Object objname="printBtnIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_printTool_0']//a" />
+		<Object objname="WaitingElements" Propname1=".xpath"
+			Propval1="//*[@id='overlayInfo']" />
+
+
+
+	</Page>
+
+
+
+
+	<Page Pgname="JOL_SELFSERVICE_CUSTOMERPROFILE">
+		<Object objname="SelfServices"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-9')]" />
+		<Object objname="CustomerProfile" Propval1="//*[starts-with(@id, 'title-level-1-6-ns')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="Name" Propval1="//*[starts-with(@class, 'form-field')]//input" />
+		<Object objname="LandingPage" Propval1="(//*[starts-with(@id, 'landingPage_ns_')])[1]" />
+		<Object objname="LandingPageDropDown"
+			Propval1="(//*[starts-with(@id, 'widget_landingPage_ns_Z7_')])[1]/div" />
+		<Object objname="Cancel"
+			Propval1="(//*[starts-with(@id, 'cancelButton_ns_Z7')])[1]" />
+		<Object objname="HomePage"
+			Propval1="(//*[starts-with(@id, 'graphic_link_ns_Z')])[1]" />
+
+
+
+	</Page>
+	<Page Pgname="JOL_SELFSERVICE_CONTACT_US">
+		<Object objname="SelfServices"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-9')]" />
+		<Object objname="Contactus" Propval1="//*[starts-with(@id, 'title-level-1-10-ns')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="Name" Propval1="//*[starts-with(@class, 'form-field')]//input" />
+		<Object objname="email" Propval1="(//*[starts-with(@class, 'toolbar')])[2]" />
+
+	</Page>
+
+	<Page Pgname="JOL_SELFSERVICE_MESSAGE_BOX">
+
+		<Object objname="SelfServices"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-9')]" />
+
+		<Object objname="msgbox" Propval1="//*[starts-with(@id, 'title-level-1-11-ns')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="Name" Propval1="//*[starts-with(@class, 'form-field')]//input" />
+		<Object objname="FromDate"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_0')]" />
+		<Object objname="TODate"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_1')]" />
+		<Object objname="Search"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_41_label')]" />
+		<Object objname="AuditSearch" Propval1="//*[starts-with(@id, 'searchButton_ns')]" />
+		<Object objname="RatenCal" Propval1="//*[starts-with(@id, 'title-level-2-ns')]" />
+		<Object objname="FXRate" Propval1="//*[starts-with(@id, 'title-level-2-1-ns')]" />
+		<Object objname="TotalItems"
+			Propval1="//*[starts-with(@class, 'dojoxGridDescription')]" />
+		<Object objname="AuditLogs" Propval1="//*[starts-with(@id, 'title-level-1-12-ns')]" />
+		<Object objname="CurrencyError" Propname1=".xpath"
+			Propval1="//*[contains(@class,'Error')]" />
+		<Object objname="Action" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'transactionSelector_ns')])[2]" />
+
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_1')])[2]" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_2')])[2]" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_3')])[2]" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_4')])[2]" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_')]" />
+		<Object objname="sendBtnEle" Propname1=".xpath"
+			Propval1="//*[contains(@id,'dijit_form_Button_35_label')]" />
+		<Object objname="sendBtnEmail" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[17]" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[16]" />
+
+		<Object objname="pdfDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="excelDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_excelTool_0']//a" />
+		<Object objname="printBtnIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_printTool_0']//a" />
+		<Object objname="type" Propname1=".xpath"
+			Propval1="//*[@id='dijit_form_FilteringSelect_0']" />
+		<Object objname="status" Propname1=".xpath"
+			Propval1="//*[@id='dijit_form_FilteringSelect_1']" />
+		<Object objname="Error" Propname1=".xpath"
+			Propval1="//*[contains(@class,'dijitComboBoxError')]" />
+
+
+
+	</Page>
+	<Page Pgname="FXRates">
+
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_1')])[2]" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_2')])[2]" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_3')])[2]" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_4')])[2]" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_')]" />
+		<Object objname="sendBtnEle" Propname1=".xpath"
+			Propval1="//*[contains(@id,'dijit_form_Button_23_label')]" />
+		<Object objname="sendBtnEmail" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[17]" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="/(//*[@id='dijit_form_Form_1']/div/div)[16]" />
+
+		<Object objname="pdfDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="excelDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_excelTool_0']//a" />
+		<Object objname="printBtnIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_printTool_0']//a" />
+
+	</Page>
+
+	<Page Pgname="Card">
+
+		<Object objname="Details" Propval1="//*[starts-with(@id, 'title-level-1-1-ns')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="Table" Propval1="//*[starts-with(@id, 'grid_link_ns')]" />
+		<Object objname="Graphic" Propval1="//*[starts-with(@id, 'graphic_link_ns')]" />
+		<Object objname="CardNumber" Propval1="(//*[starts-with(@title, 'Details')])[5]" />
+		<Object objname="GraphicLandPage" Propval1="//*[starts-with(@class, 'shadow')]" />
+		<Object objname="IconViewLandPage" Propval1="//*[starts-with(@class, 'card-img')]" />
+		<Object objname="Transaction" Propval1="//*[starts-with(@id, 'title-level-1-2')]" />
+		<Object objname="CreditCardNUmber"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_0')]" />
+		<Object objname="statment"
+			Propval1="//*[starts-with(@id, 'dijit_form_RadioButton_2')]" />
+		<Object objname="Advance"
+			Propval1="//*[starts-with(@id, 'dijit_form_RadioButton_1')]" />
+		<Object objname="Period"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_2')]" />
+		<Object objname="Search"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_14_label')]" />
+		<Object objname="NoResult" Propval1="//*[starts-with(@class, 'alert-txt')]" />
+		<Object objname="FromDate"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_0')]" />
+		<Object objname="TODate"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_1')]" />
+		<Object objname="AdvanceSearch"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_32_label')]" />
+		<Object objname="StatmentPeriod"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_3')]" />
+		<Object objname="StatmentSearch"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_15_label')]" />
+		<Object objname="Pending" Propval1="//*[starts-with(@id, 'title-level-1-3')]" />
+		<Object objname="CardPayment" Propval1="//*[starts-with(@id, 'title-level-1-4')]" />
+		<Object objname="cancelButton" Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="MyCard" Propval1="//*[starts-with(@id, 'myCardsList_ns')]" />
+		<Object objname="formAccount"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_1')]" />
+		<Object objname="Paymin"
+			Propval1="//*[starts-with(@id, 'dijit_form_RadioButton_2')]" />
+		<Object objname="PayoutstandingBAL"
+			Propval1="//*[starts-with(@id, 'dijit_form_RadioButton_3')]" />
+		<Object objname="otheramt"
+			Propval1="//*[starts-with(@id, 'dijit_form_RadioButton_4')]" />
+		<Object objname="amypay" Propval1="//*[starts-with(@id, 'amountToPay')]" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="addanotherTransaction" Propval1="//*[starts-with(@id, 'add_button_ns_')]" />
+		<Object objname="Confirm"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="modify" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="CancelYes" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_10_label')]" />
+		<Object objname="failMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-red')]" />
+		<Object objname="SuccessMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-green')]" />
+
+		<Object objname="CreditCardDropdown"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_0')]/div" />
+
+		<Object objname="CreditCard"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_0')]" />
+		<Object objname="HomePAgeError" Propval1="//*[contains(@class,'dijitValidationInner')]" />
+		<Object objname="OtherCard" Propval1="//*[@id='dijit_form_RadioButton_1']" />
+		<Object objname="NickName" Propval1="(//*[contains(@id,'alias_ns_Z7')])[2]" />
+		<Object objname="sadadrefNO" Propval1="(//*[contains(@id,'bill')])[3]" />
+		<Object objname="registerCard" Propval1="(//*[contains(@id,'registerCard_ns_Z7_')])" />
+		<Object objname="OtherCardAmount" Propval1="(//*[contains(@id,'amountToPay')])[2]" />
+
+
+		<Object objname="AddAsFavourite" Propname1=".xpath"
+			Propval1="//span[@id='aljazira_ReportingBar_addAsFavoriteTool_0']" />
+		<Object objname="SendByEmail" Propname1=".xpath"
+			Propval1="//span[@id='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="ExportPDF" Propname1=".xpath"
+			Propval1="//span[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="Print" Propname1=".xpath"
+			Propval1="//span[@id='aljazira_ReportingBar_printTool_0']" />
+
+		<Object objname="NickName_Txt" Propname1=".xpath"
+			Propval1="//input[@id='dijit_form_ValidationTextBox_0']" />
+		<Object objname="AddAsFav_Save_Btn" Propname1=".xpath"
+			Propval1="//span[@id='dijit_form_Button_6_label']" />
+		<Object objname="SendByEmail_Send_Btn" Propname1=".xpath"
+			Propval1="//span[@id='dijit_form_Button_16_label']" />
+
+		<Object objname="ErrorMsg_SendByEmail" Propname1=".xpath"
+			Propval1="//div[@class='dijitDialogPaneContent']//div[@id='dojoAlertDialogContainerMessageGrid' and @class='grid_4']" />
+
+		<Object objname="WaitingElements" Propname1=".xpath"
+			Propval1="//*[@id='overlayInfo']" />
+
+		<Object objname="error" Propname1=".xpath"
+			Propval1="//*[contains(@class,'dijitComboBoxError')]" />
+
+	</Page>
+	<Page Pgname="emailTransactions">
+
+
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_1')])[2]" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_2')])[2]" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_3')])[2]" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_4')])[2]" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_')]" />
+		<Object objname="sendBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[17]" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[16]" />
+
+		<Object objname="pdfDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="excelDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_excelTool_0']//a" />
+		<Object objname="printBtnIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_printTool_0']//a" />
+		<Object objname="WaitingElements" Propname1=".xpath"
+			Propval1="//*[@id='overlayInfo']" />
+	</Page>
+
+
+	<Page Pgname="emailPendingTransactions">
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_1')])[2]" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_2')])[2]" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_3')])[2]" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_4')])[2]" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_')]" />
+		<Object objname="sendBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[17]" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[16]" />
+
+		<Object objname="pdfDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="excelDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_excelTool_0']//a" />
+		<Object objname="printBtnIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_printTool_0']//a" />
+		<Object objname="WaitingElements" Propname1=".xpath"
+			Propval1="//*[@id='overlayInfo']" />
+
+	</Page>
+
+	<Page Pgname="CashTransfer">
+
+		<Object objname="CashTransfer" Propval1="//*[starts-with(@id, 'title-level-1-5-ns')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="CreditCardNUmber"
+			Propval1="(//*[starts-with(@id, 'dijit_form_FilteringSelect_0')])[1]" />
+		<Object objname="Account"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_2')]" />
+		<Object objname="Amount"
+			Propval1="//*[starts-with(@id, 'aljazira_AmountTextBox_0')]" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="Cancel" Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Confirm"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="modify" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="CancelYes" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_10_label')]" />
+		<Object objname="cancelButton" Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="failMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-red')]" />
+		<Object objname="SuccessMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-green')]" />
+		<Object objname="CreditCardDropdown"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_0')]/div" />
+		<Object objname="MyCard"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_0')]" />
+		<Object objname="formAccount"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_2')]" />
+
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_1')])[2]" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_2')])[2]" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_3')])[2]" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_4')])[2]" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_')]" />
+		<Object objname="sendBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[17]" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[16]" />
+
+		<Object objname="pdfDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="excelDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_excelTool_0']//a" />
+		<Object objname="printBtnIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_printTool_0']//a" />
+		<Object objname="WaitingElements" Propname1=".xpath"
+			Propval1="//*[@id='overlayInfo']" />
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'finishButton_ns_Z7')]" />
+		<Object objname="NewTransactionBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="HomepageSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'graphic_link_ns')]" />
+
+	</Page>
+
+
+	<Page Pgname="EStatment">
+
+		<Object objname="estatment"
+			Propval1="//*[starts-with(@id, 'title-level-1-6-ns_Z7')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="Search"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_14_label')]" />
+		<Object objname="Account"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_0')]" />
+		<Object objname="Result"
+			Propval1="//*[starts-with(@class, 'dojoxGridDescription')]" />
+
+
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_1')])[2]" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_2')])[2]" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_3')])[2]" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_4')])[2]" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_')]" />
+		<Object objname="sendBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[17]" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[16]" />
+
+		<Object objname="pdfDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="excelDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_excelTool_0']//a" />
+		<Object objname="printBtnIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_printTool_0']//a" />
+		<Object objname="WaitingElements" Propname1=".xpath"
+			Propval1="//*[@id='overlayInfo']" />
+		<Object objname="error" Propname1=".xpath"
+			Propval1="//*[contains(@class,'dijitComboBoxError')]" />
+
+
+
+	</Page>
+
+
+
+	<Page Pgname="CardPaymentHistory">
+
+		<Object objname="history" Propval1="//*[starts-with(@id, 'title-level-1-8')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="Search"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_30_label')]" />
+		<Object objname="CreditCardNumber"
+			Propval1="(//*[starts-with(@id, 'dijit_form_FilteringSelect_0')])[1]" />
+		<Object objname="AccountNumber"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_2')]" />
+		<Object objname="Result"
+			Propval1="//*[starts-with(@class, 'dojoxGridDescription')]" />
+		<Object objname="startdate"
+			Propval1="//*[@id='aljazira_widgets_calendar_form_EnhancedDateTextBox_0']" />
+		<Object objname="enddate"
+			Propval1="//*[@id='aljazira_widgets_calendar_form_EnhancedDateTextBox_1']" />
+		<Object objname="amountfrom" Propval1="//*[@id='aljazira_AmountTextBox_0']" />
+		<Object objname="amountto" Propval1="//*[@id='aljazira_AmountTextBox_1']" />
+
+		<Object objname="Result"
+			Propval1="//*[starts-with(@class, 'dojoxGridDescription')]" />
+
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_1')])[2]" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_2')])[2]" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_3')])[2]" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_4')])[2]" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_')]" />
+		<Object objname="sendBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[17]" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[16]" />
+
+		<Object objname="pdfDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="excelDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_excelTool_0']//a" />
+		<Object objname="printBtnIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_printTool_0']//a" />
+		<Object objname="WaitingElements" Propname1=".xpath"
+			Propval1="//*[@id='overlayInfo']" />
+		<Object objname="error" Propname1=".xpath"
+			Propval1="//*[contains(@class,'dijitComboBoxError')]" />
+
+	</Page>
+
+	<Page Pgname="ApplyCreditCard">
+
+		<Object objname="applyCreditCard" Propval1="//*[starts-with(@id, 'title-level-1-10-ns')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="CreditCardType"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_0')]" />
+		<Object objname="CreditCard"
+			Propval1="(//*[starts-with(@id, 'dijit_form_FilteringSelect_1')])[1]" />
+		<Object objname="Conditioncheck" Propval1="//*[starts-with(@id, 'termConditions_ns_Z7')]" />
+		<Object objname="Result"
+			Propval1="//*[starts-with(@class, 'dojoxGridDescription')]" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="Cancel" Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="city" Propval1="//*[starts-with(@id, 'locationCity_ns')]" />
+		<Object objname="area" Propval1="//*[starts-with(@id, 'area_ns_')]" />
+		<Object objname="street" Propval1="//*[starts-with(@id, 'street_ns')]" />
+		<Object objname="Confirm"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="modify" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="CancelYes" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_10_label')]" />
+		<Object objname="failMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-red')]" />
+		<Object objname="SuccessMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-green')]" />
+		<Object objname="email" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'email_ns_Z7')]" />
+		<Object objname="NameonCard" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_ValidationTextBox_1')]" />
+
+		<Object objname="PickupfromBranch" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'deliveryOptionsBranch_ns')]" />
+		<Object objname="expressmail" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'deliveryOptionsExpress_ns')]" />
+
+		<Object objname="Branch"
+			Propval1="//*[starts-with(@id, 'deliveryBranchList_ns')]" />
+		<Object objname="BranchDropdown"
+			Propval1="//*[starts-with(@id, 'widget_deliveryBranchList_ns')]/div" />
+		<Object objname="CheckBoxTC" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'termConditions_ns')]" />
+		<Object objname="TnCpoup" Propname1=".xpath"
+			Propval1="//*[starts-with(@onclick, 'showTermsAndConditionsDialog_ns')]" />
+		<Object objname="TnCAgree" Propname1=".xpath"
+			Propval1="//*[starts-with(@for, 'radioAccept_ns_Z7')]" />
+
+		<Object objname="CreditcardTxt" Propname1=".xpath"
+			Propval1="(//*[@class='transfers-issue'])[1]" />
+
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'finishButton_ns_Z7')]" />
+		<Object objname="NewTransactionBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="HomepageSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'graphic_link_ns')]" />
+
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_1')])[2]" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_2')])[2]" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_3')])[2]" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_4')])[2]" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_')]" />
+		<Object objname="sendBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[17]" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[16]" />
+
+		<Object objname="pdfDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="excelDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_excelTool_0']//a" />
+		<Object objname="printBtnIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_printTool_0']//a" />
+		<Object objname="WaitingElements" Propname1=".xpath"
+			Propval1="//*[@id='overlayInfo']" />
+	</Page>
+
+
+	<Page Pgname="LimitIncrease">
+
+		<Object objname="Limit" Propval1="//*[starts-with(@id, 'title-level-1-11')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="CreditCard"
+			Propval1="//*[starts-with(@id, 'aljazira_FilteringSelect_0')]" />
+		<Object objname="Amount"
+			Propval1="//*[starts-with(@id, 'aljazira_AmountTextBox_0')]" />
+		<Object objname="Date"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_0')]" />
+		<Object objname="Conditioncheck" Propval1="//*[starts-with(@id, 'termConditions_ns_Z7')]" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="Cancel" Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Confirm"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="modify" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="CancelYes" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_10_label')]" />
+		<Object objname="failMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-red')]" />
+		<Object objname="SuccessMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-green')]" />
+
+		<Object objname="CreditCardDropdown"
+			Propval1="//*[starts-with(@id, 'widget_aljazira_FilteringSelect_')]/div" />
+
+		<Object objname="CreditCard"
+			Propval1="//*[starts-with(@id, 'aljazira_FilteringSelect_0')]" />
+
+	</Page>
+
+
+
+
+
+
+	<Page Pgname="ActivateCreditCard">
+
+		<Object objname="ActivateCreditCard" Propval1="//*[starts-with(@id, 'title-level-1-13')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="Result"
+			Propval1="//*[starts-with(@class, 'dojoxGridDescription')]" />
+		<Object objname="AddNewBeneficiary"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_15_label')]" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="Cancel" Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Confirm"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="modify" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="CancelYes" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_10_label')]" />
+		<Object objname="OTPBack" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="SETPIN" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+
+
+		<Object objname="failMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-red')]" />
+		<Object objname="SuccessMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-green')]" />
+
+	</Page>
+
+	<Page Pgname="UpdateTransactionsStatus">
+
+		<Object objname="updatetnx" Propval1="//*[starts-with(@id, 'title-level-1-15')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="CreditCard"
+			Propval1="//*[starts-with(@id, 'aljazira_FilteringSelect_0')]" />
+		<Object objname="status"
+			Propval1="//*[starts-with(@id, 'aljazira_FilteringSelect_1')]" />
+		<Object objname="statusDropDown"
+			Propval1="//*[starts-with(@id, 'widget_aljazira_FilteringSelect_1')]/div" />
+
+		<Object objname="checkbox" Propval1="//*[starts-with(@id, 'termConditions_ns')]" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="Cancel" Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Confirm"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="modify" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="CancelYes" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_10_label')]" />
+		<Object objname="CreditCardDropdown"
+			Propval1="//*[starts-with(@id, 'widget_aljazira_FilteringSelect_')]/div" />
+		<Object objname="CreditCard"
+			Propval1="//*[starts-with(@id, 'aljazira_FilteringSelect_0')]" />
+
+		<Object objname="CheckBoxTC" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'termConditions_ns')]" />
+		<Object objname="TnCpoup" Propname1=".xpath"
+			Propval1="//*[starts-with(@onclick, 'showTermsAndConditionsDialog_ns')]" />
+		<Object objname="TnCAgree" Propname1=".xpath"
+			Propval1="//*[starts-with(@for, 'radioAccept_ns_Z7')]" />
+
+
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_1')])[2]" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_2')])[2]" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_3')])[2]" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_4')])[2]" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_')]" />
+		<Object objname="sendBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[17]" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[16]" />
+
+		<Object objname="pdfDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="excelDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_excelTool_0']//a" />
+		<Object objname="printBtnIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_printTool_0']//a" />
+		<Object objname="WaitingElements" Propname1=".xpath"
+			Propval1="//*[@id='overlayInfo']" />
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'finishButton_ns_Z7')]" />
+		<Object objname="NewTransactionBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="HomepageSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'graphic_link_ns')]" />
+		<Object objname="error" Propname1=".xpath"
+			Propval1="//*[contains(@class,'dijitComboBoxError')]" />
+	</Page>
+
+	<Page Pgname="JOL_SELFSERVICE_CAHNGE_EMAIL">
+		<Object objname="updateemail" Propval1="//*[starts-with(@id, 'title-level-1-9')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="email"
+			Propval1="//*[starts-with(@id, 'dijit_form_ValidationTextBox_1')]" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="Cancel" Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="no_change_button" Propval1="//*[starts-with(@id, 'no_change_button_ns')]" />
+		<Object objname="Confirm"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="modify" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="CancelYes" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_10_label')]" />
+		<Object objname="failMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-red')]" />
+		<Object objname="SuccessMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-green')]" />
+
+
+	</Page>
+
+	<Page Pgname="ResetCardPIN">
+		<Object objname="pin" Propval1="//*[starts-with(@id, 'title-level-1-18')]" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="Cancel" Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="CreditCard"
+			Propval1="//*[starts-with(@id, 'aljazira_FilteringSelect_0')]" />
+		<Object objname="PINKeyword1" Propval1="(//*[@id='keyboardImg'])[1]" />
+		<Object objname="PINKeyword2" Propval1="(//*[@id='keyboardImg'])[2]" />
+		<Object objname="PIN1" Propval1="(//*[@id='keyboardInputNumpad']//td[1])[1]" />
+		<Object objname="PIN2" Propval1="(//*[@id='keyboardInputNumpad']//td[1])[2]" />
+		<Object objname="PIN3" Propval1="(//*[@id='keyboardInputNumpad']//td[1])[3]" />
+		<Object objname="PIN4" Propval1="(//*[@id='keyboardInputNumpad']//td[1])[4]" />
+		<Object objname="ConfirmPIN"
+			Propval1="//*[starts-with(@id, 'confirmNewCreditCardPinInput')]" />
+		<Object objname="modify" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="CancelYes" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_10_label')]" />
+		<Object objname="failMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-red')]" />
+		<Object objname="SuccessMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-green')]" />
+		<Object objname="Confirm"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_1')])[2]" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_2')])[2]" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_3')])[2]" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_4')])[2]" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_')]" />
+		<Object objname="sendBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[17]" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[16]" />
+
+		<Object objname="pdfDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="excelDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_excelTool_0']//a" />
+		<Object objname="printBtnIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_printTool_0']//a" />
+		<Object objname="WaitingElements" Propname1=".xpath"
+			Propval1="//*[@id='overlayInfo']" />
+
+
+		<Object objname="CheckBoxTC" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'termConditions_ns')]" />
+		<Object objname="TnCpoup" Propname1=".xpath"
+			Propval1="//*[starts-with(@onclick, 'showTermsAndConditionsDialog_ns')]" />
+		<Object objname="TnCAgree" Propname1=".xpath"
+			Propval1="//*[starts-with(@for, 'radioAccept_ns_Z7')]" />
+
+
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'finishButton_ns_Z7')]" />
+		<Object objname="NewTransactionBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="HomepageSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'graphic_link_ns')]" />
+
+	</Page>
+
+	<Page Pgname="PermLimitIncrease">
+		<Object objname="LimitIncrease" Propval1="//*[starts-with(@id, 'title-level-1-19')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="CreditCard"
+			Propval1="//*[starts-with(@id, 'aljazira_FilteringSelect_0')]" />
+		<Object objname="Amount"
+			Propval1="//*[starts-with(@id, 'aljazira_AmountTextBox_0')]" />
+		<Object objname="checkbox" Propval1="//*[starts-with(@id, 'termConditions_ns')]" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="Cancel" Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="modify" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="CancelYes" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_10_label')]" />
+		<Object objname="failMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-red')]" />
+		<Object objname="SuccessMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-green')]" />
+		<Object objname="Confirm"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="Amount"
+			Propval1="//*[starts-with(@id, 'dijit_form_RadioButton_0')]" />
+		<Object objname="percent"
+			Propval1="//*[starts-with(@id, 'dijit_form_RadioButton_1')]" />
+		<Object objname="percentValue"
+			Propval1="//*[starts-with(@id, 'increaseByPercentage_ns')]" />
+		<Object objname="percentValueDropDown"
+			Propval1="//*[starts-with(@id, 'widget_increaseByPercentage_ns_Z7')]/div" />
+		<Object objname="CheckBoxTC" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'termConditions_ns')]" />
+		<Object objname="TnCpoup" Propname1=".xpath"
+			Propval1="//*[starts-with(@onclick, 'showTermsAndConditionsDialog_ns')]" />
+		<Object objname="TnCAgree" Propname1=".xpath"
+			Propval1="//*[starts-with(@for, 'radioAccept_ns_Z7')]" />
+		<Object objname="UploadFile" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'file0_ns_Z7')]" />
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'finishButton_ns_Z7')]" />
+		<Object objname="NewTransactionBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="HomepageSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'graphic_link_ns')]" />
+
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_1')])[2]" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_2')])[2]" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_3')])[2]" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_4')])[2]" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_')]" />
+		<Object objname="sendBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[17]" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[16]" />
+
+		<Object objname="pdfDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="excelDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_excelTool_0']//a" />
+		<Object objname="printBtnIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_printTool_0']//a" />
+		<Object objname="WaitingElements" Propname1=".xpath"
+			Propval1="//*[@id='overlayInfo']" />
+	</Page>
+
+	<Page Pgname="RequestASupplementaryCard">
+		<Object objname="RequestASupplementaryCard" Propval1="//*[starts-with(@id, 'title-level-1-20')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="CreditCard"
+			Propval1="//*[starts-with(@id, 'aljazira_FilteringSelect_0')]" />
+		<Object objname="CardHolderName" Propval1="//*[starts-with(@id, 'cardHolderName_ns')]" />
+		<Object objname="cardHolderIdNumber"
+			Propval1="//*[starts-with(@id, 'cardHolderIdNumber_ns')]" />
+		<Object objname="Relationship"
+			Propval1="//*[starts-with(@id, 'aljazira_FilteringSelect_1')]" />
+		<Object objname="Name"
+			Propval1="//*[starts-with(@id, 'dijit_form_ValidationTextBox_1')]" />
+		<Object objname="Limit"
+			Propval1="//*[starts-with(@id, 'aljazira_AmountTextBox_0')]" />
+		<Object objname="City" Propval1="//*[starts-with(@id, 'locationCity_ns')]" />
+		<Object objname="Area" Propval1="//*[starts-with(@id, 'area_ns')]" />
+		<Object objname="street" Propval1="//*[starts-with(@id, 'street_ns')]" />
+		<Object objname="checkbox" Propval1="//*[starts-with(@id, 'termConditions_ns')]" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="Cancel" Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="modify" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="CancelYes" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_10_label')]" />
+		<Object objname="failMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-red')]" />
+		<Object objname="SuccessMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-green')]" />
+		<Object objname="Confirm"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+
+		<Object objname="PickupfromBranch" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'deliveryOptionsBranch_ns')]" />
+		<Object objname="expressmail" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'deliveryOptionsExpress_ns')]" />
+		<Object objname="Branch"
+			Propval1="//*[starts-with(@id, 'deliveryBranchList_ns')]" />
+		<Object objname="BranchDropdown"
+			Propval1="//*[starts-with(@id, 'widget_deliveryBranchList_ns')]/div" />
+
+		<Object objname="CreditCardDropdown"
+			Propval1="//*[starts-with(@id, 'widget_aljazira_FilteringSelect_')]/div" />
+
+		<Object objname="CreditCard"
+			Propval1="//*[starts-with(@id, 'aljazira_FilteringSelect_0')]" />
+
+		<Object objname="Conditioncheck" Propval1="//*[starts-with(@id, 'termConditions_ns')]" />
+
+
+		<Object objname="CheckBoxTC" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'termConditions_ns')]" />
+		<Object objname="TnCpoup" Propname1=".xpath"
+			Propval1="//*[starts-with(@onclick, 'showTermsAndConditionsDialog_ns')]" />
+		<Object objname="TnCAgree" Propname1=".xpath"
+			Propval1="//*[starts-with(@for, 'radioAccept_ns_Z7')]" />
+
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_1')])[2]" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_2')])[2]" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_3')])[2]" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_4')])[2]" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_')]" />
+		<Object objname="sendBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[17]" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[16]" />
+
+		<Object objname="pdfDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="excelDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_excelTool_0']//a" />
+		<Object objname="printBtnIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_printTool_0']//a" />
+		<Object objname="WaitingElements" Propname1=".xpath"
+			Propval1="//*[@id='overlayInfo']" />
+
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'finishButton_ns_Z7')]" />
+		<Object objname="NewTransactionBtn" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="HomepageSuccess" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'graphic_link_ns')]" />
+		<Object objname="error" Propname1=".xpath"
+			Propval1="//*[contains(@class,'Error')]" />
+	</Page>
+
+	<Page Pgname="DebitCard_Details">
+
+		<Object objname="DebitCard" Propval1="//*[starts-with(@id, 'title-level-2-ns')]" />
+		<Object objname="Details" Propval1="//*[starts-with(@id, 'title-level-2-1-ns')]" />
+		<Object objname="CardImage" Propval1="//*[starts-with(@class, 'card-img')]" />
+		<Object objname="Table" Propval1="//*[starts-with(@id, 'grid_link_ns_Z7')]" />
+		<Object objname="TableGrid" Propval1="//*[starts-with(@id, 'grid_tab_ns')]" />
+		<Object objname="CardNumber"
+			Propval1="(//*[starts-with(@onclick, 'getDebitCardDetails_ns_Z7')])[3]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+	</Page>
+
+	<Page Pgname="DebitCard_Transaction">
+		<Object objname="DebitCard" Propval1="//*[starts-with(@id, 'title-level-2-ns')]" />
+		<Object objname="Transaction" Propval1="//*[starts-with(@id, 'title-level-2-2-ns')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="DebitCardType"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_0')]" />
+		<Object objname="Search"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_14_label')]" />
+		<Object objname="Period"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_1')]" />
+		<Object objname="AdvanceSearch"
+			Propval1="//*[starts-with(@id, 'dijit_form_RadioButton_1')]" />
+		<Object objname="StartDate"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_0')]" />
+		<Object objname="EndDate"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_1')]" />
+		<Object objname="Error" Propval1="//*[starts-with(@class, 'dojoxGridError')]" />
+		<Object objname="DebitCardDropdown"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_0')]/div" />
+		<Object objname="PeriodDropdown"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_1')]/div" />
+		<Object objname="Search2"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_31_label')]" />
+
+	</Page>
+
+	<Page Pgname="DebitCard_ReplaceADebitCard">
+		<Object objname="DebitCard" Propval1="//*[starts-with(@id, 'title-level-2-ns')]" />
+		<Object objname="ReplaceCard" Propval1="//*[starts-with(@id, 'title-level-2-8-ns')]" />
+		<Object objname="DebitCardDropdown"
+			Propval1="//*[starts-with(@id, 'widget_aljazira_FilteringSelect_0')]/div" />
+		<Object objname="DebitCardType"
+			Propval1="//*[starts-with(@id, 'aljazira_FilteringSelect_0')]" />
+		<Object objname="Replacement"
+			Propval1="//*[starts-with(@id, 'aljazira_FilteringSelect_1')]" />
+		<Object objname="replacementDropdown"
+			Propval1="//*[starts-with(@id, 'widget_aljazira_FilteringSelect_1')]/div" />
+		<Object objname="City" Propval1="//*[starts-with(@id, 'city_ns')]" />
+		<Object objname="Area" Propval1="//*[starts-with(@id, 'area_ns')]" />
+		<Object objname="street" Propval1="//*[starts-with(@id, 'street_ns')]" />
+		<Object objname="checkbox" Propval1="//*[starts-with(@id, 'termConditions_ns')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="Cancel" Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="modify" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="CancelYes" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_10_label')]" />
+		<Object objname="failMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-red')]" />
+		<Object objname="SuccessMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-green')]" />
+		<Object objname="Confirm"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="Conditioncheck" Propval1="//*[starts-with(@id, 'termConditions_ns')]" />
+
+	</Page>
+
+	<Page Pgname="govtservicesReFund">
+
+		<Object objname="govtservice"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-6')]" />
+		<Object objname="reFund" Propval1="//*[starts-with(@id, 'title-level-1-2-ns')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="reFundButton"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_15_label')]" />
+		<Object objname="ProviderDropdownDropdown"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_0')]/div" />
+		<Object objname="Provider"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_0')]" />
+		<Object objname="ServiceDropdownDropdown"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_1')]/div" />
+		<Object objname="Service"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_1')]" />
+		<Object objname="AccountNoDropdownDropdown"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_2')]/div" />
+		<Object objname="AccNo"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_2')]" />
+		<Object objname="searchResult"
+			Propval1="(//*[starts-with(@class, 'dojoxGridDescription')])[2]" />
+		<Object objname="Search"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_14_label')]" />
+		<Object objname="Accpet"
+			Propval1="(//*[starts-with(@class, 'dijit dijitReset dijitInline buttonGreen dijitButton')])" />
+
+
+	</Page>
+
+	<Page Pgname="AbsherActivation">
+		<Object objname="govtservice"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-6')]" />
+		<Object objname="AbsherActivation" Propval1="//*[starts-with(@id, 'title-level-1-3-ns')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="Mobile"
+			Propval1="//*[starts-with(@id, 'dijit_form_ValidationTextBox_1')]" />
+		<Object objname="Langugage"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_0')]" />
+		<Object objname="LangugageDropdownDropdown"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_0')]/div" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="Cancel" Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="modify" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="CancelYes" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_10_label')]" />
+		<Object objname="Confirm"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="checkbox" Propval1="//*[starts-with(@id, 'termConditions_ns')]" />
+	</Page>
+
+
+	<Page Pgname="AddNewBeneficiary">
+		<Object objname="govtservice"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-6')]" />
+		<Object objname="AddNewBeneficiary" Propval1="//*[starts-with(@id, 'title-level-1-4-ns')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="NickName"
+			Propval1="//*[starts-with(@id, 'dijit_form_ValidationTextBox_1')]" />
+		<Object objname="IDType"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_0')]" />
+		<Object objname="IDtypeDropdownDropdown"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_0')]/div" />
+		<Object objname="IDNumber"
+			Propval1="//*[starts-with(@id, 'dijit_form_ValidationTextBox_2')]" />
+		<Object objname="Proceed"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="Cancel" Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="modify" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="CancelYes" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_10_label')]" />
+		<Object objname="Confirm"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="checkbox" Propval1="//*[starts-with(@id, 'termConditions_ns')]" />
+
+	</Page>
+	<Page Pgname="BeneficiaryManagement">
+		<Object objname="govtservice"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-6')]" />
+		<Object objname="BeneficiaryManagement" Propval1="//*[starts-with(@id, 'title-level-1-5-ns')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="searchResult"
+			Propval1="(//*[starts-with(@class, 'dojoxGridDescription')])[2]" />
+		<Object objname="AddNewBeneficiary"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_15_label')]" />
+
+
+	</Page>
+
+	<Page Pgname="PaymentsRefundsHistory">
+		<Object objname="govtservice"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-6')]" />
+		<Object objname="PaymentsRefundsHistory" Propval1="//*[starts-with(@id, 'title-level-2-1-ns')]" />
+		<Object objname="History" Propval1="//*[starts-with(@id, 'title-level-2-ns')]" />
+		<Object objname="LandPage" Propval1="//*[starts-with(@class, 'toolbar')]" />
+		<Object objname="Provider"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_0')]" />
+		<Object objname="ProviderDropdownDropdown"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_0')]/div" />
+		<Object objname="Service"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_1')]" />
+		<Object objname="ServiceDropdownDropdown"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_1')]/div" />
+		<Object objname="AccountNumber"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_2')]" />
+		<Object objname="AccountNumberDropdownDropdown"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_2')]/div" />
+		<Object objname="Search"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_14_label')]" />
+		<Object objname="searchResult1"
+			Propval1="(//*[starts-with(@class, 'dojoxGridDescription')])[2]" />
+		<Object objname="searchResult2"
+			Propval1="(//*[starts-with(@class, 'dojoxGridDescription')])[3]" />
+		<Object objname="Accpet"
+			Propval1="(//*[starts-with(@class, 'dijit dijitReset dijitInline buttonGreen dijitButton')])" />
+	</Page>
+
+	<Page Pgname="sadadmobile">
+		<Object objname="Sadad"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-5')]" />
+		<Object objname="MobileTop" Propval1="//*[starts-with(@id, 'title-level-5-1-7')]" />
+		<Object objname="Mobile" Propval1="//*[starts-with(@id, 'title-level-1-7')]" />
+		<Object objname="Beneficiary" Propval1="//*[starts-with(@id, 'beneficiaryId_ns_Z7')]" />
+		<Object objname="BeneficiaryDropdownDropdown"
+			Propval1="(//*[starts-with(@id, 'widget_beneficiaryId_ns_Z7')]/div)[1]" />
+
+	</Page>
+
+	<Page Pgname="CreditCard_BeneficiaryManagement">
+		<Object objname="Cards" Propval1="//*[starts-with(@id, 'title-level-first-3')]" />
+		<Object objname="BeneficiaryManagement"
+			Propval1="//*[starts-with(@id, 'title-level-1-12-ns_Z7')]" />
+		<Object objname="LandPage" Propval1="//*[@class='toolbar']" />
+		<Object objname="AddNewBeneficiary"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_15_label')]" />
+
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_2')])[2]" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_3')])[2]" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_4')])[2]" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_5')])[2]" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_')]" />
+		<Object objname="sendBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[17]" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Form_1']/div/div)[16]" />
+
+		<Object objname="pdfDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="excelDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_excelTool_0']//a" />
+		<Object objname="printBtnIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_printTool_0']//a" />
+		<Object objname="WaitingElements" Propname1=".xpath"
+			Propval1="//*[@id='overlayInfo']" />
+
+
+
+	</Page>
+
+
+
+	<!-- // neeraj code ends -->
+
+
+	<!-- Ranjan Code -->
+	<Page Pgname="FawriRegistrationProfile">
+		<Object objname="FawriLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-firstLink-8')]" />
+		<Object objname="FawriManagementLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-2-ns')]" />
+		<Object objname="FawriRegistrationProfile_Menu_N" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-8-2-1')]" />
+		<Object objname="FawriRegistrationProfile_Menu_Y" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-2-2-ns')]" />
+		<Object objname="RegistrationProfileHeading" Propname1=".xpath"
+			Propval1="(//*[starts-with(@id,'widgetContainer_ns_Z7')])/h1" />
+		<Object objname="ProfileExpiry" Propname1=".xpath"
+			Propval1="(//*[@class='cont']/div)[1]/span" />
+		<Object objname="Title" Propname1=".xpath"
+			Propval1="(//*[@class='cont']/div)[2]/span" />
+		<Object objname="FirstName" Propname1=".xpath"
+			Propval1="(//*[@class='cont']/div)[3]/span" />
+		<Object objname="FatherName" Propname1=".xpath"
+			Propval1="(//*[@class='cont']/div)[4]/span" />
+		<Object objname="FamilyName" Propname1=".xpath"
+			Propval1="(//*[@class='cont']/div)[5]/span" />
+		<Object objname="Nationality" Propname1=".xpath"
+			Propval1="(//*[@class='cont']/div)[6]/span" />
+		<Object objname="DateOfBirth" Propname1=".xpath"
+			Propval1="(//*[@class='cont']/div)[7]/span" />
+		<Object objname="ID" Propname1=".xpath"
+			Propval1="(//*[@class='cont']/div)[8]/span" />
+		<Object objname="IDExpiryDate" Propname1=".xpath"
+			Propval1="(//*[@class='cont']/div)[9]/span" />
+
+	</Page>
+
+	<Page Pgname="FawriBeneficiaryManagement">
+
+		<Object objname="FawriLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-firstLink-8')]" />
+		<Object objname="FawriManagementLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-2-ns')]" />
+		<Object objname="FawriBeneficiaryManagement_N" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-8-2-3')]" />
+		<Object objname="FawriBeneficiaryManagement_Y" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-2-3-ns')]" />
+		<Object objname="TransferVia" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'beneficiaryType_ns')]" />
+		<Object objname="SearchBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@class,'dijitReset dijitInline dijitButtonText')]" />
+		<Object objname="ItemsDisplayed" Propname1=".xpath"
+			Propval1="//div[@class='dojoxGridDescription']" />
+		<Object objname="BeneficiaryManagementHeading" Propname1=".xpath"
+			Propval1="//*[@class='toolbar']" />
+
+	</Page>
+
+
+	<Page Pgname="JOL_INTLTransfer">
+
+
+		<Object objname="TransfersLnk" Propname1="xpath"
+			Propval1=" //*[starts-with(@id, 'title-level-firstLink-4')]" />
+		<Object objname="ITransfersLnk" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-1-4-ns_Z7')]" />
+		<Object objname="ITransfersLnkTop" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-4-1-4')]" />
+		<Object objname="FromAcctCombo" Propname1="xpath"
+			Propval1="//*[starts-with(@class ,'dijitReset dijitInputField dijitArrowButtonInner')][1]" />
+		<Object objname="AccountNumberDropdown" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_0')]/div" />
+		<Object objname="AccountNumber"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_0')]" />
+		<Object objname="txfrByDate" Propname1="xpath"
+			Propval1="//*[@id='aljazira_widgets_calendar_form_EnhancedDateTextBox_0']" />
+		<Object objname="selectBeneficiary" Propname1="xpath"
+			Propval1="//*[starts-with(@class ,'dijitReset dijitInputField dijitArrowButtonInner')][2]" />
+		<Object objname="TransferDateDropDown" Propname1="xpath"
+			Propval1="//*[starts-with(@id ,'widget_aljazira_widgets_calendar_form_EnhancedDateTextBox_0')]//div" />
+		<Object objname="TransferDateValue" Propname1="xpath"
+			Propval1="//*[starts-with(@id ,'aljazira_widgets_calendar_form_EnhancedDateTextBox_0')]" />
+		<Object objname="addanotherTransaction" Propval1="//*[starts-with(@id, 'add_button_ns_')]" />
+		<Object objname="BeneficiaryDropdownDropdown"
+			Propval1="//*[starts-with(@id, 'widget_toBeneficiaryId_ns')]/div" />
+		<Object objname="AmountTxt" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'aljazira_AmountTextBox_0')]" />
+		<Object objname="TxfrAmountType" Propname1=".id"
+			Propval1="//*[contains(@id,'dijit_form_RadioButton_1')]" />
+		<Object objname="Beneficiary" Propval1="//*[starts-with(@id, 'toBeneficiaryId')]" />
+		<Object objname="ChkErrorMsg" Propname1=".id"
+			Propval1="aljazira_AmountTextBox_0" />
+		<Object objname="category" Propname1=".id"
+			Propval1="//*[contains(@id,'purposeCategory_ns_Z7')]/div" />
+		<Object objname="categoryInput" Propname1=".id"
+			Propval1="//input[contains(@id,'purposeCategory_ns_Z7')]" />
+		<Object objname="purposeDropdown" Propname1=".id"
+			Propval1="//*[contains(@id,'widget_purpose_ns_Z7')]/div" />
+		<Object objname="purposeInput" Propname1=".id"
+			Propval1="//input[contains(@id,'purpose_ns_Z7')]" />
+		<Object objname="paymentDetails" Propname1=".id"
+			Propval1="//input[contains(@id,'paymentDetail_ns_Z7')]" />
+		<Object objname="6069ErrorMsg" Propname1=".id"
+			Propval1="//*[@class='i i-error']" />
+		<Object objname="newTxnBtn" Propname1=".id"
+			Propval1="//*[contains(@widgetid,'command')]/div[2]" />
+
+
+
+
+
+		<Object objname="CheckBox" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'termConditions_ns')]" />
+		<!-- <Object objname="ProceedBtn" Propname1=".id" Propval1="//*[starts-with(@id, 
+			'addAndProceed_button_ns')]" /> -->
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//span[contains(text(),'Proceed')]" />
+
+		<Object objname="Confirm" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="modify" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="cancel" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Schedule" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_RadioButton_3')]" />
+		<Object objname="stdorder" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_RadioButton_4')]" />
+		<Object objname="nickName_ns" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_ValidationTextBox_1')]" />
+		<Object objname="StartDate" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_1')]" />
+		<Object objname="endDate" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_2')]" />
+		<Object objname="Frequency" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_1')]" />
+		<Object objname="STDNickName" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'nickNameStanding_ns')]" />
+
+		<Object objname="cancelButton" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="modify" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="yes" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_10_label')]" />
+
+		<Object objname="tagDropDown" Propname1="xpath"
+			Propval1="//*[contains(@id,'widget_dijit_form_FilteringSelect_0')]//div" />
+		<Object objname="tagInput" Propname1="xpath"
+			Propval1="(//*[contains(@id,'dijit_form_FilteringSelect_0')]//input)[3]" />
+
+		<Object objname="remarksInput" Propname1="xpath"
+			Propval1="(//*[contains(@id,'widget_dijit_form_ValidationTextBox_0')]//input)[2]" />
+	</Page>
+
+
+	<Page Pgname="JOL_charity">
+
+		<Object objname="TransfersLnk" Propname1="xpath"
+			Propval1=" //*[starts-with(@id, 'title-level-firstLink-4')]" />
+		<Object objname="charity" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-1-5-ns_Z7')]" />
+		<Object objname="charityTop" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-4-1-5')]" />
+		<Object objname="AccountNumberDropdownDropdown"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_0')]/div" />
+		<Object objname="FromAccountDropdownDropdown" Propname1=".id"
+			Propval1="//*[@id='widget_dijit_form_FilteringSelect_0']/div" />
+		<Object objname="FromAccount" Propname1="xpath"
+			Propval1="//*[@id='dijit_form_FilteringSelect_0']" />
+		<Object objname="BeneficiaryDropdownDropdown" Propname1=".id"
+			Propval1="//*[contains(@id,'widget_toBeneficiaryId_ns_Z7')]/div" />
+		<Object objname="BeneficiaryInput" Propname1="xpath"
+			Propval1="//input[contains(@id,'toBeneficiaryId_ns_Z7')]" />
+		<Object objname="paymentDetails" Propname1=".id"
+			Propval1="//input[contains(@id,'paymentDetail_ns_Z7')]" />
+		<Object objname="ProceedBtn" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')][1]" />
+		<Object objname="ProceedBtnAfterAddingMultipleTxn" Propname1="xpath"
+			Propval1="//*[contains(@id,'dijit_form_Button')]" />
+		<Object objname="authConfirm" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'action_ns_Z7_')]" />
+		<Object objname="authConfirmBack" Propname1="xpath"
+			Propval1="//*[contains(@id,'dijit_form_Button_4_label')]" />
+		<Object objname="authCancel" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns_Z7')]" />
+		<Object objname="authCancelCancel" Propname1="xpath"
+			Propval1="(//span[contains(text(),'Cancel') and contains(@class,'dijitReset dijitInline dijitButtonText')])[4]" />
+		<Object objname="authCancelConfirm" Propname1="xpath"
+			Propval1="(//span[contains(text(),'Confirm') and contains(@class,'dijitReset dijitInline dijitButtonText')])[2]" />
+		<Object objname="tagDropDown" Propname1="xpath"
+			Propval1="//*[contains(@id,'widget_dijit_form_FilteringSelect_0')]//div" />
+		<Object objname="tagInput" Propname1="xpath"
+			Propval1="(//*[contains(@id,'dijit_form_FilteringSelect_0')]//input)[3]" />
+		<Object objname="remarksInput" Propname1="xpath"
+			Propval1="(//*[contains(@id,'widget_dijit_form_ValidationTextBox_0')]//input)[2]" />
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_2')])[2]" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_3')])[2]" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_4')])[2]" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_5')])[2]" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'aljazira_ValidationTextArea_0')])[1]" />
+		<Object objname="sendBtnEle" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_Button_17_label')])[1]" />
+		<Object objname="sendBtnEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_Button_17_label')])[1]" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_Button_16_label')])[1]" />
+
+
+	</Page>
+
+	<Page Pgname="JOL_TRANSFERS_HISTORY">
+		<Object objname="TransfersLnk" Propname1="xpath"
+			Propval1=" //*[starts-with(@id, 'title-level-firstLink-4')]" />
+		<Object objname="History" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-1-6-ns_Z7')]" />
+		<Object objname="HistoryTop" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-4-1-6')]" />
+		<Object objname="Account" Propname1="xpath"
+			Propval1="(//*[@class='dijitReset dijitInputField dijitArrowButtonInner'])[1]" />
+		<Object objname="TransferType" Propname1="xpath"
+			Propval1="(//*[@class='dijitReset dijitInputField dijitArrowButtonInner'])[2]" />
+		<Object objname="beneficiary" Propname1="xpath"
+			Propval1="(//*[@class='dijitReset dijitInputField dijitArrowButtonInner'])[3]" />
+
+		<Object objname="StartDate" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_0')]" />
+		<Object objname="endDate" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_1')]" />
+
+		<Object objname="AmountFrom" Propname1="xpath"
+			Propval1="//*[@id='aljazira_AmountTextBox_0']" />
+		<Object objname="AmountTo" Propname1="xpath"
+			Propval1="//*[@id='aljazira_AmountTextBox_1']" />
+
+		<Object objname="Search" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_30_label')]" />
+		<Object objname="SearchResult" Propname1="xpath"
+			Propval1="//*[@class='dojoxGridDescription']" />
+		<Object objname="AccountNumber"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_0')]" />
+		<Object objname="AccountNumberDropdownDropdown"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_0')]/div" />
+
+		<Object objname="AccountNumber"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_0')]" />
+		<Object objname="AccountNumberDropdownDropdown"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_0')]/div" />
+
+		<Object objname="TransferType1"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_1')]" />
+		<Object objname="TransferTypeDropdown"
+			Propval1="(//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_1')]/div)[1]" />
+
+		<Object objname="beneficiarytype" Propval1="//*[starts-with(@id, 'beneficiary_ns_')]" />
+		<Object objname="beneficiarytypeDropdownDropdown"
+			Propval1="//*[starts-with(@id, 'widget_beneficiary_ns_')]/div" />
+
+		<Object objname="ResultAlert" Propval1="//*[starts-with(@class, 'alert-txt')]/div" />
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_1')])[2]" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_2')])[2]" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_3')])[2]" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_4')])[2]" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_')]" />
+		<Object objname="sendBtnEle1" Propname1=".xpath"
+			Propval1="//*[contains(@class,'dijit dijitReset dijitInline buttonGreen dijitButton')]/.." />
+		<Object objname="sendBtnEle" Propname1=".xpath"
+			Propval1="// *[contains(@id,'dijit_form_Button_25_label')]" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="// *[contains(@id,'dijit_form_Button_24_label')]" />
+
+		<Object objname="pdfDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="excelDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_excelTool_0']//a" />
+		<Object objname="printBtnIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_printTool_0']//a" />
+
+	</Page>
+
+	<Page Pgname="Additional_Options">
+
+		<Object objname="AddAsFavourite" Propname1=".xpath"
+			Propval1="//span[@id='aljazira_ReportingBar_addAsFavoriteTool_0']" />
+		<Object objname="SendByEmail" Propname1=".xpath"
+			Propval1="//span[@id='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="ExportPDF" Propname1=".xpath"
+			Propval1="//span[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="Print" Propname1=".xpath"
+			Propval1="//span[@id='aljazira_ReportingBar_printTool_0']" />
+
+		<Object objname="NickName_Txt" Propname1=".xpath"
+			Propval1="//input[@id='dijit_form_ValidationTextBox_1']" />
+		<Object objname="AddAsFav_Save_Btn" Propname1=".xpath"
+			Propval1="//span[@id='dijit_form_Button_7_label']" />
+		<Object objname="SendByEmail_Send_Btn" Propname1=".xpath"
+			Propval1="//span[@id='dijit_form_Button_17_label']" />
+
+		<Object objname="ErrorMsg_SendByEmail" Propname1=".xpath"
+			Propval1="//div[@class='dijitDialogPaneContent']//div[@id='dojoAlertDialogContainerMessageGrid' and @class='grid_4']" />
+		<Object objname="sendBtnEle" Propname1=".xpath" Propval1=" //span[text()='Send']" />
+	</Page>
+
+	<Page Pgname="STANDING_ORDERS_MANAGEMENT">
+
+
+		<Object objname="TransfersLnk" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-4')]" />
+		<Object objname="ordermanagement" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-4-1-7')]" />
+		<Object objname="standardorder" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-1-7-ns')]" />
+		<Object objname="Topstandardorder" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-4-1-7')]" />
+		<Object objname="Account" Propname1="zpath"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_0')]" />
+		<Object objname="Frequency" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_1')]" />
+		<Object objname="Search" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_14')]" />
+		<Object objname="noSearchResult" Propname1="xpath"
+			Propval1="//*[contains(text(),'No results found.')]" />
+
+		<Object objname="FromAcctCombo" Propname1="xpath"
+			Propval1="//*[starts-with(@class ,'dijitReset dijitInputField dijitArrowButtonInner')][1]/.." />
+		<Object objname="Frq" Propname1="xpath"
+			Propval1="(//*[starts-with(@class ,'dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton dijitArrowButtonContainer')])[2]/." />
+		<Object objname="SearchResult" Propname1="xpath"
+			Propval1="//*[@class='dojoxGridDescription']" />
+		<Object objname="AccountNumber" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_0')]" />
+		<Object objname="AccountNumberDropdownDropdown" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_0')]/div" />
+		<Object objname="freq" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_1')]" />
+		<Object objname="freqDropDown" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_1')]/div" />
+		<Object objname="showDetails" Propname1="xpath"
+			Propval1="//*[contains(@id,'tooltip_0_ns_Z7')]" />
+
+		<Object objname="deleteDetails" Propname1="xpath"
+			Propval1="//*[contains(@id,'buttonDelete_ns_Z7')]" />
+		<Object objname="skipNextTransfer" Propname1="xpath"
+			Propval1="//*[contains(@id,'buttonSkip_ns_Z7')]" />
+		<Object objname="edit" Propname1="xpath"
+			Propval1="//*[contains(@id,'buttonSave_ns_Z7')]" />
+
+		<Object objname="backToStandingOrders" Propname1="xpath"
+			Propval1="//span[contains(text(),'Back To Standing Orders Management')]" />
+		<Object objname="confirmBtn" Propname1="xpath"
+			Propval1="// *[contains(@id,'onfirmation_button_ns')]" />
+		<Object objname="cancelBtn" Propname1="xpath"
+			Propval1="// *[contains(@id,'cancelButton_ns_Z7')]" />
+		<Object objname="cancelYes" Propname1="xpath"
+			Propval1="// span[contains(text(),'Yes')]" />
+		<Object objname="deleteSuccessMessage" Propname1="xpath"
+			Propval1="//*[@class='tit tit-green']" />
+		<Object objname="editSuccessMessage" Propname1="xpath"
+			Propval1="//*[@class='tit tit-green']" />
+		<Object objname="editBtn" Propname1="xpath"
+			Propval1="//*[contains(@id,'buttonSave_ns_Z7')]" />
+		<Object objname="proceedBtn" Propname1="xpath"
+			Propval1="//*[contains(@id,'addAndProceed_button_ns_Z7')]" />
+
+
+
+	</Page>
+
+	<Page Pgname="BENEFICIARY_MANAGEMENT">
+
+		<Object objname="TransfersLnk" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-4')]" />
+		<Object objname="BeneficiaryManagementTop" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-4-2-2')]" />
+		<Object objname="Beneficiaries" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-2-ns_Z7')]" />
+		<Object objname="BeneficiaryManagement" Propname1="xpath"
+			Propval1="(//*[starts-with(@id, 'group_Z6')])[2]/li[2]" />
+		<Object objname="Beneficiary" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-2-ns')]" />
+		<Object objname="beneficiarytype" Propname1="xpath"
+			Propval1="//*[starts-with(@class ,'dijitReset dijitInputField dijitArrowButtonInner')]" />
+		<Object objname="Search" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_14_label')]" />
+		<Object objname="SearchResult" Propname1="xpath"
+			Propval1="//*[@class='dojoxGridDescription']" />
+		<Object objname="NewBENEFICIARY" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_15_label')]" />
+		<Object objname="beneficiarytype1" Propval1="(//*[starts-with(@id, 'beneficiaryType')])[1]" />
+		<Object objname="beneficiarytype1DropdownDropdown"
+			Propval1="//*[starts-with(@id, 'widget_beneficiaryType_ns')]/div" />
+
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_ReportingBar_sendToEmailTool_0']" />
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_1')])[2]" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_2')])[2]" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_3')])[2]" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_ValidationTextBox_4')])[2]" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_')]" />
+		<Object objname="sendBtnEle1" Propname1=".xpath"
+			Propval1="//*[contains(@class,'dijit dijitReset dijitInline buttonGreen dijitButton')]/.." />
+		<Object objname="sendBtnEle" Propname1=".xpath"
+			Propval1="// *[contains(@id,'dijit_form_Button_25_label')]" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="// *[contains(@id,'dijit_form_Button_24_label')]" />
+
+		<Object objname="pdfDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="excelDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_excelTool_0']//a" />
+		<Object objname="printBtnIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_printTool_0']//a" />
+
+
+	</Page>
+
+
+	<Page Pgname="JOL_Transfers_BetweenMyAccts">
+
+		<Object objname="TransfersLnk"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-4')]" />
+		<Object objname="btwaccountTop" Propval1="//*[starts-with(@id, 'title-level-4-1-1')]" />
+		<Object objname="btwaccount" Propval1="//*[starts-with(@id, 'title-level-1-1-ns')]" />
+		<!-- <Object objname="NewAccount" Propval1="//*[starts-with(@id, 'add_button_ns')]" 
+			/> -->
+		<Object objname="Frequency"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_2')]" />
+		<Object objname="FromAcctCombo"
+			Propval1="(//*[starts-with(@id, 'dijit_form_FilteringSelect_0')])[1]" />
+		<Object objname="toAcctCombo"
+			Propval1="(//*[starts-with(@id, 'dijit_form_FilteringSelect_1')])[1]" />
+		<Object objname="failMessage" Propname1="xpath"
+			Propval1="//*[starts-with(@class, 'tit tit-red')]" />
+		<Object objname="SuccessMessage" Propname1="xpath"
+			Propval1="//*[starts-with(@class, 'tit tit-green')]" />
+		<Object objname="deleteAnotherAccIcon" Propname1="xpath"
+			Propval1="//a[@title='Delete']" />
+
+
+
+	</Page>
+
+
+	<Page Pgname="JOL_ACCOUNTS_SUMMARY_INQUIRY">
+		<Object objname="Accounts"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-2')]" />
+		<Object objname="summaryTop" Propval1="//*[starts-with(@id, 'title-level-2-1-1')]" />
+		<Object objname="summary" Propval1="//*[starts-with(@id, 'title-level-1-1-ns')]" />
+		<Object objname="AccountConfig"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_25_label')]" />
+	</Page>
+
+	<Page Pgname="JOL_ACCOUNTS_DEAILS_INQUIRY">
+
+		<Object objname="Accounts"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-2')]" />
+		<Object objname="details" Propval1="//*[starts-with(@id, 'title-level-1-2-ns')]" />
+		<Object objname="AccountConfig"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_25_label')]" />
+		<Object objname="NickName"
+			Propval1="//*[starts-with(@id, 'accountDetails_nickname')]" />
+		<Object objname="Balance"
+			Propval1="//*[starts-with(@id, 'accountDetails_availableBalance')]" />
+		<Object objname="sms"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_25_label')]" />
+		<Object objname="email"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_26_label')]" />
+		<Object objname="smssend"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_28_label')]" />
+		<Object objname="emailsend"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_29_label')]" />
+		<Object objname="Accept"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_77_label')]" />
+		<Object objname="emailAccept"
+			Propval1="(//span[@class='dijitReset dijitInline dijitButtonText'])[58]" />
+		<Object objname="AccountDetails"
+			Propval1="(//*[@class='dojoxGridRowTable'])[2]/tbody/tr/td[6]/a" />
+		<Object objname="remarks" Propval1="//*[starts-with(@id, 'remarks_ns_Z7_')]" />
+		<Object objname="Tagdropdown" Propval1="//*[contains(@id,'widget_tag_ns_')]/div" />
+		<Object objname="Tag" Propval1="(//*[contains(@id,'tag_ns_Z7')])[2]" />
+		<Object objname="Save"
+			Propval1="//*[contains(@id,'dijit_form_Button_27_label')]" />
+		<Object objname="PDF" Propval1="//*[contains(@onclick,'pdfPos_ns')]" />
+		<Object objname="Print" Propval1="//*[contains(@onclick,'printPos_ns')]" />
+		<Object objname="Account"
+			Propval1="(//*[contains(@id,'aljazira_FilteringSelect_0')])[2]" />
+		<Object objname="Accountdropdown"
+			Propval1="(//*[contains(@id,'widget_aljazira_FilteringSelect_0')]/div)[1]" />
+
+	</Page>
+
+	<Page Pgname="JOL_ACCOUNT_TRANSACTIONS_INQUIRY">
+
+		<Object objname="Accounts"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-2')]" />
+		<Object objname="Transaction" Propval1="//*[starts-with(@id, 'title-level-1-3-ns')]" />
+		<Object objname="Account"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_25_label')]" />
+		<Object objname="NickName"
+			Propval1="//*[starts-with(@id, 'accountDetails_nickname')]" />
+		<Object objname="Account" Propname1="xpath"
+			Propval1="//*[@class='dijitReset dijitInputField dijitArrowButtonInner'][1]" />
+		<Object objname="period" Propname1="xpath"
+			Propval1="(//*[@class='dijitReset dijitInputField dijitArrowButtonInner'])[2]" />
+		<Object objname="Search"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_25_label')]" />
+		<Object objname="Result" Propval1="//*[@class='dojoxGridDescription'][1]" />
+
+		<Object objname="Basic_rdb" Propval1="//*[@id='dijit_form_RadioButton_0']" />
+		<Object objname="Advanced_rdb" Propval1="//*[@id='dijit_form_RadioButton_1']" />
+
+		<Object objname="DebitCredit_DD" Propval1="//*[@id='dijit_form_FilteringSelect_2']" />
+		<Object objname="TransactionType_DD" Propval1="//*[@id='dijit_form_FilteringSelect_3']" />
+		<Object objname="TagType_DD" Propval1="//*[@id='dijit_form_FilteringSelect_4']" />
+		<Object objname="Keyword_txt" Propval1="//*[@id='dijit_form_ValidationTextBox_1']" />
+		<Object objname="StartDate_DD"
+			Propval1="//*[@id='aljazira_widgets_calendar_form_EnhancedDateTextBox_0']" />
+		<Object objname="EndDate_DD"
+			Propval1="//*[@id='aljazira_widgets_calendar_form_EnhancedDateTextBox_1']" />
+		<Object objname="FromAmount_txt" Propval1="//*[@id='aljazira_AmountTextBox_0']" />
+		<Object objname="ToAmount_txt" Propval1="//*[@id='aljazira_AmountTextBox_1']" />
+
+		<Object objname="StartDate_DD_click"
+			Propval1="(//input[@class='dijitReset dijitInputField dijitArrowButtonInner'])[6]" />
+		<Object objname="EndDate_DD_click"
+			Propval1="(//input[@class='dijitReset dijitInputField dijitArrowButtonInner'])[7]" />
+
+		<Object objname="Search_btn"
+			Propval1="//*[@id='searchButton_ns_Z7_JA28HB02I0T8A0I707EFND1005__label']" />
+		<Object objname="NoResultsFound"
+			Propval1="//*[@id='noItemsGrid_ns_Z7_JA28HB02I0T8A0I707EFND1005_']" />
+		<Object objname="Acctno_DD" Propval1="//*[@id='dijit_form_FilteringSelect_0']" />
+		<Object objname="Period_DD" Propval1="//*[@id='dijit_form_FilteringSelect_1']" />
+
+		<Object objname="AccountDetails"
+			Propval1="(//img[@src='/wps/PA_AlJazira_Retail/images/i-popup-blue.png'])[2]" />
+		<Object objname="remarks" Propval1="//*[starts-with(@id, 'remarks_ns_Z7_')]" />
+		<Object objname="Tagdropdown"
+			Propval1="(//input[@class='dijitReset dijitInputField dijitArrowButtonInner'])[8]" />
+		<Object objname="Tag" Propval1="(//*[contains(@id,'tag_ns_Z7')])[2]" />
+		<Object objname="PDF"
+			Propval1="//*[@onclick='pdfPos_ns_Z7_JA28HB02I0T8A0I707EFND1005_()']" />
+		<Object objname="Print"
+			Propval1="//*[@onclick='printPos_ns_Z7_JA28HB02I0T8A0I707EFND1005_()']" />
+
+		<Object objname="Save"
+			Propval1="//*[contains(@id,'dijit_form_Button_42_label')]" />
+		<Object objname="Error_resultsPage" Propval1="//span[@class='dojoxGridError']" />
+
+	</Page>
+	<Page Pgname="JOL_ACCOUNT_CONFIGURATION">
+
+		<Object objname="Accounts"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-2')]" />
+		<Object objname="Requestemail" Propval1="//*[starts-with(@id, 'title-level-1-6-ns')]" />
+		<Object objname="Result" Propval1="//*[@class='toolbar']" />
+		<Object objname="Cancel"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_21_label')]" />
+		<Object objname="Save"
+			Propval1="//*[starts-with(@id, 'aljazira_AccountsConfiguration_SaveButton_0_label')]" />
+		<Object objname="SaveAccept"
+			Propval1="(//*[@class='dijitReset dijitInline dijitButtonText'])[21]" />
+
+		<Object objname="Total_Checkedboxes"
+			Propval1="//input[starts-with(@id, 'dijit_form_CheckBox') and @aria-checked='true']" />
+		<Object objname="CheckBox_ToUpdate"
+			Propval1="//input[contains(@id, 'dijit_form_CheckBox')][1]" />
+
+
+	</Page>
+
+	<Page Pgname="JOL_ACCOUNT_OPEN_ADDITIONAL_ACCOUNT">
+		<Object objname="Accounts"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-2')]" />
+		<Object objname="openAccount" Propval1="//*[starts-with(@id, 'title-level-1-5-ns')]" />
+
+		<Object objname="StartDate" Propval1="//*[starts-with(@id, 'title-level-1-3-ns')]" />
+		<Object objname="EndDate" Propval1="//*[starts-with(@id, 'title-level-1-3-ns')]" />
+		<Object objname="StartDate" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_0')]" />
+		<Object objname="endDate" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_1')]" />
+		<Object objname="checkbox" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'termConditions_ns')]" />
+		<Object objname="Proceed" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="Cancel" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Confirm" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'confirmation_button')]" />
+		<Object objname="Modfy" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="Cancelyes" Propname1=".xpath"
+			Propval1="(//span[@class='dijitReset dijitInline dijitButtonText'])[11]" />
+		<Object objname="SuccessMsg" Propname1=".xpath"
+			Propval1="//*[starts-with(@class, 'tit tit-green')]" />
+		<Object objname="ErrorMsg" Propname1=".xpath"
+			Propval1="//*[starts-with(@class, 'tit tit-red')]" />
+
+		<Object objname="OTPTextbox" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'otp_ns_Z7_')]" />
+		<Object objname="TnCpoup" Propname1=".xpath"
+			Propval1="//*[starts-with(@onclick, 'showTermsAndConditionsDialog_ns')]" />
+		<Object objname="TnCAgree" Propname1=".xpath"
+			Propval1="//*[starts-with(@for, 'radioAccept_ns_Z7')]" />
+
+		<Object objname="CurrencyDropdown"
+			Propval1="(//*[starts-with(@id, 'widget_currencyType_ns_Z7')]/div)[1]" />
+		<Object objname="Currency"
+			Propval1="(//*[starts-with(@id, 'currencyType_ns_Z7')])[1]" />
+
+		<Object objname="AccountDropdown"
+			Propval1="(//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_0')]/div)[1]" />
+		<Object objname="Account"
+			Propval1="(//*[starts-with(@id, 'dijit_form_FilteringSelect_0')])[1]" />
+
+		<Object objname="OTPBack"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="OTPCancel" Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="OTPCancelConfirm"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_10_label')]" />
+
+		<Object objname="AddAsFavourite" Propname1=".xpath" Propval1="//*[@class='fav']" />
+		<Object objname="SendByEmail" Propname1=".xpath" Propval1="//*[@class='send']" />
+		<Object objname="ExportPDF" Propname1=".xpath" Propval1="//*[@class='pdf']" />
+		<Object objname="Print" Propname1=".xpath" Propval1="//*[@class='print']" />
+
+		<Object objname="NickName_Txt" Propname1=".xpath"
+			Propval1="(//*[@class='dijitReset dijitInputInner'])[3]" />
+		<Object objname="AddAsFav_Save_Btn" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Button_7_label'])" />
+		<Object objname="SendByEmail_Send_Btn" Propname1=".xpath"
+			Propval1="(//*[@class='dijitReset dijitInline dijitButtonText'])[15]" />
+
+		<Object objname="ErrorMsg_SendByEmail" Propname1=".xpath"
+			Propval1="//div[@class='dijitDialogPaneContent']//div[@id='dojoAlertDialogContainerMessageGrid' and @class='grid_4']" />
+
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="//input[@id='dijit_form_ValidationTextBox_1']" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="//input[@id='dijit_form_ValidationTextBox_2']" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="//input[@id='dijit_form_ValidationTextBox_3']" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="//input[@id='dijit_form_ValidationTextBox_4']" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_0')]" />
+
+	</Page>
+
+	<Page Pgname="JOL_ACCOUNT_REQUEST_STEMENT">
+
+		<Object objname="Accounts"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-2')]" />
+		<Object objname="Requestemail" Propval1="//*[starts-with(@id, 'title-level-1-4-ns')]" />
+		<Object objname="StartDate" Propval1="//*[starts-with(@id, 'title-level-1-3-ns')]" />
+		<Object objname="EndDate" Propval1="//*[starts-with(@id, 'title-level-1-3-ns')]" />
+		<Object objname="StartDate" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_0')]" />
+		<Object objname="endDate" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_1')]" />
+		<Object objname="Proceed" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="Cancel" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Confirm" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'confirmation_button')]" />
+		<Object objname="Modfy" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_2_label')]" />
+		<Object objname="Cancelyes" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_8_label')]" />
+		<Object objname="SuccessMsg" Propname1=".xpath"
+			Propval1="//*[starts-with(@class, 'tit tit-green')]" />
+		<Object objname="NewTransaction"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_2_label')]" />
+		<Object objname="ProceedBtn"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="Home" Propval1="//*[starts-with(@id, 'finishButton_ns_Z7')]" />
+		<Object objname="HomeGraphic" Propval1="//*[starts-with(@id, 'graphic_link_ns_Z7')]" />
+		<Object objname="Account" Propval1="(//*[contains(@id,'accountId_ns_Z')])[2]" />
+		<Object objname="Accountdropdown"
+			Propval1="(//*[contains(@id,'widget_accountId_ns_Z7')]/div)[1]" />
+
+		<Object objname="AddAsFavourite" Propname1=".xpath" Propval1="//*[@class='fav']" />
+		<Object objname="SendByEmail" Propname1=".xpath" Propval1="//*[@class='send']" />
+		<Object objname="ExportPDF" Propname1=".xpath" Propval1="//*[@class='pdf']" />
+		<Object objname="Print" Propname1=".xpath" Propval1="//*[@class='print']" />
+
+		<Object objname="NickName_Txt" Propname1=".xpath"
+			Propval1="(//*[@class='dijitReset dijitInputInner'])[2]" />
+		<Object objname="AddAsFav_Save_Btn" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Button_4_label'])" />
+		<Object objname="SendByEmail_Send_Btn" Propname1=".xpath"
+			Propval1="(//*[@class='dijitReset dijitInline dijitButtonText'])[12]" />
+
+		<Object objname="ErrorMsg_SendByEmail" Propname1=".xpath"
+			Propval1="//div[@class='dijitDialogPaneContent']//div[@id='dojoAlertDialogContainerMessageGrid' and @class='grid_4']" />
+
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="//input[@id='dijit_form_ValidationTextBox_1']" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="//input[@id='dijit_form_ValidationTextBox_2']" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="//input[@id='dijit_form_ValidationTextBox_3']" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="//input[@id='dijit_form_ValidationTextBox_4']" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_0')]" />
+		<Object objname="FavTrans_List" Propname1=".xpath"
+			Propval1="(//div[@class='content'])[2]//li" />
+		<Object objname="FavTrans_List_link" Propname1=".xpath"
+			Propval1="(//div[@class='content'])[2]//li[1]" />
+		<Object objname="FavTrans_List_Del_img" Propname1=".xpath"
+			Propval1="(//img[@title='Delete'])[1]" />
+
+
+	</Page>
+
+
+
+
+	<Page Pgname="JOL_ACCOUNT_REPORT_LOST_STOLEN_CHEQUES">
+
+		<Object objname="Accounts"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-2')]" />
+		<Object objname="checks" Propval1="//*[starts-with(@id, 'title-level-2-ns')]" />
+		<Object objname="stolen" Propval1="//*[starts-with(@id, 'title-level-2-2-ns')]" />
+
+		<Object objname="check"
+			Propval1="//*[starts-with(@id, 'dijit_form_ValidationTextBox_1')]" />
+		<Object objname="range1"
+			Propval1="//*[starts-with(@id, 'dijit_form_ValidationTextBox_2')]" />
+		<Object objname="range2"
+			Propval1="//*[starts-with(@id, 'dijit_form_ValidationTextBox_3')]" />
+
+		<Object objname="Agree" Propval1="//*[starts-with(@id, 'radioAccept_ns')]" />
+		<Object objname="StartDate" Propval1="//*[starts-with(@id, 'title-level-1-3-ns')]" />
+		<Object objname="EndDate" Propval1="//*[starts-with(@id, 'title-level-1-3-ns')]" />
+		<Object objname="StartDate" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_0')]" />
+		<Object objname="endDate" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_1')]" />
+		<Object objname="checkbox" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'termConditions_ns')]" />
+		<Object objname="Proceed" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="Cancel" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Confirm" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'confirmation_button')]" />
+		<Object objname="Modfy" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="Cancelyes" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_10_label')]" />
+		<Object objname="SuccessMsg" Propname1=".xpath"
+			Propval1="//*[starts-with(@class, 'tit tit-green')]" />
+		<Object objname="Account" Propval1="//*[starts-with(@id, 'accountId_ns')]" />
+		<Object objname="AccountDropDown" Propval1="//*[contains(@id,'widget_accountId_ns_')]/div" />
+
+		<Object objname="Range"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_0')]" />
+		<Object objname="RangeDropDown"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_0')]/div" />
+		<Object objname="Reason" Propval1="//*[starts-with(@id, 'reason_ns_Z7_')]" />
+		<Object objname="ReasonDropDown"
+			Propval1="//*[starts-with(@id, 'widget_reason_ns_Z7_')]/div" />
+
+		<Object objname="NewTransaction"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="ProceedBtn"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+
+		<Object objname="Home" Propval1="//*[starts-with(@id, 'finishButton_ns_Z7')]" />
+		<Object objname="HomeGraphic" Propval1="//*[starts-with(@id, 'graphic_link_ns_Z7')]" />
+
+		<Object objname="AddAsFavourite" Propname1=".xpath" Propval1="//*[@class='fav']" />
+		<Object objname="SendByEmail" Propname1=".xpath" Propval1="//*[@class='send']" />
+		<Object objname="ExportPDF" Propname1=".xpath" Propval1="//*[@class='pdf']" />
+		<Object objname="Print" Propname1=".xpath" Propval1="//*[@class='print']" />
+
+		<Object objname="NickName_Txt" Propname1=".xpath"
+			Propval1="(//*[@class='dijitReset dijitInputInner'])[3]" />
+		<Object objname="AddAsFav_Save_Btn" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Button_6_label'])" />
+		<Object objname="SendByEmail_Send_Btn" Propname1=".xpath"
+			Propval1="(//*[@class='dijitReset dijitInline dijitButtonText'])[14]" />
+
+		<Object objname="ErrorMsg_SendByEmail" Propname1=".xpath"
+			Propval1="//div[@class='dijitDialogPaneContent']//div[@id='dojoAlertDialogContainerMessageGrid' and @class='grid_4']" />
+
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="//input[@id='dijit_form_ValidationTextBox_1']" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="//input[@id='dijit_form_ValidationTextBox_2']" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="//input[@id='dijit_form_ValidationTextBox_3']" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="//input[@id='dijit_form_ValidationTextBox_4']" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_0')]" />
+
+
+
+	</Page>
+
+
+	<!-- //Alok code -->
+
+	<Page Pgname="Household_Jol">
+
+
+		<Object objname="idTypeDropDown" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'idType_ns_')])[2]" />
+		<Object objname="IDNumber" Propname1=".xpath"
+			Propval1="//input[contains(@id,'identity_ns_')]" />
+		<Object objname="DOBHijriCheckbox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'PERSONAL_INFORMATION_DATE_OF_BIRTH_TYPE_H_ns')]" />
+		<Object objname="DOBGregorianCheckbox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'PERSONAL_INFORMATION_DATE_OF_BIRTH_TYPE_G_ns')]" />
+
+		<Object objname="ProceedBtn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'action_ns_')]/.." />
+		<Object objname="DObDropDown" Propname1=".xpath"
+			Propval1="(//*[@class='dijitReset dijitInputField dijitArrowButtonInner'])[2]" />
+		<Object objname="DOBField" Propname1=".xpath"
+			Propval1="//*[contains(@id,'PERSONAL_INFORMATION_DATE_OF_BIRTH_ns_')]" />
+		<Object objname="searchBtn" Propname1=".xpath"
+			Propval1="//*[@id='dijit_form_Button_20_label']" />
+		<Object objname="title" Propname1=".xpath"
+			Propval1="//*[contains(@id,'widget_title_ns_')]/div/input" />
+		<Object objname="firstName" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'firstNameEn_ns')]/div/input)[2]" />
+		<Object objname="secondName" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'fatherNameEn_ns')]/div/input)[2]" />
+		<Object objname="thirdName" Propname1=".xpath"
+			Propval1="//*[@name='grandFatherNameEn']" />
+		<Object objname="familyName" Propname1=".xpath"
+			Propval1="//*[@name='familyNameEn']" />
+
+		<Object objname="firstNameAr" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'firstNameAr_ns')])[2]" />
+		<Object objname="secondNameAr" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'fatherNameAr_ns')])[2]" />
+		<Object objname="thirdNameAr" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'grandFatherNameAr_ns')])[2]" />
+		<Object objname="familyNameAr" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'familyNameAr_ns')])[2]" />
+		<Object objname="nextBtn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'next_button_ns')]/.." />
+		<Object objname="backBtn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'backButton_ns')]/.." />
+		<Object objname="cancelBtn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'cancelButton_ns')]" />
+		<Object objname="genderInput" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'gender_ns_')])[2]" />
+		<Object objname="hijriDOBInput" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dateOfBirthHijri1_ns')])[2]" />
+		<Object objname="gergorianDOB" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dateOfBirthGregorian1')])[2]" />
+
+		<Object objname="nationality" Propname1=".xpath"
+			Propval1=" (//*[contains(@id,'nationality_ns')])[2]" />
+		<Object objname="countryOfBirth" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'countryOfBirth_ns')])[2]" />
+		<Object objname="placeOfBirth" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'placeOfBirth_ns')])[2]" />
+		<Object objname="maritalStatus" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'maritalStatusCode_ns')])[2]" />
+		<Object objname="educationalLevel" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'educationLevelCode_ns')])[2]" />
+		<Object objname="residenceStatus" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'residenceStatusCode')])[2]" />
+
+		<Object objname="noOfDependents" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'numberOfDependents')])[2]" />
+		<Object objname="languagePref" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'language_ns')])[2]/." />
+
+		<Object objname="placeOfIssue" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'idPlaceOfIssue_ns')])[2]" />
+		<Object objname="idDateHijri" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'ID_INFORMATION_ID_DATE_TYPE_H')])[1]" />
+		<Object objname="idDateGregorian" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'ID_INFORMATION_ID_DATE_TYPE_G')])[1]" />
+
+		<Object objname="idIssueDate" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'ID_INFORMATION_ID_ISSUE_DATE_ns')])[2]" />
+		<Object objname="idExpiryDate" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'ID_INFORMATION_ID_EXPIRE_DATE_ns')])[2]" />
+		<Object objname="termsNConditions" Propname1=".xpath"
+			Propval1="//*[contains(@id,'termConditions_ns')]" />
+		<Object objname="proceedbtnExecPg4" Propname1=".xpath"
+			Propval1="//*[contains(@id,'addAndProceed_button_ns')]" />
+
+
+
+	</Page>
+
+	<Page Pgname="WithinBaj_Transfers">
+
+		<Object objname="AccountNumberDropdownDropdown"
+			Propval1="//*[starts-with(@id, 'widget_dijit_form_FilteringSelect_0')]/div" />
+		<Object objname="AccountNumber"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_0')]" />
+		<Object objname="TransfersLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-firstLink-4')]" />
+		<Object objname="WithInBajLnk_Menu_N" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-4-1-2')]" />
+		<Object objname="FromAcctCombo" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_FilteringSelect_0')]" />
+		<Object objname="selectBeneficiary" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'toBeneficiaryId_ns')]" />
+		<Object objname="AmountTxt" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'aljazira_AmountTextBox_0')]" />
+		<Object objname="TxfrAmountType" Propname1=".id"
+			Propval1="//*[contains(@id,'dijit_form_RadioButton_1')]" />
+		<Object objname="CheckBoxTC" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'termConditions_ns')]" />
+		<Object objname="ProceedBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'addAndProceed_button_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'confirmation_button_ns')]" />
+		<Object objname="WithinBaj_Menu_Y" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-1-2-ns')]" />
+		<Object objname="ExecNow" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_RadioButton_2')]" />
+		<Object objname="Scheduled" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_RadioButton_3')]" />
+		<Object objname="StandingOrder" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_RadioButton_4')]" />
+		<Object objname="CancelTransBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="ModifyBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_Button_4')]" />
+		<Object objname="CancelTransBtn_Yes" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_Button_10_label')]" />
+		<Object objname="CancelTransBtn_No" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_Button_9_label')]" />
+		<Object objname="NickName_Schedule" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_ValidationTextBox_1')]" />
+		<Object objname="NickName_StandingOrder" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'nickNameStanding_ns')]" />
+		<Object objname="ScheduleDate" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'aljazira_widgets_calendar_form_EnhancedDateTextBox_0')]" />
+		<Object objname="Browser" Propname1=".class"
+			Propval1="//*[starts-with(@id,'Html.HtmlBrowser')]" />
+		<Object objname="StartDate" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'aljazira_widgets_calendar_form_EnhancedDateTextBox_1')]" />
+		<Object objname="EndDate" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'aljazira_widgets_calendar_form_EnhancedDateTextBox_2')]" />
+		<Object objname="Frequency" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_FilteringSelect_1')]" />
+		<Object objname="SaveBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_Button_4')]" />
+		<Object objname="NewTransactionBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_Button_5')]" />
+		<Object objname="AcceptBtn_onSave" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_Button_22_label')]" />
+
+		<Object objname="category" Propname1=".id"
+			Propval1="//*[contains(@id,'purposeCategory_ns_Z7')]/div" />
+		<Object objname="categoryInput" Propname1=".id"
+			Propval1="//input[contains(@id,'purposeCategory_ns_Z7')]" />
+		<Object objname="purposeDropdown" Propname1=".id"
+			Propval1="//*[contains(@id,'widget_purpose_ns_Z7')]/div" />
+		<Object objname="purposeInput" Propname1=".id"
+			Propval1="//input[contains(@id,'purpose_ns_Z7')]" />
+		<Object objname="paymentDetails" Propname1=".id"
+			Propval1="//input[contains(@id,'paymentDetail_ns_Z7')]" />
+		<Object objname="6069ErrorMsg" Propname1=".id"
+			Propval1="//*[@class='i i-error']" />
+
+
+		<Object objname="TransfersLnk" Propname1="xpath"
+			Propval1=" //*[starts-with(@id, 'title-level-firstLink-4')]" />
+		<Object objname="ITransfersLnk" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-1-4-ns_Z7')]" />
+		<Object objname="ITransfersLnkTop" Propname1="xpath"
+			Propval1="//*[starts-with(@id, 'title-level-4-1-4')]" />
+		<Object objname="FromAcctCombo" Propname1="xpath"
+			Propval1="//*[starts-with(@class ,'dijitReset dijitInputField dijitArrowButtonInner')][1]" />
+		<Object objname="txfrByDate" Propname1="xpath"
+			Propval1="//*[@id='aljazira_widgets_calendar_form_EnhancedDateTextBox_0']" />
+		<Object objname="selectBeneficiary" Propname1="xpath"
+			Propval1="//*[starts-with(@class ,'dijitReset dijitInputField dijitArrowButtonInner')][2]" />
+		<Object objname="TransferDateDropDown" Propname1="xpath"
+			Propval1="//*[starts-with(@id ,'widget_aljazira_widgets_calendar_form_EnhancedDateTextBox_0')]//div" />
+		<Object objname="TransferDateValue" Propname1="xpath"
+			Propval1="//*[starts-with(@id ,'aljazira_widgets_calendar_form_EnhancedDateTextBox_0')]" />
+		<Object objname="addanotherTransaction" Propval1="//*[starts-with(@id, 'add_button_ns_')]" />
+
+		<Object objname="AmountTxt" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'aljazira_AmountTextBox_0')]" />
+		<Object objname="TxfrAmountType" Propname1=".id"
+			Propval1="//*[contains(@id,'dijit_form_RadioButton_1')]" />
+
+		<Object objname="ChkErrorMsg" Propname1=".id"
+			Propval1="aljazira_AmountTextBox_0" />
+		<Object objname="category" Propname1=".id"
+			Propval1="//*[contains(@id,'purposeCategory_ns_Z7')]/div" />
+		<Object objname="categoryInput" Propname1=".id"
+			Propval1="//input[contains(@id,'purposeCategory_ns_Z7')]" />
+		<Object objname="purposeDropdown" Propname1=".id"
+			Propval1="//*[contains(@id,'widget_purpose_ns_Z7')]/div" />
+		<Object objname="purposeInput" Propname1=".id"
+			Propval1="//input[contains(@id,'purpose_ns_Z7')]" />
+		<Object objname="paymentDetails" Propname1=".id"
+			Propval1="//input[contains(@id,'paymentDetail_ns_Z7')]" />
+		<Object objname="6069ErrorMsg" Propname1=".id"
+			Propval1="//*[@class='i i-error']" />
+
+
+		<Object objname="CheckBox" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'termConditions_ns')]" />
+		<!-- <Object objname="ProceedBtn" Propname1=".id" Propval1="//*[starts-with(@id, 
+			'addAndProceed_button_ns')]" /> -->
+		<Object objname="ProceedBtn" Propname1=".id"
+			Propval1="//span[contains(text(),'Proceed')]" />
+
+		<Object objname="Confirm" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'confirmation_button_ns')]" />
+		<Object objname="modify" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="cancel" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="Schedule" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_RadioButton_3')]" />
+		<Object objname="stdorder" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_RadioButton_4')]" />
+		<Object objname="nickName_ns" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_ValidationTextBox_1')]" />
+		<Object objname="StartDate" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_1')]" />
+		<Object objname="endDate" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'aljazira_widgets_calendar_form_EnhancedDateTextBox_2')]" />
+		<Object objname="Frequency" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_FilteringSelect_1')]" />
+		<Object objname="STDNickName" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'nickNameStanding_ns')]" />
+
+		<Object objname="cancelButton" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'cancelButton_ns')]" />
+		<Object objname="modify" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="yes" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_10_label')]" />
+
+
+
+
+
+	</Page>
+
+	<Page Pgname="SADADFAQ">
+
+
+		<Object objname="SADADServicesLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-firstLink-5')]" />
+		<Object objname="SADADAccountLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-2-ns')]" />
+		<Object objname="FAQ_N" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-5-2-2')]" />
+		<Object objname="FAQ_Y" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-2-2-ns')]" />
+		<Object objname="GeneralInfo" Propname1=".xpath"
+			Propval1="(//*[@class='dijitTitlePaneTextNode'])[1]" />
+		<Object objname="GeneralInfoFirstContent" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_TitlePane_0_pane']/div/fieldset/div/ul/h2/li)[1]" />
+		<Object objname="BankonBoardingPackageInfo" Propname1=".xpath"
+			Propval1="(//*[@class='dijitTitlePaneTextNode'])[2]" />
+		<Object objname="BankonBoardingPackageInfoFirstContent"
+			Propname1=".xpath"
+			Propval1="(//*[@id='dijit_TitlePane_1_pane']/div/fieldset/div/ul/h2/li)[1]" />
+		<Object objname="MerchantonBoardingandManagementBtn" Propname1=".xpath"
+			Propval1="(//*[@class='dijitTitlePaneTextNode'])[3]" />
+		<Object objname="MerchantonBoardingandManagementBtnFirstContent"
+			Propname1=".xpath"
+			Propval1="(//*[@id='dijit_TitlePane_2_pane']/div/fieldset/div/ul/h2/li)[1]" />
+
+	</Page>
+
+	<!-- Ranjan Code ends -->
+
+	<Page Pgname="Add_New_Beneficiary">
+
+
+		<Object objname="TransfersLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-4')]" />
+		<Object objname="Add_New_Beneficiary_Menu_N" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'title-level-4-2-1')]" />
+		<Object objname="BeneficiaryType" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'beneficiaryType_ns')]" />
+		<Object objname="Nickname_AddNewBen" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'nickName_ns')]" />
+		<Object objname="AccountNo_AddNewBen" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'accountNumber_ns')]" />
+		<Object objname="BeneficiaryActivationMode" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'beneficiaryActivationMethod_ns')]" />
+		<Object objname="SmartChckBx" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'smartEnabled_ns')]" />
+		<Object objname="ATMChckBx" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'atmEnabled_ns')]" />
+		<Object objname="IVRChckBx" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'ivrEnabled_ns')]" />
+		<Object objname="ProceedBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="CancelTransBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="AddAnotherTran" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'add_button_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'confirmation_button_ns')]" />
+		<Object objname="ModifyBtn" Propname1=".xpath"
+			Propval1="//span[@id='dijit_form_Button_4_label']" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="OTPProceedBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'action_ns')]" />
+		<Object objname="CancelTransBtn_Confirm" Propname1=".xpath"
+			Propval1="//span[@id='dijit_form_Button_10_label']" />
+		<Object objname="CancelTransBtn_Cancel" Propname1=".xpath"
+			Propval1="//span[@id='dijit_form_Button_9_label']" />
+		<Object objname="Fullname_AddNewBen" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'fullName_ns')]" />
+		<Object objname="IBAN_AddNewBen" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'ibanLocal_ns')]" />
+		<Object objname="SwiftCode_AddNewBen" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'codeSWIFT_ns')]" />
+		<Object objname="Currency_International" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'currency_ns')]" />
+		<Object objname="BankAddress" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'bankAddress_ns')]" />
+		<Object objname="BankCityBranch" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'bankCityBranch_ns')]" />
+		<Object objname="IBAN_International" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'iban_ns')]" />
+		<Object objname="BeneficiariesLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-2-ns')]" />
+		<Object objname="AddNewBeneficiaryLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-2-1-ns')]" />
+		<Object objname="BeneficiarymanagementLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-2-2-ns')]" />
+		<Object objname="DeleteBen" Propname1=".class"
+			Propval1="(//*[@class='a-opt a-delete'])[1]" />
+		<Object objname="HomeBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'finishButton_ns')]" />
+		<Object objname="Whitespace" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'step2_ns')]" />
+
+
+
+	</Page>
+
+	<Page Pgname="OrderCheckBook">
+
+		<Object objname="AccountsTab" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-2')]" />
+		<Object objname="Checks" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'title-level-2-ns')]" />
+		<Object objname="OrderCheckBookLnk_Menu_Y" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'title-level-2-1-ns')]" />
+		<Object objname="OrderCheckBookLnk_Menu_N" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'title-level-2-2-1')]" />
+		<Object objname="AccountNoDD" Propname1=".xpath"
+			Propval1="(//*[starts-with(@id, 'dijit_form_FilteringSelect_0')])[1]" />
+		<Object objname="AccountsNoDDBtn" Propname1=".xpath"
+			Propval1="(//*[starts-with(@class, 'dijitReset dijitInputField dijitArrowButtonInner')])[1]" />
+		<Object objname="OrderStatus" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_Button_11_label')]" />
+		<Object objname="Account"
+			Propval1="(//*[contains(@id,'dijit_form_FilteringSelect_0')])[2]" />
+		<Object objname="Accountdropdown"
+			Propval1="(//*[contains(@id,'widget_dijit_form_FilteringSelect_0')]/div)[1]" />
+		<Object objname="Branch" Propval1="(//*[contains(@id,'branchesList_ns_Z7')])[3]" />
+		<Object objname="Branchdropdown"
+			Propval1="(//*[contains(@id,'widget_branchesList_ns_Z7_')]/div)[1]" />
+		<Object objname="failMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-red')]" />
+		<Object objname="SuccessMessage" Propname1=".id"
+			Propval1="//*[starts-with(@class, 'tit tit-green')]" />
+		<Object objname="OrdersStatus" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_4_label')]" />
+		<Object objname="OrdersStatusSearch" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_30_label')]" />
+
+		<Object objname="NewTransaction" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'dijit_form_Button_5')]" />
+		<Object objname="Home" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'finishButton_ns_Z7')]" />
+		<Object objname="HomeGraphic" Propname1=".id"
+			Propval1="//*[starts-with(@id, 'graphic_link_ns')]" />
+
+		<Object objname="AddAsFavourite" Propname1=".xpath" Propval1="//*[@class='fav']" />
+		<Object objname="SendByEmail" Propname1=".xpath" Propval1="//*[@class='send']" />
+		<Object objname="ExportPDF" Propname1=".xpath" Propval1="//*[@class='pdf']" />
+		<Object objname="Print" Propname1=".xpath" Propval1="//*[@class='print']" />
+
+		<Object objname="NickName_Txt" Propname1=".xpath"
+			Propval1="(//*[@class='dijitReset dijitInputInner'])[3]" />
+		<Object objname="AddAsFav_Save_Btn" Propname1=".xpath"
+			Propval1="(//*[@id='dijit_form_Button_7_label'])" />
+		<Object objname="SendByEmail_Send_Btn" Propname1=".xpath"
+			Propval1="(//*[@class='dijitReset dijitInline dijitButtonText'])[15]" />
+
+		<Object objname="ErrorMsg_SendByEmail" Propname1=".xpath"
+			Propval1="//div[@class='dijitDialogPaneContent']//div[@id='dojoAlertDialogContainerMessageGrid' and @class='grid_4']" />
+
+		<Object objname="sendEmailTo" Propname1=".xpath"
+			Propval1="//input[@id='dijit_form_ValidationTextBox_1']" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="//input[@id='dijit_form_ValidationTextBox_2']" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="//input[@id='dijit_form_ValidationTextBox_3']" />
+		<Object objname="emailSubject" Propname1=".xpath"
+			Propval1="//input[@id='dijit_form_ValidationTextBox_4']" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_0')]" />
+
+
+	</Page>
+
+
+	<Page Pgname="CurrencyConverter">
+
+		<Object objname="SelfServiceLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-firstLink-9')]" />
+		<Object objname="CurrencyConverter_Menu_N" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-9-2-2')]" />
+		<Object objname="RatesCalculatorLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-2-ns')]" />
+		<Object objname="CurrencyConverter_Menu_Y" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-2-2-ns')]" />
+		<Object objname="CurrencyFrom" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_FilteringSelect_0')]" />
+		<Object objname="CurrencyTo" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_FilteringSelect_1')]" />
+		<Object objname="OriginalAmount" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_ValidationTextBox_1')]" />
+		<Object objname="SwitchCurrencies" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_Button_10_label')]" />
+		<Object objname="CurrencyError" Propname1=".xpath"
+			Propval1="//*[contains(@class,'Error')]" />
+		<Object objname="FXRate" Propname1=".xpath"
+			Propval1="//*[contains(@id,'rateConversion')]" />
+
+	</Page>
+
+
+	<Page Pgname="LostOrStolenCheque">
+		<Object objname="AccountTab" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'title-level-firstLink-2]" />
+		<Object objname="LostOrStolenChequeLnk" Propname1=".xpath"
+			Propval1="//*[@id='title-level-2-2-2']" />
+	</Page>
+
+	<Page Pgname="AddNewFawriBeneficiary">
+
+		<Object objname="FawriLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-firstLink-8')]" />
+		<Object objname="FawriManagementLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-2-ns')]" />
+		<Object objname="AddNewFawriBeneficiary_Menu_N" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-8-2-2')]" />
+		<Object objname="AddNewFawriBeneficiary_Menu_Y" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-2-2-ns')]" />
+		<Object objname="TransferVia" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'beneficiaryType_ns')]" />
+		<Object objname="BeneficiaryBank" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'allowedBenBank_ns')]" />
+		<Object objname="BeneficiaryBankAgent" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenAgent_ns')]" />
+		<Object objname="TransferViaBank" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenCorresBank_ns')]" />
+		<Object objname="BeneficiaryCountry" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'beneficiaryCountrySelect_ns')]" />
+		<Object objname="BeneficiaryCurrency" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'beneficiaryCurrencySelect_ns')]" />
+		<Object objname="DeliveryOption" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'correspondentDisbuseModeSelect_ns')]" />
+		<Object objname="BeneficiaryActivationMode" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'beneficiaryActivationMethod_ns')]" />
+		<Object objname="Nickname" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'nickName_ns')]" />
+		<Object objname="Firstname" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenFName_ns')]" />
+		<Object objname="Middlename" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenMName_ns')]" />
+		<Object objname="Thirdname" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenTName_ns')]" />
+		<Object objname="Lastname" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenLName_ns')]" />
+		<Object objname="Address1" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenAdd1_ns')]" />
+		<Object objname="Address2" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenAdd2_ns')]" />
+		<Object objname="ZipCode" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenZip_ns')]" />
+		<Object objname="City" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenCity_ns')]" />
+		<Object objname="State" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenState_ns')]" />
+		<Object objname="Mobile" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenMobile_ns')]" />
+		<Object objname="Phone" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenPhone_ns')]" />
+		<Object objname="NationalityCode" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenNat_ns')]" />
+		<Object objname="ProceedBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id, 'addAndProceed_button_ns')]" />
+		<Object objname="CancelTransBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'confirmation_button_ns')]" />
+		<Object objname="BeneficiaryIDNumber" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenIDNo_ns')]" />
+		<Object objname="BeneficiaryRelationship" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenRelation_ns')]" />
+		<Object objname="AgentCity" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtAgentCity_ns')]" />
+		<Object objname="AgentLocation" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtAgentLocation_ns')]" />
+		<Object objname="AgentLocationDD_Button" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'widget_txtAgentLocation_ns')]//descendant::input" />
+		<Object objname="AgentLocation" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtAgentLocation_ns')]" />
+		<Object objname="BeneficiaryRemarks" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtRem2BenInfo_ns')]" />
+		<Object objname="AccountNo" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenAccNo_ns')]" />
+		<Object objname="Email" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenEmail_ns')]" />
+		<Object objname="BranchCode" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenBranchCode_ns')]" />
+		<Object objname="BranchCity" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenBrCity_ns')]" />
+		<Object objname="BranchState" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenBrState_ns')]" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="OTPProceedBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'action_ns')]" />
+		<Object objname="CancelTransBtn_Confirm" Propname1=".xpath"
+			Propval1="(//*[@id='updateIdExpiryButtonDiv'])[2]/parent::div/div[2]" />
+		<Object objname="CancelTransBtn_Cancel" Propname1=".xpath"
+			Propval1="(//*[@id='updateIdExpiryButtonDiv'])[2]/parent::div/div[1]" />
+		<Object objname="BackBtn" Propname1=".xpath"
+			Propval1="//span[@id='dijit_form_Button_4_label']" />
+		<Object objname="CancelBtnOTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otpBackToParent_ns')]" />
+		<Object objname="AccountType" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'txtBenAccType_ns')]" />
+
+
+	</Page>
+
+	<!-- //alok code below -->
+	<Page Pgname="AlZCapital">
+
+		<Object objname="dateFromSubsDropDown" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_widgets_calendar_form_EnhancedDateTextBox_0']/div" />
+		<Object objname="dateFromSubs" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'aljazira_widgets_calendar_form_EnhancedDateTextBox_')])[2]/.." />
+		<Object objname="dateToSubsDropDown" Propname1=".xpath"
+			Propval1="//*[@widgetid='aljazira_widgets_calendar_form_EnhancedDateTextBox_1']/div" />
+		<Object objname="dateToSubs" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'aljazira_widgets_calendar_form_EnhancedDateTextBox_1')])[2]/.." />
+		<Object objname="fundNameDropdown" Propname1=".xpath"
+			Propval1="//*[@widgetid='dijit_form_FilteringSelect_0']/div" />
+		<Object objname="fundName" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_FilteringSelect_0')])[2]" />
+		<Object objname="SubsSearchBtn" Propname1=".xpath"
+			Propval1="//*[contains(@id,'searchButton_ns')]" />
+
+		<Object objname="sendEmailIcon" Propname1=".xpath"
+			Propval1="//*[@class='sendGrid']" />
+		<Object objname="sendEmailTo" Propname1=".xpath" Propval1="//*[@name='email']" />
+		<Object objname="sendEmailCC" Propname1=".xpath"
+			Propval1="//*[@name='emailCopy']" />
+		<Object objname="bccEmail" Propname1=".xpath"
+			Propval1="//*[@name='blindCarbonCopy']" />
+		<Object objname="emailSubject" Propname1=".xpath" Propval1="//*[@name='subject']" />
+		<Object objname="sendEMailMsgBox" Propname1=".xpath"
+			Propval1="//*[contains(@id,'aljazira_ValidationTextArea_')]" />
+		<Object objname="sendBtnEle" Propname1=".xpath" Propval1=" //span[text()='Send']" />
+		<Object objname="sendBtnEmail" Propname1=".xpath"
+			Propval1="//span[text()='Send']" />
+		<Object objname="cancelemailBtnEle" Propname1=".xpath"
+			Propval1="//*[contains(@class,'dijit dijitReset dijitInline buttonRed dijitButton')]" />
+
+		<Object objname="pdfDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_pdfTool_0']" />
+		<Object objname="excelDownloadIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_excelTool_0']//a" />
+		<Object objname="printBtnIcon" Propname1=".xpath"
+			Propval1="//*[@id='aljazira_ReportingBar_printTool_0']//a" />
+
+		<Object objname="portfolioType" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'portfolioType_ns')])[2]" />
+		<Object objname="portfolioNumber" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_FilteringSelect_0')])[2]" />
+		<Object objname="searchPortfolioBtn" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'button_ns')])[2]" />
+		<Object objname="sendBtnPortfolioEle" Propname1=".xpath"
+			Propval1="//*[contains(@id,'dijit_form_Button_19_label')]" />
+		<Object objname="cancelemailBtnPortfolioEle" Propname1=".xpath"
+			Propval1="//*[contains(@id,'dijit_form_Button_18_label')]" />
+
+		<Object objname="OrdersTypeDropdown" Propname1=".xpath"
+			Propval1="//*[@widgetid='dijit_form_FilteringSelect_0']/div" />
+		<Object objname="ordersTypeInput" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_FilteringSelect_0')]//div/input)[3]" />
+
+		<Object objname="portfolioNumDropDown" Propname1=".xpath"
+			Propval1="//*[contains(@id,'portfolioNumber_ns_')]//div" />
+		<Object objname="portfolioNumInput" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'portfolioNumber_ns_')]//div/input)[3]" />
+
+		<Object objname="searchResultsCount" Propname1=".xpath"
+			Propval1="//*[@dojoattachpoint='descriptionDiv']" />
+		<Object objname="searchResultsCountMrktNews" Propname1=".xpath"
+			Propval1="(//*[@dojoattachpoint='descriptionDiv'])[2]" />
+		<Object objname="searchResultsCountMrktWatch" Propname1=".xpath"
+			Propval1="(//*[@dojoattachpoint='descriptionDiv'])[3]" />
+
+
+		<Object objname="marketInfoTypeDropdown" Propname1=".xpath"
+			Propval1="//*[@widgetid='dijit_form_FilteringSelect_0']/div" />
+		<Object objname="marketInfoTypeInput" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'dijit_form_FilteringSelect_0')]//div/input)[3]" />
+
+		<Object objname="marketInfoFromDate" Propname1=".xpath"
+			Propval1="//*[contains(@id,'widget_aljazira_widgets_calendar_form_EnhancedDateTextBox_0')]/div" />
+		<Object objname="marketInfoFromDateInput" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'widget_aljazira_widgets_calendar_form_EnhancedDateTextBox_0')]//input)[3]" />
+
+		<Object objname="marketInfoToDate" Propname1=".xpath"
+			Propval1="//*[contains(@id,'widget_aljazira_widgets_calendar_form_EnhancedDateTextBox_1')]/div" />
+		<Object objname="marketInfoToDateInput" Propname1=".xpath"
+			Propval1="(//*[contains(@id,'widget_aljazira_widgets_calendar_form_EnhancedDateTextBox_1')]//input)[3]" />
+
+		<Object objname="lastPageArrow" Propname1=".xpath"
+			Propval1="//*[@title='Last Page']" />
+		<Object objname="lastPageMrktNews" Propname1=".xpath"
+			Propval1="(//*[@title='Last Page'])[3]" />
+		<Object objname="lastPageMrktWatch" Propname1=".xpath"
+			Propval1="(//*[@title='Last Page'])[5]" />
+
+	</Page>
+
+	<Page Pgname="FawriMoneyTransfers">
+
+		<Object objname="FawriLnk" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-firstLink-8')]" />
+		<Object objname="FawriTransfers" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-1-ns')]" />
+		<Object objname="MoneyTransfers_Menu_N" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-8-1-1')]" />
+		<Object objname="MoneyTransfers_Menu_Y" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'title-level-1-1-ns')]" />
+		<Object objname="FromAccount" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_FilteringSelect_0')]" />
+		<Object objname="TransferVia" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'beneficiaryType_ns')]" />
+		<Object objname="selectBeneficiary" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'toBeneficiaryId_ns')]" />
+		<Object objname="AmountTxt" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'aljazira_AmountTextBox_0')]" />
+		<Object objname="Category" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'purposeCategory_ns')]" />
+		<Object objname="Purpose" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'purpose_ns')]" />
+		<Object objname="PaymentDetails" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'paymentDetail_ns')]" />
+		<Object objname="CheckBoxTC" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'termConditions_ns')]" />
+		<Object objname="TnCpoup" Propname1=".xpath"
+			Propval1="//*[starts-with(@onclick, 'showTermsAndConditionsDialog_ns')]" />
+		<Object objname="TnCAgree" Propname1=".xpath"
+			Propval1="//*[starts-with(@for, 'radioAccept_ns_Z7')]" />
+		<Object objname="ProceedBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'addAndProceed_button_ns')]" />
+		<Object objname="CancelTransBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'cancelButton_ns')]" />
+		<Object objname="ConfirmBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'confirmation_button_ns')]" />
+		<Object objname="ModifyBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_Button_4')]" />
+		<Object objname="CancelTransBtn_Confirm" Propname1=".xpath"
+			Propval1="//span[@id='dijit_form_Button_10_label']" />
+		<Object objname="CancelTransBtn_Cancel" Propname1=".xpath"
+			Propval1="//span[@id='dijit_form_Button_9_label']" />
+		<Object objname="OTP" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'otp_ns')]" />
+		<Object objname="OTPProceedBtn" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'action_ns')]" />
+		<Object objname="SARCurrencyRadioButton" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_RadioButton_0')]" />
+		<Object objname="OtherCurrencyRadioButton" Propname1=".xpath"
+			Propval1="//*[starts-with(@id,'dijit_form_RadioButton_1')]" />
+		<Object objname="TransferDetails" Propname1=".xpath"
+			Propval1="//*[@class='transfers-issue']" />
+
+
+	</Page>
+
+</Main>
+
